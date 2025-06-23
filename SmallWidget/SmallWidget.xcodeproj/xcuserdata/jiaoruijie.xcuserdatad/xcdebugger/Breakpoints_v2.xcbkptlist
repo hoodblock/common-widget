@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C560F651-DEAE-4D4F-8BFD-34960936E01C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "E884A0C7-BED5-41A2-A356-EEB2055A773F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AA59818-6F87-4BCF-8FBC-B9E3E93ED2C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallWidget/WallpaperDetail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "downloadImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8AA59818-6F87-4BCF-8FBC-B9E3E93ED2C2 - 4f14a82cfc50ed2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Foundation.URLError&gt;) -&gt; () in closure #1 (__C.PHAuthorizationStatus) -&gt; () in SmallWidget.WallpaperDetail.downloadImage() -&gt; ()"
+                  moduleName = "SmallWidget"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/WallpaperDetail.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "8AA59818-6F87-4BCF-8FBC-B9E3E93ED2C2 - 4f14a82cfc50ed08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Foundation.URLError&gt;) -&gt; () in closure #1 (__C.PHAuthorizationStatus) -&gt; () in SmallWidget.WallpaperDetail.downloadImage() -&gt; ()"
+                  moduleName = "SmallWidget"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/WallpaperDetail.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "8AA59818-6F87-4BCF-8FBC-B9E3E93ED2C2 - 4f14a82cfc50ed08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Combine.Subscribers.Completion&lt;Foundation.URLError&gt;) -&gt; () in closure #1 (__C.PHAuthorizationStatus) -&gt; () in SmallWidget.WallpaperDetail.downloadImage() -&gt; ()"
+                  moduleName = "SmallWidget"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/WallpaperDetail.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B814DFC1-C2D8-433B-B5AA-86C661E1E9D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallWidget/Persistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "init(inMemory:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B814DFC1-C2D8-433B-B5AA-86C661E1E9D5 - fb21f428da6b4837"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSPersistentStoreDescription, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SmallWidget.PersistenceController.init(inMemory: Swift.Bool) -&gt; SmallWidget.PersistenceController"
+                  moduleName = "SmallWidget"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "B814DFC1-C2D8-433B-B5AA-86C661E1E9D5 - 67b762314b6ddc55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSPersistentStoreDescription, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SmallWidgetIntents.PersistenceController.init(inMemory: Swift.Bool) -&gt; SmallWidgetIntents.PersistenceController"
+                  moduleName = "SmallWidgetIntents"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "B814DFC1-C2D8-433B-B5AA-86C661E1E9D5 - 3b685a95584f5364"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSPersistentStoreDescription, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClockWidgetExtension.PersistenceController.init(inMemory: Swift.Bool) -&gt; ClockWidgetExtension.PersistenceController"
+                  moduleName = "ClockWidgetExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BA77C28-27E0-4E17-B4F0-CD0CBD3F2077"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmallWidget/Persistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "storeURL(for:databaseName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2BA77C28-27E0-4E17-B4F0-CD0CBD3F2077 - 6cf199341dbed31e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Foundation.URL.storeURL(for: Swift.String, databaseName: Swift.String) -&gt; Foundation.URL"
+                  moduleName = "SmallWidget"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+               <Location
+                  uuid = "2BA77C28-27E0-4E17-B4F0-CD0CBD3F2077 - e037ddaa174b9722"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Foundation.URL.storeURL(for: Swift.String, databaseName: Swift.String) -&gt; Foundation.URL"
+                  moduleName = "SmallWidgetIntents"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+               <Location
+                  uuid = "2BA77C28-27E0-4E17-B4F0-CD0CBD3F2077 - 96b749bf6727357"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Foundation.URL.storeURL(for: Swift.String, databaseName: Swift.String) -&gt; Foundation.URL"
+                  moduleName = "ClockWidgetExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+               <Location
+                  uuid = "2BA77C28-27E0-4E17-B4F0-CD0CBD3F2077 - 6cf199341dbed31e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Foundation.URL.storeURL(for: Swift.String, databaseName: Swift.String) -&gt; Foundation.URL"
+                  moduleName = "SmallWidget"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiaoruijie/Project/SmallWidget/SmallWidget/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "940">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F764F7CC-0BFB-459A-A208-CE6068016204"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClockWidget/SmallTypeWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "placeholder(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1D8805F-9966-4E3C-9CAE-778A359273F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClockWidget/SmallTypeWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getSnapshot(for:in:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44071670-938E-493D-946C-6AE7D7601399"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClockWidget/ClockWidgetBundle.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

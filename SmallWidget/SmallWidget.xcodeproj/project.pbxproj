@@ -1,0 +1,2333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3047261F34DC63E747F5D8 /* Pods_ClockWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23E053C6C996AB7A3E6EBD /* Pods_ClockWidgetExtension.framework */; };
+		48738BF77370FBE78F2B6A72 /* Pods_SmallWidgetIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F60EA80DCCFFF368A3D157 /* Pods_SmallWidgetIntents.framework */; };
+		4C1D1C2742737EAFFA912F68 /* Pods_SmallWidgetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4CA8EBDB016A07A9634FE7 /* Pods_SmallWidgetTests.framework */; };
+		5609161E2B87498D00B5C01C /* OrangeClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609161D2B87498D00B5C01C /* OrangeClock.swift */; };
+		560916252B874A3C00B5C01C /* OrangeClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609161D2B87498D00B5C01C /* OrangeClock.swift */; };
+		560916262B874A3C00B5C01C /* OrangeClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609161D2B87498D00B5C01C /* OrangeClock.swift */; };
+		560916322B874C2600B5C01C /* ClockListConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916312B874C2600B5C01C /* ClockListConfig.swift */; };
+		560916332B874C5800B5C01C /* ClockListConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916312B874C2600B5C01C /* ClockListConfig.swift */; };
+		560916342B874C5900B5C01C /* ClockListConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916312B874C2600B5C01C /* ClockListConfig.swift */; };
+		5609163C2B889D2D00B5C01C /* PointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* PointAnimation.swift */; };
+		560916402B88A13B00B5C01C /* PointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* PointAnimation.swift */; };
+		560916412B88A13C00B5C01C /* PointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* PointAnimation.swift */; };
+		560916462B8C2D9500B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
+		560916472B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
+		560916482B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
+		5609164E2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */; };
+		5609164F2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */; };
+		560916502B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */; };
+		560916512B8C326400B5C01C /* AnniversaryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */; };
+		560916522B8C326400B5C01C /* AnniversaryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */; };
+		5609166C2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */; };
+		5609166D2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */; };
+		5609166E2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */; };
+		5609167B2B8D8BED00B5C01C /* MoodConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF52A38334E00F56123 /* MoodConfig.swift */; };
+		5609167C2B8D8BEE00B5C01C /* MoodConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF52A38334E00F56123 /* MoodConfig.swift */; };
+		5609167D2B8D92D200B5C01C /* PhotoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */; };
+		5609167E2B8D92D200B5C01C /* PhotoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */; };
+		560916812B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */; };
+		560916822B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */; };
+		560916832B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */; };
+		5609169A2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */; };
+		5609169B2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */; };
+		5609169C2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */; };
+		560916A22B8DC1D200B5C01C /* BatteryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E052A3838FA00F56123 /* BatteryConfig.swift */; };
+		560916A32B8DC1D300B5C01C /* BatteryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E052A3838FA00F56123 /* BatteryConfig.swift */; };
+		560916B82B8DCBD800B5C01C /* CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D915192AF9D1E900D14557 /* CalendarConfig.swift */; };
+		560916B92B8DCBD900B5C01C /* CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D915192AF9D1E900D14557 /* CalendarConfig.swift */; };
+		560916C12B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */; };
+		560916C22B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */; };
+		560916C32B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */; };
+		560916D92B8F12F000B5C01C /* WidgetSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916D82B8F12F000B5C01C /* WidgetSettingView.swift */; };
+		560916DD2B8F130900B5C01C /* TransparentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916DC2B8F130900B5C01C /* TransparentView.swift */; };
+		563811EF2C60D45B007B8FE8 /* VIPDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563811EE2C60D45B007B8FE8 /* VIPDetailView.swift */; };
+		564103D32C58BCB000A0FA67 /* PayConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564103D22C58BCB000A0FA67 /* PayConfig.swift */; };
+		567CD1522B916A620062B47A /* TodoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95008F62AFA1C8C004646C9 /* TodoConfig.swift */; };
+		567CD1532B916A630062B47A /* TodoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95008F62AFA1C8C004646C9 /* TodoConfig.swift */; };
+		567CD1832B9181A20062B47A /* WhitePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CD1822B9181A20062B47A /* WhitePanel.swift */; };
+		567CD1842B9181A20062B47A /* WhitePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CD1822B9181A20062B47A /* WhitePanel.swift */; };
+		567CD1852B9181A20062B47A /* WhitePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CD1822B9181A20062B47A /* WhitePanel.swift */; };
+		567CD18B2B9187070062B47A /* XPanelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E012A38384E00F56123 /* XPanelConfig.swift */; };
+		567CD18C2B9187080062B47A /* XPanelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E012A38384E00F56123 /* XPanelConfig.swift */; };
+		567CD18E2B91C6DA0062B47A /* ClockHandRotationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 567CD18D2B91C6DA0062B47A /* ClockHandRotationKit */; };
+		5697E14D2BA3062000C076F5 /* SwiftUINativeAdView_120.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5697E1472BA3061F00C076F5 /* SwiftUINativeAdView_120.xib */; };
+		5697E1502BA3062000C076F5 /* SwiftUINativeAdView_200.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5697E14A2BA3062000C076F5 /* SwiftUINativeAdView_200.xib */; };
+		5697E1532BA3E49800C076F5 /* WidgetEditorStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697E1522BA3E49800C076F5 /* WidgetEditorStatus.swift */; };
+		56B391742B96F3A400BFC67D /* BlackClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391732B96F3A400BFC67D /* BlackClock.swift */; };
+		56B391752B96F3A400BFC67D /* BlackClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391732B96F3A400BFC67D /* BlackClock.swift */; };
+		56B391762B96F3A400BFC67D /* BlackClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391732B96F3A400BFC67D /* BlackClock.swift */; };
+		56B391792B96F93700BFC67D /* BombooClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391782B96F93700BFC67D /* BombooClock.swift */; };
+		56B3917A2B96F93700BFC67D /* BombooClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391782B96F93700BFC67D /* BombooClock.swift */; };
+		56B3917B2B96F93700BFC67D /* BombooClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391782B96F93700BFC67D /* BombooClock.swift */; };
+		56B391A12B9AE74200BFC67D /* EditorTextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391A02B9AE74200BFC67D /* EditorTextFont.swift */; };
+		56B391A52B9EB1B200BFC67D /* EditorImageDynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391A42B9EB1B200BFC67D /* EditorImageDynamic.swift */; };
+		56E31A052C64BD06007518F1 /* CalendarMountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A042C64BD06007518F1 /* CalendarMountain.swift */; };
+		56E31A062C64BD06007518F1 /* CalendarMountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A042C64BD06007518F1 /* CalendarMountain.swift */; };
+		56E31A072C64BD06007518F1 /* CalendarMountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A042C64BD06007518F1 /* CalendarMountain.swift */; };
+		56E31A0A2C64C177007518F1 /* CalendarEmjio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A092C64C177007518F1 /* CalendarEmjio.swift */; };
+		56E31A0B2C64C177007518F1 /* CalendarEmjio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A092C64C177007518F1 /* CalendarEmjio.swift */; };
+		56E31A0C2C64C177007518F1 /* CalendarEmjio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A092C64C177007518F1 /* CalendarEmjio.swift */; };
+		56E9492D2BCF7B0100E77CDE /* BatterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */; };
+		56E9492E2BCF7B0A00E77CDE /* BatterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */; };
+		56E9492F2BCF7B0A00E77CDE /* BatterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */; };
+		760030FC2AE84BAE006D237D /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FB2AE84BAE006D237D /* Intents.framework */; };
+		760030FE2AE84BB6006D237D /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FD2AE84BB6006D237D /* IntentsUI.framework */; };
+		760031002AE84BDC006D237D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FF2AE84BDC006D237D /* SwiftUI.framework */; };
+		760031022AE84BE9006D237D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760031012AE84BE9006D237D /* WidgetKit.framework */; };
+		760031032AE84BF7006D237D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FF2AE84BDC006D237D /* SwiftUI.framework */; };
+		845C55502BCAF04B003F683F /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C554F2BCAF04B003F683F /* LargeView.swift */; };
+		845C55522BCAF059003F683F /* LargeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55512BCAF059003F683F /* LargeConfig.swift */; };
+		845C55532BCAF065003F683F /* LargeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55512BCAF059003F683F /* LargeConfig.swift */; };
+		845C55542BCAF065003F683F /* LargeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55512BCAF059003F683F /* LargeConfig.swift */; };
+		845C55572BCAF78C003F683F /* LargeStashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55562BCAF78C003F683F /* LargeStashView.swift */; };
+		845C55582BCAF793003F683F /* LargeStashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55562BCAF78C003F683F /* LargeStashView.swift */; };
+		845C55592BCAF793003F683F /* LargeStashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55562BCAF78C003F683F /* LargeStashView.swift */; };
+		849461972AF1A52E000C9BE3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F362662A28378800F3959A /* Persistence.swift */; };
+		849461982AF1A52E000C9BE3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F362662A28378800F3959A /* Persistence.swift */; };
+		D8894EA497EFE2139F2F57F0 /* Pods_SmallWidget_SmallWidgetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E973CD59A9453F8A348FDC56 /* Pods_SmallWidget_SmallWidgetUITests.framework */; };
+		D96DF59C6708C0010612B6F7 /* Pods_SmallWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7BEBE940C523DBDF6AF99E /* Pods_SmallWidget.framework */; };
+		E9476E972B0F499A00944D14 /* BatteryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9476E892B0F499700944D14 /* BatteryHelper.swift */; };
+		E9476E9E2B0F499A00944D14 /* SlidingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9476E902B0F499900944D14 /* SlidingTabBar.swift */; };
+		E9476E9F2B0F499A00944D14 /* FrameReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9476E922B0F499900944D14 /* FrameReader.swift */; };
+		E9476EA02B0F499A00944D14 /* ScrollSlidingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9476E942B0F499A00944D14 /* ScrollSlidingTabBar.swift */; };
+		E95008F12AFA1C2D004646C9 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95008F02AFA1C2D004646C9 /* TodoView.swift */; };
+		E95008F72AFA1C8C004646C9 /* TodoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95008F62AFA1C8C004646C9 /* TodoConfig.swift */; };
+		E96AC66E2B04AD3C00038BC6 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96AC66D2B04AD3C00038BC6 /* Network.framework */; };
+		E9760C5D2AF101DE009406CA /* WidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DE92A38050F00F56123 /* WidgetStyle.swift */; };
+		E99014CB2AF23A4700F9FF18 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3628F2A284DB400F3959A /* AppColor.swift */; };
+		E99014CC2AF23AA000F9FF18 /* CalendarTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B7B2A492B070062313A /* CalendarTool.swift */; };
+		E99014CE2AF23AD300F9FF18 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D85702A2D781E0043D1C6 /* AppFont.swift */; };
+		E99014D12AF38A3400F9FF18 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99014D02AF38A3400F9FF18 /* AppImage.swift */; };
+		E99014D22AF38A3D00F9FF18 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99014D02AF38A3400F9FF18 /* AppImage.swift */; };
+		E99014D32AF38A3D00F9FF18 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99014D02AF38A3400F9FF18 /* AppImage.swift */; };
+		E99524C32D092F0C00ED242A /* FloatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99524C22D092EFF00ED242A /* FloatView.swift */; };
+		E9A1D06C2D8CFCB000360A93 /* BatteryDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */; };
+		E9A1D06D2D8CFCB000360A93 /* BatteryDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */; };
+		E9A1D06E2D8CFCB000360A93 /* BatteryDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */; };
+		E9B02EA32AF22B0100DD27BE /* JRWidgetConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B972A5025680062313A /* JRWidgetConfigure.swift */; };
+		E9B02EA42AF2397300DD27BE /* WidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DE92A38050F00F56123 /* WidgetStyle.swift */; };
+		E9BE67492CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */; };
+		E9BE674A2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */; };
+		E9BE674B2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */; };
+		E9BE676A2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */; };
+		E9BE676B2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */; };
+		E9BE676C2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */; };
+		E9D9151A2AF9D1E900D14557 /* CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D915192AF9D1E900D14557 /* CalendarConfig.swift */; };
+		E9E15B1D2AF0CEE1001E9840 /* JRWidgetConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B972A5025680062313A /* JRWidgetConfigure.swift */; };
+		F458663D2A30B067005815BF /* MyWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F458663C2A30B067005815BF /* MyWidgetsView.swift */; };
+		F45866482A31F808005815BF /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45866472A31F808005815BF /* AboutView.swift */; };
+		F458664A2A331108005815BF /* WidgetEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45866492A331108005815BF /* WidgetEditorView.swift */; };
+		F458664E2A341086005815BF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F458664C2A341085005815BF /* ContentViewModel.swift */; };
+		F458664F2A341086005815BF /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F458664D2A341086005815BF /* SnapCarousel.swift */; };
+		F47033C42A4153C700F30A40 /* VastShadow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033AB2A4153C300F30A40 /* VastShadow.ttf */; };
+		F47033C52A4153C700F30A40 /* VastShadow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033AB2A4153C300F30A40 /* VastShadow.ttf */; };
+		F47033D42A4153C700F30A40 /* SF_Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033B32A4153C400F30A40 /* SF_Pro.ttf */; };
+		F47033D52A4153C700F30A40 /* SF_Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033B32A4153C400F30A40 /* SF_Pro.ttf */; };
+		F47033D62A4153C700F30A40 /* Shrikhand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033B42A4153C400F30A40 /* Shrikhand.ttf */; };
+		F47033D72A4153C700F30A40 /* Shrikhand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033B42A4153C400F30A40 /* Shrikhand.ttf */; };
+		F47033EA2A4153C700F30A40 /* VesperLibre.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033BE2A4153C700F30A40 /* VesperLibre.ttf */; };
+		F47033EB2A4153C700F30A40 /* VesperLibre.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033BE2A4153C700F30A40 /* VesperLibre.ttf */; };
+		F47033EE2A4153C700F30A40 /* Arbutus.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033C02A4153C700F30A40 /* Arbutus.ttf */; };
+		F47033EF2A4153C700F30A40 /* Arbutus.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47033C02A4153C700F30A40 /* Arbutus.ttf */; };
+		F47D856F2A2D74990043D1C6 /* WidgetsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D856E2A2D74990043D1C6 /* WidgetsTabView.swift */; };
+		F47D85712A2D781E0043D1C6 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D85702A2D781E0043D1C6 /* AppFont.swift */; };
+		F47D85732A2D7D420043D1C6 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D85722A2D7D420043D1C6 /* AppStyle.swift */; };
+		F47D857E2A2DFCE00043D1C6 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D857D2A2DFCE00043D1C6 /* SettingView.swift */; };
+		F48B2DC42A35CF2E00F56123 /* EditorTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DC32A35CF2E00F56123 /* EditorTextColor.swift */; };
+		F48B2DC62A35CF4C00F56123 /* EditorBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DC52A35CF4C00F56123 /* EditorBackground.swift */; };
+		F48B2DC82A35CF8C00F56123 /* EditorMatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DC72A35CF8C00F56123 /* EditorMatter.swift */; };
+		F48B2DCA2A35CFB900F56123 /* EditorTodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DC92A35CFB900F56123 /* EditorTodoList.swift */; };
+		F48B2DCC2A35D02500F56123 /* EditorAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DCB2A35D02500F56123 /* EditorAnniversary.swift */; };
+		F48B2DD02A35D07400F56123 /* EditorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DCF2A35D07400F56123 /* EditorImage.swift */; };
+		F48B2DD92A370B5B00F56123 /* ClockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DD82A370B5B00F56123 /* ClockListView.swift */; };
+		F48B2DDB2A370B6D00F56123 /* XPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DDA2A370B6D00F56123 /* XPanelView.swift */; };
+		F48B2DDD2A370B8100F56123 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DDC2A370B8100F56123 /* CalendarView.swift */; };
+		F48B2DE12A370BA800F56123 /* AnniversarysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DE02A370BA800F56123 /* AnniversarysView.swift */; };
+		F48B2DEA2A38050F00F56123 /* WidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DE92A38050F00F56123 /* WidgetStyle.swift */; };
+		F48B2DF22A3831AC00F56123 /* PhotoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */; };
+		F48B2DF62A38334E00F56123 /* MoodConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF52A38334E00F56123 /* MoodConfig.swift */; };
+		F48B2DFE2A38371800F56123 /* AnniversaryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */; };
+		F48B2E022A38384E00F56123 /* XPanelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E012A38384E00F56123 /* XPanelConfig.swift */; };
+		F48B2E062A3838FA00F56123 /* BatteryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E052A3838FA00F56123 /* BatteryConfig.swift */; };
+		F48B2E0D2A384F2100F56123 /* BatterysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E0C2A384F2100F56123 /* BatterysView.swift */; };
+		F48B2E0F2A384F3B00F56123 /* MoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E0E2A384F3B00F56123 /* MoodsView.swift */; };
+		F48B2E112A384F5900F56123 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E102A384F5900F56123 /* PhotosView.swift */; };
+		F48B2E1A2A39479200F56123 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E192A39479200F56123 /* DatePickerView.swift */; };
+		F48B2E1C2A395A5800F56123 /* CyclePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E1B2A395A5800F56123 /* CyclePickerView.swift */; };
+		F48B2E222A39BDCC00F56123 /* WidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E212A39BDCC00F56123 /* WidgetModel.swift */; };
+		F4D68B712A4847C10062313A /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D85702A2D781E0043D1C6 /* AppFont.swift */; };
+		F4D68B732A486E550062313A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F362A32A28822900F3959A /* Assets.xcassets */; };
+		F4D68B752A486F410062313A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D68B742A486F410062313A /* Assets.xcassets */; };
+		F4D68B772A4913D10062313A /* SmallTypeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B762A4913D10062313A /* SmallTypeWidget.swift */; };
+		F4D68B7C2A492B070062313A /* CalendarTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B7B2A492B070062313A /* CalendarTool.swift */; };
+		F4D68B7D2A492B070062313A /* CalendarTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B7B2A492B070062313A /* CalendarTool.swift */; };
+		F4D68B7F2A499CBC0062313A /* BatteryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B7E2A499CBC0062313A /* BatteryHelper.swift */; };
+		F4D68B802A499CBC0062313A /* BatteryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B7E2A499CBC0062313A /* BatteryHelper.swift */; };
+		F4D68B842A4A77D90062313A /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3628F2A284DB400F3959A /* AppColor.swift */; };
+		F4D68B8B2A4C1BBE0062313A /* SmallWidget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4F362682A28378800F3959A /* SmallWidget.xcdatamodeld */; };
+		F4D68B8C2A4C1BC10062313A /* SmallWidget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4F362682A28378800F3959A /* SmallWidget.xcdatamodeld */; };
+		F4D68B942A4D485A0062313A /* MediumTypeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B932A4D485A0062313A /* MediumTypeWidget.swift */; };
+		F4D68B962A4D48FE0062313A /* LargeTypeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B952A4D48FE0062313A /* LargeTypeWidget.swift */; };
+		F4D68B982A5025680062313A /* JRWidgetConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B972A5025680062313A /* JRWidgetConfigure.swift */; };
+		F4D68B9C2A50260F0062313A /* WidgetExtensionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B9B2A50260F0062313A /* WidgetExtensionUI.swift */; };
+		F4D68B9D2A50260F0062313A /* WidgetExtensionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B9B2A50260F0062313A /* WidgetExtensionUI.swift */; };
+		F4D68BA22A5440080062313A /* ViewListExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68BA12A5440080062313A /* ViewListExtension.swift */; };
+		F4F3625E2A28378700F3959A /* SmallWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3625D2A28378700F3959A /* SmallWidgetApp.swift */; };
+		F4F362602A28378700F3959A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3625F2A28378700F3959A /* ContentView.swift */; };
+		F4F362652A28378800F3959A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F362642A28378800F3959A /* Preview Assets.xcassets */; };
+		F4F362672A28378800F3959A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F362662A28378800F3959A /* Persistence.swift */; };
+		F4F3626A2A28378800F3959A /* SmallWidget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4F362682A28378800F3959A /* SmallWidget.xcdatamodeld */; };
+		F4F362752A28378800F3959A /* SmallWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F362742A28378800F3959A /* SmallWidgetTests.swift */; };
+		F4F3627F2A28378800F3959A /* SmallWidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3627E2A28378800F3959A /* SmallWidgetUITests.swift */; };
+		F4F362812A28378800F3959A /* SmallWidgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F362802A28378800F3959A /* SmallWidgetUITestsLaunchTests.swift */; };
+		F4F3628E2A28399B00F3959A /* BootBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3628D2A28399B00F3959A /* BootBoardingPage.swift */; };
+		F4F362902A284DB400F3959A /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3628F2A284DB400F3959A /* AppColor.swift */; };
+		F4F3629D2A28822800F3959A /* ClockWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3629C2A28822800F3959A /* ClockWidgetBundle.swift */; };
+		F4F362A42A28822900F3959A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F362A32A28822900F3959A /* Assets.xcassets */; };
+		F4F362A62A28822900F3959A /* ClockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F4F362A22A28822800F3959A /* ClockWidget.intentdefinition */; };
+		F4F362A72A28822900F3959A /* ClockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F4F362A22A28822800F3959A /* ClockWidget.intentdefinition */; };
+		F4F362AA2A28822900F3959A /* ClockWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F4F362952A28822800F3959A /* ClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F4F362BB2A28D4C500F3959A /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F362BA2A28D4C500F3959A /* IntentHandler.swift */; };
+		F4F362BF2A28D4C500F3959A /* SmallWidgetIntents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F4F362B62A28D4C500F3959A /* SmallWidgetIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F4F362C32A28D54300F3959A /* ClockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F4F362A22A28822800F3959A /* ClockWidget.intentdefinition */; };
+		F91FA0BD2B1AFEC500E6F7FC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91FA0BC2B1AFEC500E6F7FC /* Launch Screen.storyboard */; };
+		F94899D12B22348700FE42B9 /* FirebaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94899D02B22348700FE42B9 /* FirebaseNetwork.swift */; };
+		F94899DC2B225FE800FE42B9 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96AC66D2B04AD3C00038BC6 /* Network.framework */; };
+		F9D900CA2B2679FB00B287B8 /* SwiftUIBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D900C92B2679FB00B287B8 /* SwiftUIBannerView.swift */; };
+		F9D900CD2B267DEF00B287B8 /* SwiftUIInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D900CC2B267DEF00B287B8 /* SwiftUIInterstitialView.swift */; };
+		F9D900CF2B267FB000B287B8 /* SwiftUIFullScreenModefier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D900CE2B267FB000B287B8 /* SwiftUIFullScreenModefier.swift */; };
+		F9D900D12B26803D00B287B8 /* SwiftUIRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D900D02B26803D00B287B8 /* SwiftUIRewardView.swift */; };
+		F9D900D32B26807300B287B8 /* SwiftUIStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D900D22B26807300B287B8 /* SwiftUIStartView.swift */; };
+		F9D900D52B26809500B287B8 /* SwiftUINativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D900D42B26809500B287B8 /* SwiftUINativeView.swift */; };
+		F9D900D92B2922B500B287B8 /* FirebaseAdmobConfigJson.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F9D900D82B2922B400B287B8 /* FirebaseAdmobConfigJson.geojson */; };
+		F9FE847E2C6A138E00857291 /* BaseKeychinaUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE847D2C6A138E00857291 /* BaseKeychinaUnit.swift */; };
+		F9FE84822C6AF36000857291 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FE84812C6AF36000857291 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4F362712A28378800F3959A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F362522A28378700F3959A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F362592A28378700F3959A;
+			remoteInfo = SmallWidget;
+		};
+		F4F3627B2A28378800F3959A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F362522A28378700F3959A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F362592A28378700F3959A;
+			remoteInfo = SmallWidget;
+		};
+		F4F362A82A28822900F3959A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F362522A28378700F3959A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F362942A28822800F3959A;
+			remoteInfo = ClockWidgetExtension;
+		};
+		F4F362BD2A28D4C500F3959A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F362522A28378700F3959A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F362B52A28D4C500F3959A;
+			remoteInfo = SmallWidgetIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4F362AE2A28822900F3959A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F4F362BF2A28D4C500F3959A /* SmallWidgetIntents.appex in Embed Foundation Extensions */,
+				F4F362AA2A28822900F3959A /* ClockWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94899D72B225EAC00FE42B9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		181CEE87FAB10853E9BA6CE1 /* Pods-ClockWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClockWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-ClockWidgetExtension/Pods-ClockWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		26F60EA80DCCFFF368A3D157 /* Pods_SmallWidgetIntents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallWidgetIntents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36382B6E7D42AF52B7D78A08 /* Pods-SmallWidget-SmallWidgetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidget-SmallWidgetUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C23E053C6C996AB7A3E6EBD /* Pods_ClockWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClockWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D128750103EE3C8D2EE860F /* Pods-SmallWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidget.debug.xcconfig"; path = "Target Support Files/Pods-SmallWidget/Pods-SmallWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		5609161D2B87498D00B5C01C /* OrangeClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeClock.swift; sourceTree = "<group>"; };
+		560916312B874C2600B5C01C /* ClockListConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockListConfig.swift; sourceTree = "<group>"; };
+		5609163B2B889D2C00B5C01C /* PointAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointAnimation.swift; sourceTree = "<group>"; };
+		560916452B8C2D9500B5C01C /* EventAnniversary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAnniversary.swift; sourceTree = "<group>"; };
+		5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowMountainAnniversary.swift; sourceTree = "<group>"; };
+		5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodColorfulMantou.swift; sourceTree = "<group>"; };
+		560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLittleTiger.swift; sourceTree = "<group>"; };
+		560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWavePointBox.swift; sourceTree = "<group>"; };
+		560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSolidColor.swift; sourceTree = "<group>"; };
+		560916D82B8F12F000B5C01C /* WidgetSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSettingView.swift; sourceTree = "<group>"; };
+		560916DC2B8F130900B5C01C /* TransparentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentView.swift; sourceTree = "<group>"; };
+		563811EE2C60D45B007B8FE8 /* VIPDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPDetailView.swift; sourceTree = "<group>"; };
+		564103D22C58BCB000A0FA67 /* PayConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayConfig.swift; sourceTree = "<group>"; };
+		567CD1822B9181A20062B47A /* WhitePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitePanel.swift; sourceTree = "<group>"; };
+		5697E1472BA3061F00C076F5 /* SwiftUINativeAdView_120.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftUINativeAdView_120.xib; sourceTree = "<group>"; };
+		5697E14A2BA3062000C076F5 /* SwiftUINativeAdView_200.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftUINativeAdView_200.xib; sourceTree = "<group>"; };
+		5697E1522BA3E49800C076F5 /* WidgetEditorStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEditorStatus.swift; sourceTree = "<group>"; };
+		56B391732B96F3A400BFC67D /* BlackClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackClock.swift; sourceTree = "<group>"; };
+		56B391782B96F93700BFC67D /* BombooClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombooClock.swift; sourceTree = "<group>"; };
+		56B391A02B9AE74200BFC67D /* EditorTextFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorTextFont.swift; sourceTree = "<group>"; };
+		56B391A42B9EB1B200BFC67D /* EditorImageDynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorImageDynamic.swift; sourceTree = "<group>"; };
+		56E31A042C64BD06007518F1 /* CalendarMountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMountain.swift; sourceTree = "<group>"; };
+		56E31A092C64C177007518F1 /* CalendarEmjio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEmjio.swift; sourceTree = "<group>"; };
+		56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatterStyle.swift; sourceTree = "<group>"; };
+		6433EECA5148C779CDF95564 /* Pods-SmallWidgetIntents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidgetIntents.debug.xcconfig"; path = "Target Support Files/Pods-SmallWidgetIntents/Pods-SmallWidgetIntents.debug.xcconfig"; sourceTree = "<group>"; };
+		760030FB2AE84BAE006D237D /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		760030FD2AE84BB6006D237D /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		760030FF2AE84BDC006D237D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		760031012AE84BE9006D237D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7A4CA8EBDB016A07A9634FE7 /* Pods_SmallWidgetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallWidgetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845C554F2BCAF04B003F683F /* LargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
+		845C55512BCAF059003F683F /* LargeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeConfig.swift; sourceTree = "<group>"; };
+		845C55562BCAF78C003F683F /* LargeStashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeStashView.swift; sourceTree = "<group>"; };
+		86C463D646277BEB6FB90B29 /* Pods-SmallWidget-SmallWidgetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidget-SmallWidgetUITests.release.xcconfig"; path = "Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B7BEBE940C523DBDF6AF99E /* Pods_SmallWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CFC656D88012F96E85AC05 /* Pods-SmallWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidget.release.xcconfig"; path = "Target Support Files/Pods-SmallWidget/Pods-SmallWidget.release.xcconfig"; sourceTree = "<group>"; };
+		AA2B5F34C8206FCEEDB98ED3 /* Pods-SmallWidgetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidgetTests.debug.xcconfig"; path = "Target Support Files/Pods-SmallWidgetTests/Pods-SmallWidgetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA5F460BD05380E0C141F5DA /* Pods-ClockWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClockWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-ClockWidgetExtension/Pods-ClockWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		CF5800541B8872DE070E95DF /* Pods-SmallWidgetIntents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidgetIntents.release.xcconfig"; path = "Target Support Files/Pods-SmallWidgetIntents/Pods-SmallWidgetIntents.release.xcconfig"; sourceTree = "<group>"; };
+		D4C6FECD39990AF63D6219C8 /* Pods-SmallWidgetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidgetTests.release.xcconfig"; path = "Target Support Files/Pods-SmallWidgetTests/Pods-SmallWidgetTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9098C422AF61B0600ABAD9C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9476E892B0F499700944D14 /* BatteryHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryHelper.swift; sourceTree = "<group>"; };
+		E9476E902B0F499900944D14 /* SlidingTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingTabBar.swift; sourceTree = "<group>"; };
+		E9476E922B0F499900944D14 /* FrameReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameReader.swift; sourceTree = "<group>"; };
+		E9476E942B0F499A00944D14 /* ScrollSlidingTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSlidingTabBar.swift; sourceTree = "<group>"; };
+		E95008F02AFA1C2D004646C9 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		E95008F62AFA1C8C004646C9 /* TodoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoConfig.swift; sourceTree = "<group>"; };
+		E96AC66D2B04AD3C00038BC6 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		E973CD59A9453F8A348FDC56 /* Pods_SmallWidget_SmallWidgetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallWidget_SmallWidgetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99014D02AF38A3400F9FF18 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		E99524C22D092EFF00ED242A /* FloatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatView.swift; sourceTree = "<group>"; };
+		E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryDark.swift; sourceTree = "<group>"; };
+		E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWhiteRabbit.swift; sourceTree = "<group>"; };
+		E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaOfFlowersPlan.swift; sourceTree = "<group>"; };
+		E9D915192AF9D1E900D14557 /* CalendarConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarConfig.swift; sourceTree = "<group>"; };
+		F458663C2A30B067005815BF /* MyWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidgetsView.swift; sourceTree = "<group>"; };
+		F45866472A31F808005815BF /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		F45866492A331108005815BF /* WidgetEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEditorView.swift; sourceTree = "<group>"; };
+		F458664C2A341085005815BF /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F458664D2A341086005815BF /* SnapCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		F47033AB2A4153C300F30A40 /* VastShadow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VastShadow.ttf; sourceTree = "<group>"; };
+		F47033B32A4153C400F30A40 /* SF_Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SF_Pro.ttf; sourceTree = "<group>"; };
+		F47033B42A4153C400F30A40 /* Shrikhand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shrikhand.ttf; sourceTree = "<group>"; };
+		F47033BE2A4153C700F30A40 /* VesperLibre.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VesperLibre.ttf; sourceTree = "<group>"; };
+		F47033C02A4153C700F30A40 /* Arbutus.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arbutus.ttf; sourceTree = "<group>"; };
+		F47D856E2A2D74990043D1C6 /* WidgetsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsTabView.swift; sourceTree = "<group>"; };
+		F47D85702A2D781E0043D1C6 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		F47D85722A2D7D420043D1C6 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		F47D857D2A2DFCE00043D1C6 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		F48B2DC32A35CF2E00F56123 /* EditorTextColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorTextColor.swift; sourceTree = "<group>"; };
+		F48B2DC52A35CF4C00F56123 /* EditorBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorBackground.swift; sourceTree = "<group>"; };
+		F48B2DC72A35CF8C00F56123 /* EditorMatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorMatter.swift; sourceTree = "<group>"; };
+		F48B2DC92A35CFB900F56123 /* EditorTodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorTodoList.swift; sourceTree = "<group>"; };
+		F48B2DCB2A35D02500F56123 /* EditorAnniversary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorAnniversary.swift; sourceTree = "<group>"; };
+		F48B2DCF2A35D07400F56123 /* EditorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorImage.swift; sourceTree = "<group>"; };
+		F48B2DD82A370B5B00F56123 /* ClockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockListView.swift; sourceTree = "<group>"; };
+		F48B2DDA2A370B6D00F56123 /* XPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPanelView.swift; sourceTree = "<group>"; };
+		F48B2DDC2A370B8100F56123 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F48B2DE02A370BA800F56123 /* AnniversarysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversarysView.swift; sourceTree = "<group>"; };
+		F48B2DE92A38050F00F56123 /* WidgetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetStyle.swift; sourceTree = "<group>"; };
+		F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoConfig.swift; sourceTree = "<group>"; };
+		F48B2DF52A38334E00F56123 /* MoodConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodConfig.swift; sourceTree = "<group>"; };
+		F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryConfig.swift; sourceTree = "<group>"; };
+		F48B2E012A38384E00F56123 /* XPanelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPanelConfig.swift; sourceTree = "<group>"; };
+		F48B2E052A3838FA00F56123 /* BatteryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryConfig.swift; sourceTree = "<group>"; };
+		F48B2E0C2A384F2100F56123 /* BatterysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatterysView.swift; sourceTree = "<group>"; };
+		F48B2E0E2A384F3B00F56123 /* MoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsView.swift; sourceTree = "<group>"; };
+		F48B2E102A384F5900F56123 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		F48B2E192A39479200F56123 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		F48B2E1B2A395A5800F56123 /* CyclePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclePickerView.swift; sourceTree = "<group>"; };
+		F48B2E212A39BDCC00F56123 /* WidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetModel.swift; sourceTree = "<group>"; };
+		F49C2A8F2A29872D00A35F1A /* SmallWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmallWidget.entitlements; sourceTree = "<group>"; };
+		F49C2A902A29877D00A35F1A /* SmallWidgetIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmallWidgetIntents.entitlements; sourceTree = "<group>"; };
+		F49C2A912A29878500A35F1A /* ClockWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClockWidgetExtension.entitlements; sourceTree = "<group>"; };
+		F4D68B742A486F410062313A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D68B762A4913D10062313A /* SmallTypeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTypeWidget.swift; sourceTree = "<group>"; };
+		F4D68B7B2A492B070062313A /* CalendarTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTool.swift; sourceTree = "<group>"; };
+		F4D68B7E2A499CBC0062313A /* BatteryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryHelper.swift; sourceTree = "<group>"; };
+		F4D68B932A4D485A0062313A /* MediumTypeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumTypeWidget.swift; sourceTree = "<group>"; };
+		F4D68B952A4D48FE0062313A /* LargeTypeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTypeWidget.swift; sourceTree = "<group>"; };
+		F4D68B972A5025680062313A /* JRWidgetConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRWidgetConfigure.swift; sourceTree = "<group>"; };
+		F4D68B9B2A50260F0062313A /* WidgetExtensionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetExtensionUI.swift; sourceTree = "<group>"; };
+		F4D68BA12A5440080062313A /* ViewListExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewListExtension.swift; sourceTree = "<group>"; };
+		F4F3625A2A28378700F3959A /* SmallWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F3625D2A28378700F3959A /* SmallWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetApp.swift; sourceTree = "<group>"; };
+		F4F3625F2A28378700F3959A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4F362642A28378800F3959A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4F362662A28378800F3959A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F4F362692A28378800F3959A /* SmallWidget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmallWidget.xcdatamodel; sourceTree = "<group>"; };
+		F4F3626B2A28378800F3959A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F362702A28378800F3959A /* SmallWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F362742A28378800F3959A /* SmallWidgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetTests.swift; sourceTree = "<group>"; };
+		F4F3627A2A28378800F3959A /* SmallWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F3627E2A28378800F3959A /* SmallWidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetUITests.swift; sourceTree = "<group>"; };
+		F4F362802A28378800F3959A /* SmallWidgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4F3628D2A28399B00F3959A /* BootBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootBoardingPage.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		F4F3628F2A284DB400F3959A /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		F4F362952A28822800F3959A /* ClockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F3629C2A28822800F3959A /* ClockWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidgetBundle.swift; sourceTree = "<group>"; };
+		F4F362A22A28822800F3959A /* ClockWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ClockWidget.intentdefinition; sourceTree = "<group>"; };
+		F4F362A32A28822900F3959A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4F362A52A28822900F3959A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F362B62A28D4C500F3959A /* SmallWidgetIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SmallWidgetIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F362BA2A28D4C500F3959A /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		F4F362BC2A28D4C500F3959A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91FA0BC2B1AFEC500E6F7FC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F94899D02B22348700FE42B9 /* FirebaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNetwork.swift; sourceTree = "<group>"; };
+		F9D900C92B2679FB00B287B8 /* SwiftUIBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBannerView.swift; sourceTree = "<group>"; };
+		F9D900CC2B267DEF00B287B8 /* SwiftUIInterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIInterstitialView.swift; sourceTree = "<group>"; };
+		F9D900CE2B267FB000B287B8 /* SwiftUIFullScreenModefier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFullScreenModefier.swift; sourceTree = "<group>"; };
+		F9D900D02B26803D00B287B8 /* SwiftUIRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRewardView.swift; sourceTree = "<group>"; };
+		F9D900D22B26807300B287B8 /* SwiftUIStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStartView.swift; sourceTree = "<group>"; };
+		F9D900D42B26809500B287B8 /* SwiftUINativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINativeView.swift; sourceTree = "<group>"; };
+		F9D900D82B2922B400B287B8 /* FirebaseAdmobConfigJson.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = FirebaseAdmobConfigJson.geojson; sourceTree = "<group>"; };
+		F9FE847D2C6A138E00857291 /* BaseKeychinaUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseKeychinaUnit.swift; sourceTree = "<group>"; };
+		F9FE84812C6AF36000857291 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F362572A28378700F3959A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760031032AE84BF7006D237D /* SwiftUI.framework in Frameworks */,
+				D96DF59C6708C0010612B6F7 /* Pods_SmallWidget.framework in Frameworks */,
+				F9FE84822C6AF36000857291 /* StoreKit.framework in Frameworks */,
+				E96AC66E2B04AD3C00038BC6 /* Network.framework in Frameworks */,
+				567CD18E2B91C6DA0062B47A /* ClockHandRotationKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F3626D2A28378800F3959A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1D1C2742737EAFFA912F68 /* Pods_SmallWidgetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362772A28378800F3959A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8894EA497EFE2139F2F57F0 /* Pods_SmallWidget_SmallWidgetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362922A28822800F3959A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760031002AE84BDC006D237D /* SwiftUI.framework in Frameworks */,
+				760031022AE84BE9006D237D /* WidgetKit.framework in Frameworks */,
+				2C3047261F34DC63E747F5D8 /* Pods_ClockWidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362B32A28D4C500F3959A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760030FE2AE84BB6006D237D /* IntentsUI.framework in Frameworks */,
+				760030FC2AE84BAE006D237D /* Intents.framework in Frameworks */,
+				48738BF77370FBE78F2B6A72 /* Pods_SmallWidgetIntents.framework in Frameworks */,
+				F94899DC2B225FE800FE42B9 /* Network.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC2BBBFE1F8B8F28E168449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				181CEE87FAB10853E9BA6CE1 /* Pods-ClockWidgetExtension.debug.xcconfig */,
+				AA5F460BD05380E0C141F5DA /* Pods-ClockWidgetExtension.release.xcconfig */,
+				3D128750103EE3C8D2EE860F /* Pods-SmallWidget.debug.xcconfig */,
+				A4CFC656D88012F96E85AC05 /* Pods-SmallWidget.release.xcconfig */,
+				36382B6E7D42AF52B7D78A08 /* Pods-SmallWidget-SmallWidgetUITests.debug.xcconfig */,
+				86C463D646277BEB6FB90B29 /* Pods-SmallWidget-SmallWidgetUITests.release.xcconfig */,
+				6433EECA5148C779CDF95564 /* Pods-SmallWidgetIntents.debug.xcconfig */,
+				CF5800541B8872DE070E95DF /* Pods-SmallWidgetIntents.release.xcconfig */,
+				AA2B5F34C8206FCEEDB98ED3 /* Pods-SmallWidgetTests.debug.xcconfig */,
+				D4C6FECD39990AF63D6219C8 /* Pods-SmallWidgetTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		560916172B8748D100B5C01C /* OrangeClock */ = {
+			isa = PBXGroup;
+			children = (
+				5609161D2B87498D00B5C01C /* OrangeClock.swift */,
+			);
+			path = OrangeClock;
+			sourceTree = "<group>";
+		};
+		5609163A2B889D0D00B5C01C /* PointAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5609163B2B889D2C00B5C01C /* PointAnimation.swift */,
+			);
+			path = PointAnimation;
+			sourceTree = "<group>";
+		};
+		560916422B8C2D2F00B5C01C /* SnowMountain */ = {
+			isa = PBXGroup;
+			children = (
+				5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */,
+			);
+			path = SnowMountain;
+			sourceTree = "<group>";
+		};
+		560916442B8C2D5C00B5C01C /* EventDay */ = {
+			isa = PBXGroup;
+			children = (
+				560916452B8C2D9500B5C01C /* EventAnniversary.swift */,
+			);
+			path = EventDay;
+			sourceTree = "<group>";
+		};
+		5609165F2B8D852E00B5C01C /* Colorful */ = {
+			isa = PBXGroup;
+			children = (
+				5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */,
+			);
+			path = Colorful;
+			sourceTree = "<group>";
+		};
+		5609167F2B8D933900B5C01C /* Little Tiger */ = {
+			isa = PBXGroup;
+			children = (
+				560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */,
+			);
+			path = "Little Tiger";
+			sourceTree = "<group>";
+		};
+		560916942B8DAD1A00B5C01C /* WavePointBox */ = {
+			isa = PBXGroup;
+			children = (
+				560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */,
+			);
+			path = WavePointBox;
+			sourceTree = "<group>";
+		};
+		560916BF2B8DCC1700B5C01C /* SolidColor */ = {
+			isa = PBXGroup;
+			children = (
+				560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */,
+			);
+			path = SolidColor;
+			sourceTree = "<group>";
+		};
+		564103D12C58BC7800A0FA67 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				564103D22C58BCB000A0FA67 /* PayConfig.swift */,
+				F9FE847D2C6A138E00857291 /* BaseKeychinaUnit.swift */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		567CD1812B91818F0062B47A /* White */ = {
+			isa = PBXGroup;
+			children = (
+				567CD1822B9181A20062B47A /* WhitePanel.swift */,
+			);
+			path = White;
+			sourceTree = "<group>";
+		};
+		56B391722B96F36500BFC67D /* BlackClock */ = {
+			isa = PBXGroup;
+			children = (
+				56B391732B96F3A400BFC67D /* BlackClock.swift */,
+			);
+			path = BlackClock;
+			sourceTree = "<group>";
+		};
+		56B391772B96F8EF00BFC67D /* Bamboo */ = {
+			isa = PBXGroup;
+			children = (
+				56B391782B96F93700BFC67D /* BombooClock.swift */,
+			);
+			path = Bamboo;
+			sourceTree = "<group>";
+		};
+		56B3919F2B9AE72500BFC67D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				56B391A02B9AE74200BFC67D /* EditorTextFont.swift */,
+				F47033A92A41538C00F30A40 /* Fonts */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		56E31A032C64BCEC007518F1 /* Mountain */ = {
+			isa = PBXGroup;
+			children = (
+				56E31A042C64BD06007518F1 /* CalendarMountain.swift */,
+			);
+			path = Mountain;
+			sourceTree = "<group>";
+		};
+		56E31A082C64C156007518F1 /* Emjio */ = {
+			isa = PBXGroup;
+			children = (
+				56E31A092C64C177007518F1 /* CalendarEmjio.swift */,
+			);
+			path = Emjio;
+			sourceTree = "<group>";
+		};
+		56E9492B2BCF7ADD00E77CDE /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		84206C322E09D38600CA915B /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F47D856E2A2D74990043D1C6 /* WidgetsTabView.swift */,
+				F4D68BA12A5440080062313A /* ViewListExtension.swift */,
+				E9E15B192AF0CC6A001E9840 /* Views */,
+				E9E15B182AF0CC4C001E9840 /* ScrollTab */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		845C554E2BCAF028003F683F /* Large */ = {
+			isa = PBXGroup;
+			children = (
+				845C554F2BCAF04B003F683F /* LargeView.swift */,
+				845C55512BCAF059003F683F /* LargeConfig.swift */,
+				845C55552BCAF729003F683F /* Large */,
+			);
+			path = Large;
+			sourceTree = "<group>";
+		};
+		845C55552BCAF729003F683F /* Large */ = {
+			isa = PBXGroup;
+			children = (
+				845C55562BCAF78C003F683F /* LargeStashView.swift */,
+			);
+			path = Large;
+			sourceTree = "<group>";
+		};
+		E95008EF2AFA1C13004646C9 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				E9BE67612CCB6AD300697AC7 /* SeaOfFlowers  */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		E99524C12D092E5B00ED242A /* FloatView */ = {
+			isa = PBXGroup;
+			children = (
+				E99524C22D092EFF00ED242A /* FloatView.swift */,
+			);
+			path = FloatView;
+			sourceTree = "<group>";
+		};
+		E9A1D06A2D8CFC8600360A93 /* Dark */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */,
+			);
+			path = Dark;
+			sourceTree = "<group>";
+		};
+		E9BE67472CCA3F1900697AC7 /* WhiteRabbit  */ = {
+			isa = PBXGroup;
+			children = (
+				E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */,
+			);
+			path = "WhiteRabbit ";
+			sourceTree = "<group>";
+		};
+		E9BE67612CCB6AD300697AC7 /* SeaOfFlowers  */ = {
+			isa = PBXGroup;
+			children = (
+				E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */,
+			);
+			path = "SeaOfFlowers ";
+			sourceTree = "<group>";
+		};
+		E9E15B002AF0C91A001E9840 /* Enter */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3625D2A28378700F3959A /* SmallWidgetApp.swift */,
+				F4F3625F2A28378700F3959A /* ContentView.swift */,
+				F4F362662A28378800F3959A /* Persistence.swift */,
+			);
+			path = Enter;
+			sourceTree = "<group>";
+		};
+		E9E15B012AF0C95D001E9840 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E9E15B022AF0C984001E9840 /* Widget */,
+				E9E15B142AF0CB8A001E9840 /* Setting */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		E9E15B022AF0C984001E9840 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				84206C322E09D38600CA915B /* List */,
+				E9E15B1A2AF0CCCC001E9840 /* Editor */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		E9E15B052AF0C9AE001E9840 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3628D2A28399B00F3959A /* BootBoardingPage.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E9E15B072AF0C9D3001E9840 /* Clocks */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2DD82A370B5B00F56123 /* ClockListView.swift */,
+				560916312B874C2600B5C01C /* ClockListConfig.swift */,
+				F48B2DE52A37FC2800F56123 /* Clocks */,
+			);
+			path = Clocks;
+			sourceTree = "<group>";
+		};
+		E9E15B082AF0C9F4001E9840 /* XPanel */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2DDA2A370B6D00F56123 /* XPanelView.swift */,
+				F48B2E012A38384E00F56123 /* XPanelConfig.swift */,
+				F48B2E002A38383800F56123 /* XPanel */,
+			);
+			path = XPanel;
+			sourceTree = "<group>";
+		};
+		E9E15B0A2AF0CA2D001E9840 /* Anniversarys */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2DE02A370BA800F56123 /* AnniversarysView.swift */,
+				F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */,
+				F48B2DFC2A38364E00F56123 /* Anniversary */,
+			);
+			path = Anniversarys;
+			sourceTree = "<group>";
+		};
+		E9E15B0C2AF0CA49001E9840 /* Batterys */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2E0C2A384F2100F56123 /* BatterysView.swift */,
+				F48B2E052A3838FA00F56123 /* BatteryConfig.swift */,
+				F48B2E042A3838D700F56123 /* Battery */,
+			);
+			path = Batterys;
+			sourceTree = "<group>";
+		};
+		E9E15B0D2AF0CA57001E9840 /* Moods */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2E0E2A384F3B00F56123 /* MoodsView.swift */,
+				F48B2DF52A38334E00F56123 /* MoodConfig.swift */,
+				F48B2DF42A38332E00F56123 /* Mood */,
+			);
+			path = Moods;
+			sourceTree = "<group>";
+		};
+		E9E15B0E2AF0CA64001E9840 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2E102A384F5900F56123 /* PhotosView.swift */,
+				F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */,
+				F48B2DF02A38318800F56123 /* Photo */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		E9E15B0F2AF0CA78001E9840 /* Calendars */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2DDC2A370B8100F56123 /* CalendarView.swift */,
+				E9D915192AF9D1E900D14557 /* CalendarConfig.swift */,
+				F48B2DEC2A38302B00F56123 /* Calendar */,
+			);
+			path = Calendars;
+			sourceTree = "<group>";
+		};
+		E9E15B132AF0CB3C001E9840 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				E95008F02AFA1C2D004646C9 /* TodoView.swift */,
+				E95008F62AFA1C8C004646C9 /* TodoConfig.swift */,
+				E95008EF2AFA1C13004646C9 /* Todo */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		E9E15B142AF0CB8A001E9840 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F47D857D2A2DFCE00043D1C6 /* SettingView.swift */,
+				E9E15B172AF0CC2F001E9840 /* About */,
+				563811EE2C60D45B007B8FE8 /* VIPDetailView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		E9E15B152AF0CBF1001E9840 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3628F2A284DB400F3959A /* AppColor.swift */,
+				F47D85702A2D781E0043D1C6 /* AppFont.swift */,
+				F47D85722A2D7D420043D1C6 /* AppStyle.swift */,
+				E99014D02AF38A3400F9FF18 /* AppImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E9E15B172AF0CC2F001E9840 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				F45866472A31F808005815BF /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		E9E15B182AF0CC4C001E9840 /* ScrollTab */ = {
+			isa = PBXGroup;
+			children = (
+				E9E15B0A2AF0CA2D001E9840 /* Anniversarys */,
+				E9E15B0D2AF0CA57001E9840 /* Moods */,
+				E9E15B0E2AF0CA64001E9840 /* Photos */,
+				E9E15B0C2AF0CA49001E9840 /* Batterys */,
+				E9E15B0F2AF0CA78001E9840 /* Calendars */,
+				E9E15B132AF0CB3C001E9840 /* Todo */,
+				E9E15B082AF0C9F4001E9840 /* XPanel */,
+				845C554E2BCAF028003F683F /* Large */,
+				E9E15B072AF0C9D3001E9840 /* Clocks */,
+			);
+			path = ScrollTab;
+			sourceTree = "<group>";
+		};
+		E9E15B192AF0CC6A001E9840 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				560916D82B8F12F000B5C01C /* WidgetSettingView.swift */,
+				560916DC2B8F130900B5C01C /* TransparentView.swift */,
+				F458663C2A30B067005815BF /* MyWidgetsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9E15B1A2AF0CCCC001E9840 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2E212A39BDCC00F56123 /* WidgetModel.swift */,
+				F45866492A331108005815BF /* WidgetEditorView.swift */,
+				56B391A42B9EB1B200BFC67D /* EditorImageDynamic.swift */,
+				5697E1522BA3E49800C076F5 /* WidgetEditorStatus.swift */,
+				F458664B2A341031005815BF /* HeaderEditor */,
+				E9E502B92AF0DC7100B577E1 /* Todo */,
+				E9E502B72AF0DC2C00B577E1 /* Matter */,
+				E9E502B62AF0DC1E00B577E1 /* Image */,
+				E9E502B52AF0DC0500B577E1 /* Color */,
+				56B3919F2B9AE72500BFC67D /* Font */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		E9E502B52AF0DC0500B577E1 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2DC52A35CF4C00F56123 /* EditorBackground.swift */,
+				F48B2DC32A35CF2E00F56123 /* EditorTextColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		E9E502B62AF0DC1E00B577E1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2DCF2A35D07400F56123 /* EditorImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		E9E502B72AF0DC2C00B577E1 /* Matter */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2DC72A35CF8C00F56123 /* EditorMatter.swift */,
+				F48B2DCB2A35D02500F56123 /* EditorAnniversary.swift */,
+			);
+			path = Matter;
+			sourceTree = "<group>";
+		};
+		E9E502B92AF0DC7100B577E1 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				F48B2DC92A35CFB900F56123 /* EditorTodoList.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		F458664B2A341031005815BF /* HeaderEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F458664C2A341085005815BF /* ContentViewModel.swift */,
+				F458664D2A341086005815BF /* SnapCarousel.swift */,
+			);
+			path = HeaderEditor;
+			sourceTree = "<group>";
+		};
+		F47033A92A41538C00F30A40 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F47033C02A4153C700F30A40 /* Arbutus.ttf */,
+				F47033B32A4153C400F30A40 /* SF_Pro.ttf */,
+				F47033B42A4153C400F30A40 /* Shrikhand.ttf */,
+				F47033AB2A4153C300F30A40 /* VastShadow.ttf */,
+				F47033BE2A4153C700F30A40 /* VesperLibre.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F48B2DE52A37FC2800F56123 /* Clocks */ = {
+			isa = PBXGroup;
+			children = (
+				560916172B8748D100B5C01C /* OrangeClock */,
+				56B391722B96F36500BFC67D /* BlackClock */,
+				56B391772B96F8EF00BFC67D /* Bamboo */,
+			);
+			path = Clocks;
+			sourceTree = "<group>";
+		};
+		F48B2DEC2A38302B00F56123 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E9BE67472CCA3F1900697AC7 /* WhiteRabbit  */,
+				56E31A082C64C156007518F1 /* Emjio */,
+				56E31A032C64BCEC007518F1 /* Mountain */,
+				560916BF2B8DCC1700B5C01C /* SolidColor */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		F48B2DF02A38318800F56123 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				5609167F2B8D933900B5C01C /* Little Tiger */,
+				560916942B8DAD1A00B5C01C /* WavePointBox */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		F48B2DF42A38332E00F56123 /* Mood */ = {
+			isa = PBXGroup;
+			children = (
+				5609165F2B8D852E00B5C01C /* Colorful */,
+			);
+			path = Mood;
+			sourceTree = "<group>";
+		};
+		F48B2DFC2A38364E00F56123 /* Anniversary */ = {
+			isa = PBXGroup;
+			children = (
+				560916422B8C2D2F00B5C01C /* SnowMountain */,
+				560916442B8C2D5C00B5C01C /* EventDay */,
+			);
+			path = Anniversary;
+			sourceTree = "<group>";
+		};
+		F48B2E002A38383800F56123 /* XPanel */ = {
+			isa = PBXGroup;
+			children = (
+				567CD1812B91818F0062B47A /* White */,
+			);
+			path = XPanel;
+			sourceTree = "<group>";
+		};
+		F48B2E042A3838D700F56123 /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1D06A2D8CFC8600360A93 /* Dark */,
+				56E9492B2BCF7ADD00E77CDE /* Style */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+		F4D68B7A2A492AE40062313A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E99524C12D092E5B00ED242A /* FloatView */,
+				564103D12C58BC7800A0FA67 /* Pay */,
+				5609163A2B889D0D00B5C01C /* PointAnimation */,
+				F9D900CB2B267D3E00B287B8 /* Admob */,
+				E9476E892B0F499700944D14 /* BatteryHelper.swift */,
+				F4D68B7B2A492B070062313A /* CalendarTool.swift */,
+				F48B2E1B2A395A5800F56123 /* CyclePickerView.swift */,
+				E9476E922B0F499900944D14 /* FrameReader.swift */,
+				E9476E942B0F499A00944D14 /* ScrollSlidingTabBar.swift */,
+				E9476E902B0F499900944D14 /* SlidingTabBar.swift */,
+				F4D68B7E2A499CBC0062313A /* BatteryHelper.swift */,
+				F48B2E192A39479200F56123 /* DatePickerView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F4F362512A28378700F3959A = {
+			isa = PBXGroup;
+			children = (
+				F49C2A912A29878500A35F1A /* ClockWidgetExtension.entitlements */,
+				F4F3625C2A28378700F3959A /* SmallWidget */,
+				F4F362732A28378800F3959A /* SmallWidgetTests */,
+				F4F3627D2A28378800F3959A /* SmallWidgetUITests */,
+				F4F3629B2A28822800F3959A /* ClockWidget */,
+				F4F362B92A28D4C500F3959A /* SmallWidgetIntents */,
+				F4F362962A28822800F3959A /* Frameworks */,
+				F4F3625B2A28378700F3959A /* Products */,
+				2AC2BBBFE1F8B8F28E168449 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F3625B2A28378700F3959A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3625A2A28378700F3959A /* SmallWidget.app */,
+				F4F362702A28378800F3959A /* SmallWidgetTests.xctest */,
+				F4F3627A2A28378800F3959A /* SmallWidgetUITests.xctest */,
+				F4F362952A28822800F3959A /* ClockWidgetExtension.appex */,
+				F4F362B62A28D4C500F3959A /* SmallWidgetIntents.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F3625C2A28378700F3959A /* SmallWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F49C2A8F2A29872D00A35F1A /* SmallWidget.entitlements */,
+				F4D68B972A5025680062313A /* JRWidgetConfigure.swift */,
+				F48B2DE92A38050F00F56123 /* WidgetStyle.swift */,
+				E9E15B002AF0C91A001E9840 /* Enter */,
+				E9E15B052AF0C9AE001E9840 /* Splash */,
+				E9E15B012AF0C95D001E9840 /* Tabbar */,
+				E9E15B152AF0CBF1001E9840 /* Extension */,
+				F4D68B7A2A492AE40062313A /* Tools */,
+				F4F362632A28378800F3959A /* Preview Content */,
+				F4F3626B2A28378800F3959A /* Info.plist */,
+				F4D68B742A486F410062313A /* Assets.xcassets */,
+				F4F362682A28378800F3959A /* SmallWidget.xcdatamodeld */,
+				F91FA0BC2B1AFEC500E6F7FC /* Launch Screen.storyboard */,
+			);
+			path = SmallWidget;
+			sourceTree = "<group>";
+		};
+		F4F362632A28378800F3959A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4F362642A28378800F3959A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4F362732A28378800F3959A /* SmallWidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4F362742A28378800F3959A /* SmallWidgetTests.swift */,
+			);
+			path = SmallWidgetTests;
+			sourceTree = "<group>";
+		};
+		F4F3627D2A28378800F3959A /* SmallWidgetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3627E2A28378800F3959A /* SmallWidgetUITests.swift */,
+				F4F362802A28378800F3959A /* SmallWidgetUITestsLaunchTests.swift */,
+			);
+			path = SmallWidgetUITests;
+			sourceTree = "<group>";
+		};
+		F4F362962A28822800F3959A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE84812C6AF36000857291 /* StoreKit.framework */,
+				E96AC66D2B04AD3C00038BC6 /* Network.framework */,
+				E9098C422AF61B0600ABAD9C /* SwiftyJSON.framework */,
+				760031012AE84BE9006D237D /* WidgetKit.framework */,
+				760030FF2AE84BDC006D237D /* SwiftUI.framework */,
+				760030FD2AE84BB6006D237D /* IntentsUI.framework */,
+				760030FB2AE84BAE006D237D /* Intents.framework */,
+				3C23E053C6C996AB7A3E6EBD /* Pods_ClockWidgetExtension.framework */,
+				8B7BEBE940C523DBDF6AF99E /* Pods_SmallWidget.framework */,
+				E973CD59A9453F8A348FDC56 /* Pods_SmallWidget_SmallWidgetUITests.framework */,
+				26F60EA80DCCFFF368A3D157 /* Pods_SmallWidgetIntents.framework */,
+				7A4CA8EBDB016A07A9634FE7 /* Pods_SmallWidgetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F3629B2A28822800F3959A /* ClockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3629C2A28822800F3959A /* ClockWidgetBundle.swift */,
+				F4D68B762A4913D10062313A /* SmallTypeWidget.swift */,
+				F4D68B932A4D485A0062313A /* MediumTypeWidget.swift */,
+				F4D68B952A4D48FE0062313A /* LargeTypeWidget.swift */,
+				F4F362A22A28822800F3959A /* ClockWidget.intentdefinition */,
+				F4F362A32A28822900F3959A /* Assets.xcassets */,
+				F4F362A52A28822900F3959A /* Info.plist */,
+			);
+			path = ClockWidget;
+			sourceTree = "<group>";
+		};
+		F4F362B92A28D4C500F3959A /* SmallWidgetIntents */ = {
+			isa = PBXGroup;
+			children = (
+				F49C2A902A29877D00A35F1A /* SmallWidgetIntents.entitlements */,
+				F4F362BA2A28D4C500F3959A /* IntentHandler.swift */,
+				F4D68B9B2A50260F0062313A /* WidgetExtensionUI.swift */,
+				F4F362BC2A28D4C500F3959A /* Info.plist */,
+			);
+			path = SmallWidgetIntents;
+			sourceTree = "<group>";
+		};
+		F9D900CB2B267D3E00B287B8 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				5697E1472BA3061F00C076F5 /* SwiftUINativeAdView_120.xib */,
+				5697E14A2BA3062000C076F5 /* SwiftUINativeAdView_200.xib */,
+				F94899D02B22348700FE42B9 /* FirebaseNetwork.swift */,
+				F9D900CE2B267FB000B287B8 /* SwiftUIFullScreenModefier.swift */,
+				F9D900C92B2679FB00B287B8 /* SwiftUIBannerView.swift */,
+				F9D900CC2B267DEF00B287B8 /* SwiftUIInterstitialView.swift */,
+				F9D900D02B26803D00B287B8 /* SwiftUIRewardView.swift */,
+				F9D900D22B26807300B287B8 /* SwiftUIStartView.swift */,
+				F9D900D42B26809500B287B8 /* SwiftUINativeView.swift */,
+				F9D900D82B2922B400B287B8 /* FirebaseAdmobConfigJson.geojson */,
+			);
+			path = Admob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F362592A28378700F3959A /* SmallWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F362842A28378800F3959A /* Build configuration list for PBXNativeTarget "SmallWidget" */;
+			buildPhases = (
+				92D53A7E140B2F3DF227003E /* [CP] Check Pods Manifest.lock */,
+				F4F362562A28378700F3959A /* Sources */,
+				F4F362572A28378700F3959A /* Frameworks */,
+				F4F362582A28378700F3959A /* Resources */,
+				F4F362AE2A28822900F3959A /* Embed Foundation Extensions */,
+				B6C3057ADB9EF32647620027 /* [CP] Embed Pods Frameworks */,
+				10B098E2886FC52DBE6FC1F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F362A92A28822900F3959A /* PBXTargetDependency */,
+				F4F362BE2A28D4C500F3959A /* PBXTargetDependency */,
+			);
+			name = SmallWidget;
+			packageProductDependencies = (
+				567CD18D2B91C6DA0062B47A /* ClockHandRotationKit */,
+			);
+			productName = SmallWidget;
+			productReference = F4F3625A2A28378700F3959A /* SmallWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4F3626F2A28378800F3959A /* SmallWidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F362872A28378800F3959A /* Build configuration list for PBXNativeTarget "SmallWidgetTests" */;
+			buildPhases = (
+				1F77A951A9D19B2A8728770E /* [CP] Check Pods Manifest.lock */,
+				F4F3626C2A28378800F3959A /* Sources */,
+				F4F3626D2A28378800F3959A /* Frameworks */,
+				F4F3626E2A28378800F3959A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F362722A28378800F3959A /* PBXTargetDependency */,
+			);
+			name = SmallWidgetTests;
+			productName = SmallWidgetTests;
+			productReference = F4F362702A28378800F3959A /* SmallWidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4F362792A28378800F3959A /* SmallWidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F3628A2A28378800F3959A /* Build configuration list for PBXNativeTarget "SmallWidgetUITests" */;
+			buildPhases = (
+				C04BDA08D5C544980D39BC58 /* [CP] Check Pods Manifest.lock */,
+				F4F362762A28378800F3959A /* Sources */,
+				F4F362772A28378800F3959A /* Frameworks */,
+				F4F362782A28378800F3959A /* Resources */,
+				20868F160165C9BEBB90CF00 /* [CP] Embed Pods Frameworks */,
+				41195F2D50F57BCAA949A916 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F3627C2A28378800F3959A /* PBXTargetDependency */,
+			);
+			name = SmallWidgetUITests;
+			productName = SmallWidgetUITests;
+			productReference = F4F3627A2A28378800F3959A /* SmallWidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F4F362942A28822800F3959A /* ClockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F362AB2A28822900F3959A /* Build configuration list for PBXNativeTarget "ClockWidgetExtension" */;
+			buildPhases = (
+				AE449D4300F467F9B399283E /* [CP] Check Pods Manifest.lock */,
+				F4F362912A28822800F3959A /* Sources */,
+				F4F362922A28822800F3959A /* Frameworks */,
+				F4F362932A28822800F3959A /* Resources */,
+				F94899D72B225EAC00FE42B9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockWidgetExtension;
+			productName = ClockWidgetExtension;
+			productReference = F4F362952A28822800F3959A /* ClockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F4F362B52A28D4C500F3959A /* SmallWidgetIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F362C02A28D4C500F3959A /* Build configuration list for PBXNativeTarget "SmallWidgetIntents" */;
+			buildPhases = (
+				4DE9A87F84DE6D0BDA1BD7C9 /* [CP] Check Pods Manifest.lock */,
+				F4F362B22A28D4C500F3959A /* Sources */,
+				F4F362B32A28D4C500F3959A /* Frameworks */,
+				F4F362B42A28D4C500F3959A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallWidgetIntents;
+			productName = SmallWidgetIntents;
+			productReference = F4F362B62A28D4C500F3959A /* SmallWidgetIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F362522A28378700F3959A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F4F362592A28378700F3959A = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1500;
+					};
+					F4F3626F2A28378800F3959A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F4F362592A28378700F3959A;
+					};
+					F4F362792A28378800F3959A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F4F362592A28378700F3959A;
+					};
+					F4F362942A28822800F3959A = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1500;
+					};
+					F4F362B52A28D4C500F3959A = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = F4F362552A28378700F3959A /* Build configuration list for PBXProject "SmallWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4F362512A28378700F3959A;
+			packageReferences = (
+				5609163D2B889E8C00B5C01C /* XCRemoteSwiftPackageReference "ClockHandRotationKit" */,
+			);
+			productRefGroup = F4F3625B2A28378700F3959A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F362592A28378700F3959A /* SmallWidget */,
+				F4F3626F2A28378800F3959A /* SmallWidgetTests */,
+				F4F362792A28378800F3959A /* SmallWidgetUITests */,
+				F4F362942A28822800F3959A /* ClockWidgetExtension */,
+				F4F362B52A28D4C500F3959A /* SmallWidgetIntents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F362582A28378700F3959A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F362652A28378800F3959A /* Preview Assets.xcassets in Resources */,
+				F47033EE2A4153C700F30A40 /* Arbutus.ttf in Resources */,
+				5697E14D2BA3062000C076F5 /* SwiftUINativeAdView_120.xib in Resources */,
+				F47033C42A4153C700F30A40 /* VastShadow.ttf in Resources */,
+				F47033D62A4153C700F30A40 /* Shrikhand.ttf in Resources */,
+				F91FA0BD2B1AFEC500E6F7FC /* Launch Screen.storyboard in Resources */,
+				F9D900D92B2922B500B287B8 /* FirebaseAdmobConfigJson.geojson in Resources */,
+				F47033EA2A4153C700F30A40 /* VesperLibre.ttf in Resources */,
+				F47033D42A4153C700F30A40 /* SF_Pro.ttf in Resources */,
+				F4D68B732A486E550062313A /* Assets.xcassets in Resources */,
+				F4D68B752A486F410062313A /* Assets.xcassets in Resources */,
+				5697E1502BA3062000C076F5 /* SwiftUINativeAdView_200.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F3626E2A28378800F3959A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362782A28378800F3959A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362932A28822800F3959A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F362A42A28822900F3959A /* Assets.xcassets in Resources */,
+				F47033D72A4153C700F30A40 /* Shrikhand.ttf in Resources */,
+				F47033D52A4153C700F30A40 /* SF_Pro.ttf in Resources */,
+				F47033C52A4153C700F30A40 /* VastShadow.ttf in Resources */,
+				F47033EF2A4153C700F30A40 /* Arbutus.ttf in Resources */,
+				F47033EB2A4153C700F30A40 /* VesperLibre.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362B42A28D4C500F3959A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10B098E2886FC52DBE6FC1F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmallWidget/Pods-SmallWidget-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmallWidget/Pods-SmallWidget-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmallWidget/Pods-SmallWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F77A951A9D19B2A8728770E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmallWidgetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20868F160165C9BEBB90CF00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41195F2D50F57BCAA949A916 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE9A87F84DE6D0BDA1BD7C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmallWidgetIntents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D53A7E140B2F3DF227003E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmallWidget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE449D4300F467F9B399283E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClockWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C3057ADB9EF32647620027 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmallWidget/Pods-SmallWidget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmallWidget/Pods-SmallWidget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmallWidget/Pods-SmallWidget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04BDA08D5C544980D39BC58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmallWidget-SmallWidgetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F362562A28378700F3959A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D900D12B26803D00B287B8 /* SwiftUIRewardView.swift in Sources */,
+				E9476E9E2B0F499A00944D14 /* SlidingTabBar.swift in Sources */,
+				F48B2E1C2A395A5800F56123 /* CyclePickerView.swift in Sources */,
+				560916812B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */,
+				F48B2DF62A38334E00F56123 /* MoodConfig.swift in Sources */,
+				F9D900CD2B267DEF00B287B8 /* SwiftUIInterstitialView.swift in Sources */,
+				F45866482A31F808005815BF /* AboutView.swift in Sources */,
+				F48B2DDB2A370B6D00F56123 /* XPanelView.swift in Sources */,
+				F47D856F2A2D74990043D1C6 /* WidgetsTabView.swift in Sources */,
+				F48B2DC42A35CF2E00F56123 /* EditorTextColor.swift in Sources */,
+				F48B2E062A3838FA00F56123 /* BatteryConfig.swift in Sources */,
+				5697E1532BA3E49800C076F5 /* WidgetEditorStatus.swift in Sources */,
+				F4D68B7C2A492B070062313A /* CalendarTool.swift in Sources */,
+				5609163C2B889D2D00B5C01C /* PointAnimation.swift in Sources */,
+				F4D68B982A5025680062313A /* JRWidgetConfigure.swift in Sources */,
+				56E31A0A2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
+				F48B2E0F2A384F3B00F56123 /* MoodsView.swift in Sources */,
+				F4D68B7F2A499CBC0062313A /* BatteryHelper.swift in Sources */,
+				F47D85732A2D7D420043D1C6 /* AppStyle.swift in Sources */,
+				F48B2DDD2A370B8100F56123 /* CalendarView.swift in Sources */,
+				F48B2DCA2A35CFB900F56123 /* EditorTodoList.swift in Sources */,
+				F9FE847E2C6A138E00857291 /* BaseKeychinaUnit.swift in Sources */,
+				F48B2E0D2A384F2100F56123 /* BatterysView.swift in Sources */,
+				F94899D12B22348700FE42B9 /* FirebaseNetwork.swift in Sources */,
+				560916C12B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */,
+				E9476E9F2B0F499A00944D14 /* FrameReader.swift in Sources */,
+				F48B2E222A39BDCC00F56123 /* WidgetModel.swift in Sources */,
+				F4D68BA22A5440080062313A /* ViewListExtension.swift in Sources */,
+				56B391A12B9AE74200BFC67D /* EditorTextFont.swift in Sources */,
+				F48B2DF22A3831AC00F56123 /* PhotoConfig.swift in Sources */,
+				F4F362672A28378800F3959A /* Persistence.swift in Sources */,
+				845C55572BCAF78C003F683F /* LargeStashView.swift in Sources */,
+				E95008F12AFA1C2D004646C9 /* TodoView.swift in Sources */,
+				F47D857E2A2DFCE00043D1C6 /* SettingView.swift in Sources */,
+				845C55502BCAF04B003F683F /* LargeView.swift in Sources */,
+				F458664E2A341086005815BF /* ContentViewModel.swift in Sources */,
+				F458663D2A30B067005815BF /* MyWidgetsView.swift in Sources */,
+				E9476E972B0F499A00944D14 /* BatteryHelper.swift in Sources */,
+				F47D85712A2D781E0043D1C6 /* AppFont.swift in Sources */,
+				F48B2DE12A370BA800F56123 /* AnniversarysView.swift in Sources */,
+				F48B2E1A2A39479200F56123 /* DatePickerView.swift in Sources */,
+				564103D32C58BCB000A0FA67 /* PayConfig.swift in Sources */,
+				56B391A52B9EB1B200BFC67D /* EditorImageDynamic.swift in Sources */,
+				F9D900CA2B2679FB00B287B8 /* SwiftUIBannerView.swift in Sources */,
+				F48B2DCC2A35D02500F56123 /* EditorAnniversary.swift in Sources */,
+				56E9492D2BCF7B0100E77CDE /* BatterStyle.swift in Sources */,
+				E9A1D06C2D8CFCB000360A93 /* BatteryDark.swift in Sources */,
+				E95008F72AFA1C8C004646C9 /* TodoConfig.swift in Sources */,
+				F48B2E112A384F5900F56123 /* PhotosView.swift in Sources */,
+				F9D900CF2B267FB000B287B8 /* SwiftUIFullScreenModefier.swift in Sources */,
+				560916322B874C2600B5C01C /* ClockListConfig.swift in Sources */,
+				E99524C32D092F0C00ED242A /* FloatView.swift in Sources */,
+				560916D92B8F12F000B5C01C /* WidgetSettingView.swift in Sources */,
+				845C55522BCAF059003F683F /* LargeConfig.swift in Sources */,
+				5609164E2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */,
+				F48B2DEA2A38050F00F56123 /* WidgetStyle.swift in Sources */,
+				E9476EA02B0F499A00944D14 /* ScrollSlidingTabBar.swift in Sources */,
+				E9D9151A2AF9D1E900D14557 /* CalendarConfig.swift in Sources */,
+				F9D900D32B26807300B287B8 /* SwiftUIStartView.swift in Sources */,
+				F48B2DFE2A38371800F56123 /* AnniversaryConfig.swift in Sources */,
+				F458664A2A331108005815BF /* WidgetEditorView.swift in Sources */,
+				F48B2E022A38384E00F56123 /* XPanelConfig.swift in Sources */,
+				F4F3626A2A28378800F3959A /* SmallWidget.xcdatamodeld in Sources */,
+				F9D900D52B26809500B287B8 /* SwiftUINativeView.swift in Sources */,
+				567CD1832B9181A20062B47A /* WhitePanel.swift in Sources */,
+				F4F362602A28378700F3959A /* ContentView.swift in Sources */,
+				F48B2DC82A35CF8C00F56123 /* EditorMatter.swift in Sources */,
+				F4F3628E2A28399B00F3959A /* BootBoardingPage.swift in Sources */,
+				5609161E2B87498D00B5C01C /* OrangeClock.swift in Sources */,
+				F48B2DD02A35D07400F56123 /* EditorImage.swift in Sources */,
+				E99014D12AF38A3400F9FF18 /* AppImage.swift in Sources */,
+				5609169A2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */,
+				F458664F2A341086005815BF /* SnapCarousel.swift in Sources */,
+				F4F362A72A28822900F3959A /* ClockWidget.intentdefinition in Sources */,
+				56B391742B96F3A400BFC67D /* BlackClock.swift in Sources */,
+				E9BE676B2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */,
+				5609166C2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */,
+				560916462B8C2D9500B5C01C /* EventAnniversary.swift in Sources */,
+				F4F3625E2A28378700F3959A /* SmallWidgetApp.swift in Sources */,
+				F48B2DC62A35CF4C00F56123 /* EditorBackground.swift in Sources */,
+				560916DD2B8F130900B5C01C /* TransparentView.swift in Sources */,
+				56E31A052C64BD06007518F1 /* CalendarMountain.swift in Sources */,
+				E9BE674A2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */,
+				563811EF2C60D45B007B8FE8 /* VIPDetailView.swift in Sources */,
+				F4F362902A284DB400F3959A /* AppColor.swift in Sources */,
+				F48B2DD92A370B5B00F56123 /* ClockListView.swift in Sources */,
+				56B391792B96F93700BFC67D /* BombooClock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F3626C2A28378800F3959A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F362752A28378800F3959A /* SmallWidgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362762A28378800F3959A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F362812A28378800F3959A /* SmallWidgetUITestsLaunchTests.swift in Sources */,
+				F4F3627F2A28378800F3959A /* SmallWidgetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362912A28822800F3959A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D68B842A4A77D90062313A /* AppColor.swift in Sources */,
+				5609169B2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */,
+				567CD1522B916A620062B47A /* TodoConfig.swift in Sources */,
+				5609167B2B8D8BED00B5C01C /* MoodConfig.swift in Sources */,
+				56B3917A2B96F93700BFC67D /* BombooClock.swift in Sources */,
+				F4D68B802A499CBC0062313A /* BatteryHelper.swift in Sources */,
+				560916472B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */,
+				56E9492E2BCF7B0A00E77CDE /* BatterStyle.swift in Sources */,
+				E99014D22AF38A3D00F9FF18 /* AppImage.swift in Sources */,
+				F4F3629D2A28822800F3959A /* ClockWidgetBundle.swift in Sources */,
+				560916332B874C5800B5C01C /* ClockListConfig.swift in Sources */,
+				849461972AF1A52E000C9BE3 /* Persistence.swift in Sources */,
+				F4D68B7D2A492B070062313A /* CalendarTool.swift in Sources */,
+				E9BE67492CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */,
+				560916252B874A3C00B5C01C /* OrangeClock.swift in Sources */,
+				56E31A062C64BD06007518F1 /* CalendarMountain.swift in Sources */,
+				560916C22B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */,
+				F4D68B942A4D485A0062313A /* MediumTypeWidget.swift in Sources */,
+				F4D68B962A4D48FE0062313A /* LargeTypeWidget.swift in Sources */,
+				5609167D2B8D92D200B5C01C /* PhotoConfig.swift in Sources */,
+				E9A1D06E2D8CFCB000360A93 /* BatteryDark.swift in Sources */,
+				845C55532BCAF065003F683F /* LargeConfig.swift in Sources */,
+				F4F362A62A28822900F3959A /* ClockWidget.intentdefinition in Sources */,
+				5609164F2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */,
+				F4D68B8B2A4C1BBE0062313A /* SmallWidget.xcdatamodeld in Sources */,
+				F4D68B712A4847C10062313A /* AppFont.swift in Sources */,
+				F4D68B772A4913D10062313A /* SmallTypeWidget.swift in Sources */,
+				845C55582BCAF793003F683F /* LargeStashView.swift in Sources */,
+				567CD18B2B9187070062B47A /* XPanelConfig.swift in Sources */,
+				56B391752B96F3A400BFC67D /* BlackClock.swift in Sources */,
+				5609166D2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */,
+				E9E15B1D2AF0CEE1001E9840 /* JRWidgetConfigure.swift in Sources */,
+				E9BE676C2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */,
+				F4D68B9C2A50260F0062313A /* WidgetExtensionUI.swift in Sources */,
+				567CD1842B9181A20062B47A /* WhitePanel.swift in Sources */,
+				560916A22B8DC1D200B5C01C /* BatteryConfig.swift in Sources */,
+				560916B82B8DCBD800B5C01C /* CalendarConfig.swift in Sources */,
+				560916402B88A13B00B5C01C /* PointAnimation.swift in Sources */,
+				560916822B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */,
+				56E31A0B2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
+				560916512B8C326400B5C01C /* AnniversaryConfig.swift in Sources */,
+				E9760C5D2AF101DE009406CA /* WidgetStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F362B22A28D4C500F3959A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560916C32B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */,
+				560916B92B8DCBD900B5C01C /* CalendarConfig.swift in Sources */,
+				E9BE674B2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */,
+				5609167C2B8D8BEE00B5C01C /* MoodConfig.swift in Sources */,
+				56E31A072C64BD06007518F1 /* CalendarMountain.swift in Sources */,
+				56B391762B96F3A400BFC67D /* BlackClock.swift in Sources */,
+				E9B02EA32AF22B0100DD27BE /* JRWidgetConfigure.swift in Sources */,
+				56B3917B2B96F93700BFC67D /* BombooClock.swift in Sources */,
+				F4D68B8C2A4C1BC10062313A /* SmallWidget.xcdatamodeld in Sources */,
+				E99014CE2AF23AD300F9FF18 /* AppFont.swift in Sources */,
+				845C55542BCAF065003F683F /* LargeConfig.swift in Sources */,
+				560916522B8C326400B5C01C /* AnniversaryConfig.swift in Sources */,
+				56E31A0C2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
+				5609169C2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */,
+				E9BE676A2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */,
+				E9B02EA42AF2397300DD27BE /* WidgetStyle.swift in Sources */,
+				F4D68B9D2A50260F0062313A /* WidgetExtensionUI.swift in Sources */,
+				E99014CC2AF23AA000F9FF18 /* CalendarTool.swift in Sources */,
+				567CD1852B9181A20062B47A /* WhitePanel.swift in Sources */,
+				E99014D32AF38A3D00F9FF18 /* AppImage.swift in Sources */,
+				560916832B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */,
+				560916482B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */,
+				560916412B88A13C00B5C01C /* PointAnimation.swift in Sources */,
+				849461982AF1A52E000C9BE3 /* Persistence.swift in Sources */,
+				F4F362BB2A28D4C500F3959A /* IntentHandler.swift in Sources */,
+				5609167E2B8D92D200B5C01C /* PhotoConfig.swift in Sources */,
+				560916342B874C5900B5C01C /* ClockListConfig.swift in Sources */,
+				F4F362C32A28D54300F3959A /* ClockWidget.intentdefinition in Sources */,
+				560916262B874A3C00B5C01C /* OrangeClock.swift in Sources */,
+				845C55592BCAF793003F683F /* LargeStashView.swift in Sources */,
+				E9A1D06D2D8CFCB000360A93 /* BatteryDark.swift in Sources */,
+				567CD1532B916A630062B47A /* TodoConfig.swift in Sources */,
+				560916502B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */,
+				E99014CB2AF23A4700F9FF18 /* AppColor.swift in Sources */,
+				560916A32B8DC1D300B5C01C /* BatteryConfig.swift in Sources */,
+				567CD18C2B9187080062B47A /* XPanelConfig.swift in Sources */,
+				5609166E2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */,
+				56E9492F2BCF7B0A00E77CDE /* BatterStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4F362722A28378800F3959A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F362592A28378700F3959A /* SmallWidget */;
+			targetProxy = F4F362712A28378800F3959A /* PBXContainerItemProxy */;
+		};
+		F4F3627C2A28378800F3959A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F362592A28378700F3959A /* SmallWidget */;
+			targetProxy = F4F3627B2A28378800F3959A /* PBXContainerItemProxy */;
+		};
+		F4F362A92A28822900F3959A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F362942A28822800F3959A /* ClockWidgetExtension */;
+			targetProxy = F4F362A82A28822900F3959A /* PBXContainerItemProxy */;
+		};
+		F4F362BE2A28D4C500F3959A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F362B52A28D4C500F3959A /* SmallWidgetIntents */;
+			targetProxy = F4F362BD2A28D4C500F3959A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4F362822A28378800F3959A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4F362832A28378800F3959A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4F362852A28378800F3959A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D128750103EE3C8D2EE860F /* Pods-SmallWidget.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SmallWidget/SmallWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 213124242423;
+				DEVELOPMENT_ASSET_PATHS = "\"SmallWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = 6C97UPNGN5;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON/HandyJSON.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework/Headers\"",
+				);
+				INFOPLIST_FILE = SmallWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Focus Widgets";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "You need access to your Bluetooth to get device information";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Better photo component settings, please allow camera shooting to be turned on";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Better component settings, please allow photo albums to be opened";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please be assured that turning on the permission will not obtain your private information on other sites. This permission is only used to identify the device, third-party advertising, and ensure service security and prompt browsing experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.widget.theme.lock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4F362862A28378800F3959A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CFC656D88012F96E85AC05 /* Pods-SmallWidget.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SmallWidget/SmallWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 213124242423;
+				DEVELOPMENT_ASSET_PATHS = "\"SmallWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = 6C97UPNGN5;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON/HandyJSON.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework/Headers\"",
+				);
+				INFOPLIST_FILE = SmallWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Focus Widgets";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "You need access to your Bluetooth to get device information";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Better photo component settings, please allow camera shooting to be turned on";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Better component settings, please allow photo albums to be opened";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please be assured that turning on the permission will not obtain your private information on other sites. This permission is only used to identify the device, third-party advertising, and ensure service security and prompt browsing experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.widget.theme.lock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F4F362882A28378800F3959A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2B5F34C8206FCEEDB98ED3 /* Pods-SmallWidgetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC3MN87Q9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widget.small.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallWidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmallWidget";
+			};
+			name = Debug;
+		};
+		F4F362892A28378800F3959A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C6FECD39990AF63D6219C8 /* Pods-SmallWidgetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC3MN87Q9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widget.small.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallWidget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmallWidget";
+			};
+			name = Release;
+		};
+		F4F3628B2A28378800F3959A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36382B6E7D42AF52B7D78A08 /* Pods-SmallWidget-SmallWidgetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C97UPNGN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widget.small.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmallWidget;
+			};
+			name = Debug;
+		};
+		F4F3628C2A28378800F3959A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C463D646277BEB6FB90B29 /* Pods-SmallWidget-SmallWidgetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C97UPNGN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widget.small.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmallWidget;
+			};
+			name = Release;
+		};
+		F4F362AC2A28822900F3959A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181CEE87FAB10853E9BA6CE1 /* Pods-ClockWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ClockWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C97UPNGN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClockWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClockWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.widget.theme.lock.plug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4F362AD2A28822900F3959A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5F460BD05380E0C141F5DA /* Pods-ClockWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ClockWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C97UPNGN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClockWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClockWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.widget.theme.lock.plug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F4F362C12A28D4C500F3959A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6433EECA5148C779CDF95564 /* Pods-SmallWidgetIntents.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SmallWidgetIntents/SmallWidgetIntents.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C97UPNGN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmallWidgetIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SmallWidgetIntents;
+				INFOPLIST_KEY_NSCameraUsageDescription = "If you want to set up a photo wall, please allow users to access the camera";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow I access to the device's microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "If you want to set up a photo wall, please allow users to access the album";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App will not track or keep any record of your activities, authorizing tracking however can help us offer no cost services funded by personalized advertising.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.widget.theme.lock.intents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4F362C22A28D4C500F3959A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5800541B8872DE070E95DF /* Pods-SmallWidgetIntents.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SmallWidgetIntents/SmallWidgetIntents.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6C97UPNGN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmallWidgetIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SmallWidgetIntents;
+				INFOPLIST_KEY_NSCameraUsageDescription = "If you want to set up a photo wall, please allow users to access the camera";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow I access to the device's microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "If you want to set up a photo wall, please allow users to access the album";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App will not track or keep any record of your activities, authorizing tracking however can help us offer no cost services funded by personalized advertising.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.widget.theme.lock.intents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F362552A28378700F3959A /* Build configuration list for PBXProject "SmallWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F362822A28378800F3959A /* Debug */,
+				F4F362832A28378800F3959A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F362842A28378800F3959A /* Build configuration list for PBXNativeTarget "SmallWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F362852A28378800F3959A /* Debug */,
+				F4F362862A28378800F3959A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F362872A28378800F3959A /* Build configuration list for PBXNativeTarget "SmallWidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F362882A28378800F3959A /* Debug */,
+				F4F362892A28378800F3959A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F3628A2A28378800F3959A /* Build configuration list for PBXNativeTarget "SmallWidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F3628B2A28378800F3959A /* Debug */,
+				F4F3628C2A28378800F3959A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F362AB2A28822900F3959A /* Build configuration list for PBXNativeTarget "ClockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F362AC2A28822900F3959A /* Debug */,
+				F4F362AD2A28822900F3959A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F362C02A28D4C500F3959A /* Build configuration list for PBXNativeTarget "SmallWidgetIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F362C12A28D4C500F3959A /* Debug */,
+				F4F362C22A28D4C500F3959A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5609163D2B889E8C00B5C01C /* XCRemoteSwiftPackageReference "ClockHandRotationKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/octree/ClockHandRotationKit";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		567CD18D2B91C6DA0062B47A /* ClockHandRotationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5609163D2B889E8C00B5C01C /* XCRemoteSwiftPackageReference "ClockHandRotationKit" */;
+			productName = ClockHandRotationKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F4F362682A28378800F3959A /* SmallWidget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4F362692A28378800F3959A /* SmallWidget.xcdatamodel */,
+			);
+			currentVersion = F4F362692A28378800F3959A /* SmallWidget.xcdatamodel */;
+			path = SmallWidget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4F362522A28378700F3959A /* Project object */;
+}

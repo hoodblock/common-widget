@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "clockhandrotationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/octree/ClockHandRotationKit",
+      "state" : {
+        "revision" : "58f85229b7912fde0eba68626b31c989956be374",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

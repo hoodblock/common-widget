@@ -1,0 +1,84 @@
+{
+    
+    "ad_ctrl":
+    {
+        "native_enable":     true,
+        "inter_enable":      true,
+        "banner_enable":     true,
+    },
+  
+    "ad_detail":
+    {
+        
+        "release_ad_value":
+        [
+            {
+                "ad_id":                "ca-app-pub-108140567197/901",
+                "ad_type":              "APP_OPEN",
+                "ad_name":              "high-splash"
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-108140567197/835",
+                "ad_type":              "NATIVE",
+                "ad_name":              "high-native"
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-108140567197/992",
+                "ad_type":              "INTERSTITIAL",
+                "ad_name":              "high-inter"
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-108120567197/117",
+                "ad_type":              "BANNER",
+                "ad_name":              "high-banner",
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-39402560544/1712",
+                "ad_type":              "REWARD",
+                "ad_name":              "high-reward",
+            }
+        ],
+        
+        
+        
+        "debug_ad_value":
+        [
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/5575463023",
+                "ad_type":              "APP_OPEN",
+                "ad_name":              "high-splash"
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/3986624511",
+                "ad_type":              "NATIVE",
+                "ad_name":              "high-native"
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/4411468910",
+                "ad_type":              "INTERSTITIAL",
+                "ad_name":              "high-inter"
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/2435281174",
+                "ad_type":              "BANNER",
+                "ad_name":              "high-banner",
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/1712485313",
+                "ad_type":              "REWARD",
+                "ad_name":              "high-reward",
+            }
+        ],
+        
+        
+    }
+    
+}
