@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
-		<string>iCloud.com.focus.widget.theme.lock</string>
+		<string>iCloud.com.subfg</string>
 	</array>
 	<key>com.apple.developer.icloud-services</key>
 	<array>
@@ -14,7 +14,7 @@
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.focus.widget.theme.lock</string>
+		<string>group.subfg.extension</string>
 	</array>
 </dict>
 </plist>

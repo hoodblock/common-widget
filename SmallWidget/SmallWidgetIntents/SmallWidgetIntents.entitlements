@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.focus.widget.theme.lock</string>
+		<string>group.subfg.extension</string>
 	</array>
 </dict>
 </plist>
