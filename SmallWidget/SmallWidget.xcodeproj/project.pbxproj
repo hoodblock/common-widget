@@ -1928,7 +1928,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework/Headers\"",
 				);
 				INFOPLIST_FILE = SmallWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Focus Widgets";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Widgets";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "You need access to your Bluetooth to get device information";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Better photo component settings, please allow camera shooting to be turned on";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Better component settings, please allow photo albums to be opened";
@@ -1982,7 +1982,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework/Headers\"",
 				);
 				INFOPLIST_FILE = SmallWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Focus Widgets";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Widgets";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "You need access to your Bluetooth to get device information";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Better photo component settings, please allow camera shooting to be turned on";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Better component settings, please allow photo albums to be opened";

@@ -55,7 +55,7 @@ struct WidgetSettingView: View {
                         }
                         VStack (alignment: .center, spacing: ViewLayout.SWidth(15)) {
                             HStack (alignment: .center, spacing: 0) {
-                                Text("2.Found“Focus Widgets”.")
+                                Text("2.Found“Simple Widgets”.")
                                 Spacer()
                             }
                             HStack (alignment: .center, spacing: ViewLayout.SWidth(10)) {

@@ -75,7 +75,7 @@ struct WidgetsTabView: View {
                         VStack (alignment: .center, spacing: ViewLayout.SWidth(15)) {
                             // 顶部区域 （文案 / 搜索）
                             HStack(alignment:.center, spacing: 0) {
-                                Text("Focus Widgets")
+                                Text("Simple Widgets")
                                     .font(.S_Pro_20(.medium))
                                     .foregroundColor(Color.Color_393672)
                                 Spacer(minLength: 0)
