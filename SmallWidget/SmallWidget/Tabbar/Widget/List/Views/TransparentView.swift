@@ -64,7 +64,7 @@ struct TransparentView: View {
                                         if let imageData = uiImage.jpegData(compressionQuality: 0.8) {
                                             self.selectedLightImageData = imageData.base64EncodedString()
                                             UserDefaults.standard.setValue(imageData.base64EncodedString(), forKey: DeviceInfoUtil.getappName() + "UploadImageLightString")
-                                            UserDefaults(suiteName: "group.com.focus.widget.theme.lock")!.setValue(imageData.base64EncodedString(), forKey: "UploadImageLightString")
+                                            UserDefaults(suiteName: "group.com.subfg")!.setValue(imageData.base64EncodedString(), forKey: "UploadImageLightString")
                                             UserDefaults.standard.synchronize()
                                         }
                                     }
@@ -98,7 +98,7 @@ struct TransparentView: View {
                                         if let imageData = uiImage.jpegData(compressionQuality: 0.8) {
                                             self.selectedDarkImageData = imageData.base64EncodedString()
                                             UserDefaults.standard.setValue(imageData.base64EncodedString(), forKey: DeviceInfoUtil.getappName() + "UploadImageDarkString")
-                                            UserDefaults(suiteName: "group.com.focus.widget.theme.lock")!.setValue(imageData.base64EncodedString(), forKey: "UploadImageDarkString")
+                                            UserDefaults(suiteName: "group.com.subfg")!.setValue(imageData.base64EncodedString(), forKey: "UploadImageDarkString")
                                             UserDefaults.standard.synchronize()
                                         }
                                     }

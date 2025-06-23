@@ -15,7 +15,7 @@ let medium_width = "MEDIUMTYPEPROVIDER_WIDTH"
 let medium_height = "MEDIUMTYPEPROVIDER_HEIGHT"
 let large_width = "LARGETYPEPROVIDER_WIDTH"
 let large_height = "LARGETYPEPROVIDER_HEIGHT"
-let group_id = "group.com.focus.widget.theme.lock"
+let group_id = "group.com.subfg"
 
 let dynamic_follow_app = "dynamic_transparentType_follow_app"
 let dynamic_top = "dynamic_transparentType_top"
@@ -28,7 +28,7 @@ let dynamic_bottom = "dynamic_transparentType_bottom"
 let dynamic_left_bottom = "dynamic_transparentType_left_bottom"
 let dynamic_right_bottom = "dynamic_transparentType_right_bottom"
 
-let app_name = "Common Widgets"
+let app_name = "Simple Widgets"
 
 //小组件位置枚举
 enum SWidgetSizeEnum {

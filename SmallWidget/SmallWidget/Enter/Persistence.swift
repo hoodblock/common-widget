@@ -14,7 +14,7 @@ struct PersistenceController {
     let container: NSPersistentCloudKitContainer = NSPersistentCloudKitContainer(name: "SmallWidget")
     
     init() {
-        let groupIdentifier = "group.com.focus.widget.theme.lock"
+        let groupIdentifier = "group.com.subfg"
         if let storeURL = URL.storeURL(for: groupIdentifier, databaseName: "SmallWidget") {
             let storeDescription = NSPersistentStoreDescription(url: storeURL)
             storeDescription.cloudKitContainerOptions = NSPersistentCloudKitContainerOptions(containerIdentifier: groupIdentifier)
