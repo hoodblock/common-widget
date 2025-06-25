@@ -216,11 +216,6 @@ struct WidgetEditorView: View {
             })
             .background(BackgroundClearView())
         }
-        .sheet(isPresented: $showWebView) {
-            SafariView(url: URL(string: "https://baidu.com/")!, onDismiss: {
-                print("Safari View dismissed.")
-            })
-        }
         .toolbarBackground(.white, for: .navigationBar)
     }
     

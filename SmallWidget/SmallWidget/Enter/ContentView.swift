@@ -54,8 +54,6 @@ struct PopupView: View {
 
 enum Tab : Int32 {
     case widgets = 0
-    case setting = 1
-    case _default = 2   // 用于weight = 0的变量，在适当的时候切回到第一个tab，又外部来处理，需要的时候，要把Tab 一层层传递一下去
 }
 
 struct ContentView: View {
@@ -116,18 +114,7 @@ struct ContentView: View {
     
     func tableBottomView() -> some View {
         NavigationStack() {
-            TabView(selection: $tabSelected) {
-                WidgetsTabView(tabSelected: $tabSelected, widgetSelected: $widgetSelected)
-                    .tabItem {
-                        tabSelected == Tab.widgets ? Label("Widgets", image: "tabbar_widget_selected") : Label("Widgets", image: "tabbar_widget_normal")
-                    }
-                    .tag(Tab.widgets)
-                SettingView()
-                    .tabItem {
-                        tabSelected == Tab.setting ? Label("Setting", image:"tabbar_setting_seleted"): Label("Setting", image: "tabbar_setting_normal")
-                    }
-                    .tag(Tab.setting)
-            }
+            WidgetsTabView(tabSelected: $tabSelected, widgetSelected: $widgetSelected)
         }
     }
 }

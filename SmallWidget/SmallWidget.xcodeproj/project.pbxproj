@@ -94,7 +94,6 @@
 		E9D9151A2AF9D1E900D14557 /* CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D915192AF9D1E900D14557 /* CalendarConfig.swift */; };
 		E9E15B1D2AF0CEE1001E9840 /* JRWidgetConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B972A5025680062313A /* JRWidgetConfigure.swift */; };
 		F458663D2A30B067005815BF /* MyWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F458663C2A30B067005815BF /* MyWidgetsView.swift */; };
-		F45866482A31F808005815BF /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45866472A31F808005815BF /* AboutView.swift */; };
 		F458664A2A331108005815BF /* WidgetEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45866492A331108005815BF /* WidgetEditorView.swift */; };
 		F458664E2A341086005815BF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F458664C2A341085005815BF /* ContentViewModel.swift */; };
 		F458664F2A341086005815BF /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F458664D2A341086005815BF /* SnapCarousel.swift */; };
@@ -111,7 +110,6 @@
 		F47D856F2A2D74990043D1C6 /* WidgetsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D856E2A2D74990043D1C6 /* WidgetsTabView.swift */; };
 		F47D85712A2D781E0043D1C6 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D85702A2D781E0043D1C6 /* AppFont.swift */; };
 		F47D85732A2D7D420043D1C6 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D85722A2D7D420043D1C6 /* AppStyle.swift */; };
-		F47D857E2A2DFCE00043D1C6 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47D857D2A2DFCE00043D1C6 /* SettingView.swift */; };
 		F48B2DC42A35CF2E00F56123 /* EditorTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DC32A35CF2E00F56123 /* EditorTextColor.swift */; };
 		F48B2DC62A35CF4C00F56123 /* EditorBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DC52A35CF4C00F56123 /* EditorBackground.swift */; };
 		F48B2DC82A35CF8C00F56123 /* EditorMatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DC72A35CF8C00F56123 /* EditorMatter.swift */; };
@@ -285,7 +283,6 @@
 		E99524C22D092EFF00ED242A /* FloatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatView.swift; sourceTree = "<group>"; };
 		E9D915192AF9D1E900D14557 /* CalendarConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarConfig.swift; sourceTree = "<group>"; };
 		F458663C2A30B067005815BF /* MyWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidgetsView.swift; sourceTree = "<group>"; };
-		F45866472A31F808005815BF /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		F45866492A331108005815BF /* WidgetEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEditorView.swift; sourceTree = "<group>"; };
 		F458664C2A341085005815BF /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		F458664D2A341086005815BF /* SnapCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
@@ -297,7 +294,6 @@
 		F47D856E2A2D74990043D1C6 /* WidgetsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsTabView.swift; sourceTree = "<group>"; };
 		F47D85702A2D781E0043D1C6 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		F47D85722A2D7D420043D1C6 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
-		F47D857D2A2DFCE00043D1C6 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		F48B2DC32A35CF2E00F56123 /* EditorTextColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorTextColor.swift; sourceTree = "<group>"; };
 		F48B2DC52A35CF4C00F56123 /* EditorBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorBackground.swift; sourceTree = "<group>"; };
 		F48B2DC72A35CF8C00F56123 /* EditorMatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorMatter.swift; sourceTree = "<group>"; };
@@ -524,8 +520,8 @@
 		E9E15B012AF0C95D001E9840 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				563811EE2C60D45B007B8FE8 /* VIPDetailView.swift */,
 				E9E15B022AF0C984001E9840 /* Widget */,
-				E9E15B142AF0CB8A001E9840 /* Setting */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -577,16 +573,6 @@
 			path = Calendars;
 			sourceTree = "<group>";
 		};
-		E9E15B142AF0CB8A001E9840 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				F47D857D2A2DFCE00043D1C6 /* SettingView.swift */,
-				E9E15B172AF0CC2F001E9840 /* About */,
-				563811EE2C60D45B007B8FE8 /* VIPDetailView.swift */,
-			);
-			path = Setting;
-			sourceTree = "<group>";
-		};
 		E9E15B152AF0CBF1001E9840 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,14 +582,6 @@
 				E99014D02AF38A3400F9FF18 /* AppImage.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		E9E15B172AF0CC2F001E9840 /* About */ = {
-			isa = PBXGroup;
-			children = (
-				F45866472A31F808005815BF /* AboutView.swift */,
-			);
-			path = About;
 			sourceTree = "<group>";
 		};
 		E9E15B182AF0CC4C001E9840 /* ScrollTab */ = {
@@ -1317,7 +1295,6 @@
 				E9476E9E2B0F499A00944D14 /* SlidingTabBar.swift in Sources */,
 				F48B2E1C2A395A5800F56123 /* CyclePickerView.swift in Sources */,
 				F9D900CD2B267DEF00B287B8 /* SwiftUIInterstitialView.swift in Sources */,
-				F45866482A31F808005815BF /* AboutView.swift in Sources */,
 				F48B2DDB2A370B6D00F56123 /* XPanelView.swift in Sources */,
 				F47D856F2A2D74990043D1C6 /* WidgetsTabView.swift in Sources */,
 				F48B2DC42A35CF2E00F56123 /* EditorTextColor.swift in Sources */,
@@ -1339,7 +1316,6 @@
 				F4D68BA22A5440080062313A /* ViewListExtension.swift in Sources */,
 				56B391A12B9AE74200BFC67D /* EditorTextFont.swift in Sources */,
 				F4F362672A28378800F3959A /* Persistence.swift in Sources */,
-				F47D857E2A2DFCE00043D1C6 /* SettingView.swift in Sources */,
 				F458664E2A341086005815BF /* ContentViewModel.swift in Sources */,
 				F458663D2A30B067005815BF /* MyWidgetsView.swift in Sources */,
 				E9476E972B0F499A00944D14 /* BatteryHelper.swift in Sources */,

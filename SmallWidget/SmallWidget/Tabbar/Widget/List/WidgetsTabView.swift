@@ -105,18 +105,7 @@ struct WidgetsTabView: View {
                     .padding([.leading,.trailing], ViewLayout.S_W_20())
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
-//                .overlay {
-//                    FloatingDragView {
-//                        self.showWebView = true
-//                    }
-//                }
-                
             } // GeometryReader
-            .sheet(isPresented: $showWebView) {
-                SafariView(url: URL(string: "https://baidu.com/")!, onDismiss: {
-                    print("Safari View dismissed.")
-                })
-            }
         } // Color
         .onAppear {
             nativeModel = FirebaseNetwork.shared.loadNativeAdViewModel().0
