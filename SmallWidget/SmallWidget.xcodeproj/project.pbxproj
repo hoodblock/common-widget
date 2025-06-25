@@ -16,9 +16,9 @@
 		560916322B874C2600B5C01C /* ClockListConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916312B874C2600B5C01C /* ClockListConfig.swift */; };
 		560916332B874C5800B5C01C /* ClockListConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916312B874C2600B5C01C /* ClockListConfig.swift */; };
 		560916342B874C5900B5C01C /* ClockListConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916312B874C2600B5C01C /* ClockListConfig.swift */; };
-		5609163C2B889D2D00B5C01C /* PointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* PointAnimation.swift */; };
-		560916402B88A13B00B5C01C /* PointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* PointAnimation.swift */; };
-		560916412B88A13C00B5C01C /* PointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* PointAnimation.swift */; };
+		5609163C2B889D2D00B5C01C /* AnimatedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */; };
+		560916402B88A13B00B5C01C /* AnimatedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */; };
+		560916412B88A13C00B5C01C /* AnimatedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */; };
 		560916462B8C2D9500B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
 		560916472B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
 		560916482B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
@@ -84,6 +84,28 @@
 		760031002AE84BDC006D237D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FF2AE84BDC006D237D /* SwiftUI.framework */; };
 		760031022AE84BE9006D237D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760031012AE84BE9006D237D /* WidgetKit.framework */; };
 		760031032AE84BF7006D237D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FF2AE84BDC006D237D /* SwiftUI.framework */; };
+		84206C372E0ABA3600CA915B /* BlackSquare.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84206C362E0ABA3600CA915B /* BlackSquare.otf */; };
+		84206C382E0ABA3600CA915B /* BlackSquare.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84206C362E0ABA3600CA915B /* BlackSquare.otf */; };
+		84206C3A2E0ABA7900CA915B /* DynamicFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84206C392E0ABA7900CA915B /* DynamicFont.ttf */; };
+		84206C3B2E0ABA7900CA915B /* DynamicFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84206C392E0ABA7900CA915B /* DynamicFont.ttf */; };
+		84206C472E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C462E0ACB8200CA915B /* AnimatedArcGIFView.swift */; };
+		84206C482E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C462E0ACB8200CA915B /* AnimatedArcGIFView.swift */; };
+		84206C492E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C462E0ACB8200CA915B /* AnimatedArcGIFView.swift */; };
+		84206C542E0ACC9C00CA915B /* animation_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C4F2E0ACC9C00CA915B /* animation_1.gif */; };
+		84206C5A2E0ACC9C00CA915B /* animation_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C4F2E0ACC9C00CA915B /* animation_1.gif */; };
+		84206C602E0ACC9C00CA915B /* animation_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C4F2E0ACC9C00CA915B /* animation_1.gif */; };
+		84206C632E0B085500CA915B /* animation_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C622E0B085500CA915B /* animation_0.gif */; };
+		84206C642E0B085500CA915B /* animation_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C622E0B085500CA915B /* animation_0.gif */; };
+		84206C652E0B085500CA915B /* animation_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C622E0B085500CA915B /* animation_0.gif */; };
+		84206C672E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C662E0B15DD00CA915B /* AnimatedPowerArmView.swift */; };
+		84206C682E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C662E0B15DD00CA915B /* AnimatedPowerArmView.swift */; };
+		84206C692E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C662E0B15DD00CA915B /* AnimatedPowerArmView.swift */; };
+		84206C6C2E0B3CB400CA915B /* AnimationClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C6B2E0B3C9600CA915B /* AnimationClock.swift */; };
+		84206C6D2E0B3CB400CA915B /* AnimationClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C6B2E0B3C9600CA915B /* AnimationClock.swift */; };
+		84206C6E2E0B3CB400CA915B /* AnimationClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84206C6B2E0B3C9600CA915B /* AnimationClock.swift */; };
+		84206C702E0BDB2E00CA915B /* animation_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C6F2E0BDB2E00CA915B /* animation_2.gif */; };
+		84206C712E0BDB2E00CA915B /* animation_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C6F2E0BDB2E00CA915B /* animation_2.gif */; };
+		84206C722E0BDB2E00CA915B /* animation_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C6F2E0BDB2E00CA915B /* animation_2.gif */; };
 		845C55502BCAF04B003F683F /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C554F2BCAF04B003F683F /* LargeView.swift */; };
 		845C55522BCAF059003F683F /* LargeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55512BCAF059003F683F /* LargeConfig.swift */; };
 		845C55532BCAF065003F683F /* LargeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55512BCAF059003F683F /* LargeConfig.swift */; };
@@ -277,7 +299,7 @@
 		3D128750103EE3C8D2EE860F /* Pods-SmallWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidget.debug.xcconfig"; path = "Target Support Files/Pods-SmallWidget/Pods-SmallWidget.debug.xcconfig"; sourceTree = "<group>"; };
 		5609161D2B87498D00B5C01C /* OrangeClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeClock.swift; sourceTree = "<group>"; };
 		560916312B874C2600B5C01C /* ClockListConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockListConfig.swift; sourceTree = "<group>"; };
-		5609163B2B889D2C00B5C01C /* PointAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointAnimation.swift; sourceTree = "<group>"; };
+		5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedUIView.swift; sourceTree = "<group>"; };
 		560916452B8C2D9500B5C01C /* EventAnniversary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAnniversary.swift; sourceTree = "<group>"; };
 		5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowMountainAnniversary.swift; sourceTree = "<group>"; };
 		5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodColorfulMantou.swift; sourceTree = "<group>"; };
@@ -305,6 +327,14 @@
 		760030FF2AE84BDC006D237D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		760031012AE84BE9006D237D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		7A4CA8EBDB016A07A9634FE7 /* Pods_SmallWidgetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallWidgetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84206C362E0ABA3600CA915B /* BlackSquare.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlackSquare.otf; sourceTree = "<group>"; };
+		84206C392E0ABA7900CA915B /* DynamicFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFont.ttf; sourceTree = "<group>"; };
+		84206C462E0ACB8200CA915B /* AnimatedArcGIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedArcGIFView.swift; sourceTree = "<group>"; };
+		84206C4F2E0ACC9C00CA915B /* animation_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation_1.gif; sourceTree = "<group>"; };
+		84206C622E0B085500CA915B /* animation_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation_0.gif; sourceTree = "<group>"; };
+		84206C662E0B15DD00CA915B /* AnimatedPowerArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedPowerArmView.swift; sourceTree = "<group>"; };
+		84206C6B2E0B3C9600CA915B /* AnimationClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationClock.swift; sourceTree = "<group>"; };
+		84206C6F2E0BDB2E00CA915B /* animation_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation_2.gif; sourceTree = "<group>"; };
 		845C554F2BCAF04B003F683F /* LargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
 		845C55512BCAF059003F683F /* LargeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeConfig.swift; sourceTree = "<group>"; };
 		845C55562BCAF78C003F683F /* LargeStashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeStashView.swift; sourceTree = "<group>"; };
@@ -491,12 +521,17 @@
 			path = OrangeClock;
 			sourceTree = "<group>";
 		};
-		5609163A2B889D0D00B5C01C /* PointAnimation */ = {
+		5609163A2B889D0D00B5C01C /* WidgetAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				5609163B2B889D2C00B5C01C /* PointAnimation.swift */,
+				84206C662E0B15DD00CA915B /* AnimatedPowerArmView.swift */,
+				84206C622E0B085500CA915B /* animation_0.gif */,
+				84206C4F2E0ACC9C00CA915B /* animation_1.gif */,
+				84206C6F2E0BDB2E00CA915B /* animation_2.gif */,
+				5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */,
+				84206C462E0ACB8200CA915B /* AnimatedArcGIFView.swift */,
 			);
-			path = PointAnimation;
+			path = WidgetAnimation;
 			sourceTree = "<group>";
 		};
 		560916422B8C2D2F00B5C01C /* SnowMountain */ = {
@@ -622,6 +657,14 @@
 				E9E15B182AF0CC4C001E9840 /* ScrollTab */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		84206C6A2E0B3C8600CA915B /* AnimationClock */ = {
+			isa = PBXGroup;
+			children = (
+				84206C6B2E0B3C9600CA915B /* AnimationClock.swift */,
+			);
+			path = AnimationClock;
 			sourceTree = "<group>";
 		};
 		845C554E2BCAF028003F683F /* Large */ = {
@@ -917,6 +960,8 @@
 			isa = PBXGroup;
 			children = (
 				F47033C02A4153C700F30A40 /* Arbutus.ttf */,
+				84206C362E0ABA3600CA915B /* BlackSquare.otf */,
+				84206C392E0ABA7900CA915B /* DynamicFont.ttf */,
 				F47033B32A4153C400F30A40 /* SF_Pro.ttf */,
 				F47033B42A4153C400F30A40 /* Shrikhand.ttf */,
 				F47033AB2A4153C300F30A40 /* VastShadow.ttf */,
@@ -928,6 +973,7 @@
 		F48B2DE52A37FC2800F56123 /* Clocks */ = {
 			isa = PBXGroup;
 			children = (
+				84206C6A2E0B3C8600CA915B /* AnimationClock */,
 				560916172B8748D100B5C01C /* OrangeClock */,
 				56B391722B96F36500BFC67D /* BlackClock */,
 				56B391772B96F8EF00BFC67D /* Bamboo */,
@@ -994,7 +1040,7 @@
 			children = (
 				E99524C12D092E5B00ED242A /* FloatView */,
 				564103D12C58BC7800A0FA67 /* Pay */,
-				5609163A2B889D0D00B5C01C /* PointAnimation */,
+				5609163A2B889D0D00B5C01C /* WidgetAnimation */,
 				F9D900CB2B267D3E00B287B8 /* Admob */,
 				E9476E892B0F499700944D14 /* BatteryHelper.swift */,
 				F4D68B7B2A492B070062313A /* CalendarTool.swift */,
@@ -1311,16 +1357,21 @@
 			files = (
 				F4F362652A28378800F3959A /* Preview Assets.xcassets in Resources */,
 				F47033EE2A4153C700F30A40 /* Arbutus.ttf in Resources */,
+				84206C642E0B085500CA915B /* animation_0.gif in Resources */,
+				84206C722E0BDB2E00CA915B /* animation_2.gif in Resources */,
 				5697E14D2BA3062000C076F5 /* SwiftUINativeAdView_120.xib in Resources */,
 				F47033C42A4153C700F30A40 /* VastShadow.ttf in Resources */,
 				F47033D62A4153C700F30A40 /* Shrikhand.ttf in Resources */,
 				F91FA0BD2B1AFEC500E6F7FC /* Launch Screen.storyboard in Resources */,
 				F9D900D92B2922B500B287B8 /* FirebaseAdmobConfigJson.geojson in Resources */,
+				84206C602E0ACC9C00CA915B /* animation_1.gif in Resources */,
 				F47033EA2A4153C700F30A40 /* VesperLibre.ttf in Resources */,
 				F47033D42A4153C700F30A40 /* SF_Pro.ttf in Resources */,
+				84206C382E0ABA3600CA915B /* BlackSquare.otf in Resources */,
 				F4D68B732A486E550062313A /* Assets.xcassets in Resources */,
 				F4D68B752A486F410062313A /* Assets.xcassets in Resources */,
 				5697E1502BA3062000C076F5 /* SwiftUINativeAdView_200.xib in Resources */,
+				84206C3A2E0ABA7900CA915B /* DynamicFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1342,12 +1393,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84206C632E0B085500CA915B /* animation_0.gif in Resources */,
 				F4F362A42A28822900F3959A /* Assets.xcassets in Resources */,
+				84206C542E0ACC9C00CA915B /* animation_1.gif in Resources */,
+				84206C702E0BDB2E00CA915B /* animation_2.gif in Resources */,
 				F47033D72A4153C700F30A40 /* Shrikhand.ttf in Resources */,
 				F47033D52A4153C700F30A40 /* SF_Pro.ttf in Resources */,
 				F47033C52A4153C700F30A40 /* VastShadow.ttf in Resources */,
 				F47033EF2A4153C700F30A40 /* Arbutus.ttf in Resources */,
+				84206C372E0ABA3600CA915B /* BlackSquare.otf in Resources */,
 				F47033EB2A4153C700F30A40 /* VesperLibre.ttf in Resources */,
+				84206C3B2E0ABA7900CA915B /* DynamicFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1355,6 +1411,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84206C652E0B085500CA915B /* animation_0.gif in Resources */,
+				84206C712E0BDB2E00CA915B /* animation_2.gif in Resources */,
+				84206C5A2E0ACC9C00CA915B /* animation_1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1575,13 +1634,15 @@
 				F48B2E062A3838FA00F56123 /* BatteryConfig.swift in Sources */,
 				5697E1532BA3E49800C076F5 /* WidgetEditorStatus.swift in Sources */,
 				F4D68B7C2A492B070062313A /* CalendarTool.swift in Sources */,
-				5609163C2B889D2D00B5C01C /* PointAnimation.swift in Sources */,
+				84206C692E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */,
+				5609163C2B889D2D00B5C01C /* AnimatedUIView.swift in Sources */,
 				F4D68B982A5025680062313A /* JRWidgetConfigure.swift in Sources */,
 				56E31A0A2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
 				F48B2E0F2A384F3B00F56123 /* MoodsView.swift in Sources */,
 				F4D68B7F2A499CBC0062313A /* BatteryHelper.swift in Sources */,
 				F47D85732A2D7D420043D1C6 /* AppStyle.swift in Sources */,
 				F48B2DDD2A370B8100F56123 /* CalendarView.swift in Sources */,
+				84206C6C2E0B3CB400CA915B /* AnimationClock.swift in Sources */,
 				F48B2DCA2A35CFB900F56123 /* EditorTodoList.swift in Sources */,
 				F9FE847E2C6A138E00857291 /* BaseKeychinaUnit.swift in Sources */,
 				F48B2E0D2A384F2100F56123 /* BatterysView.swift in Sources */,
@@ -1613,6 +1674,7 @@
 				F48B2E112A384F5900F56123 /* PhotosView.swift in Sources */,
 				F9D900CF2B267FB000B287B8 /* SwiftUIFullScreenModefier.swift in Sources */,
 				560916322B874C2600B5C01C /* ClockListConfig.swift in Sources */,
+				84206C492E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */,
 				E99524C32D092F0C00ED242A /* FloatView.swift in Sources */,
 				560916D92B8F12F000B5C01C /* WidgetSettingView.swift in Sources */,
 				845C55522BCAF059003F683F /* LargeConfig.swift in Sources */,
@@ -1694,6 +1756,7 @@
 				F4D68B962A4D48FE0062313A /* LargeTypeWidget.swift in Sources */,
 				5609167D2B8D92D200B5C01C /* PhotoConfig.swift in Sources */,
 				E9A1D06E2D8CFCB000360A93 /* BatteryDark.swift in Sources */,
+				84206C6E2E0B3CB400CA915B /* AnimationClock.swift in Sources */,
 				845C55532BCAF065003F683F /* LargeConfig.swift in Sources */,
 				F4F362A62A28822900F3959A /* ClockWidget.intentdefinition in Sources */,
 				5609164F2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */,
@@ -1707,11 +1770,13 @@
 				E9E15B1D2AF0CEE1001E9840 /* JRWidgetConfigure.swift in Sources */,
 				E9BE676C2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */,
 				F4D68B9C2A50260F0062313A /* WidgetExtensionUI.swift in Sources */,
+				84206C482E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */,
 				567CD1842B9181A20062B47A /* WhitePanel.swift in Sources */,
 				560916A22B8DC1D200B5C01C /* BatteryConfig.swift in Sources */,
 				560916B82B8DCBD800B5C01C /* CalendarConfig.swift in Sources */,
-				560916402B88A13B00B5C01C /* PointAnimation.swift in Sources */,
+				560916402B88A13B00B5C01C /* AnimatedUIView.swift in Sources */,
 				560916822B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */,
+				84206C682E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */,
 				56E31A0B2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
 				560916512B8C326400B5C01C /* AnniversaryConfig.swift in Sources */,
 				E9760C5D2AF101DE009406CA /* WidgetStyle.swift in Sources */,
@@ -1726,6 +1791,7 @@
 				560916B92B8DCBD900B5C01C /* CalendarConfig.swift in Sources */,
 				E9BE674B2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */,
 				5609167C2B8D8BEE00B5C01C /* MoodConfig.swift in Sources */,
+				84206C472E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */,
 				56E31A072C64BD06007518F1 /* CalendarMountain.swift in Sources */,
 				56B391762B96F3A400BFC67D /* BlackClock.swift in Sources */,
 				E9B02EA32AF22B0100DD27BE /* JRWidgetConfigure.swift in Sources */,
@@ -1737,6 +1803,7 @@
 				56E31A0C2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
 				5609169C2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */,
 				E9BE676A2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */,
+				84206C672E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */,
 				E9B02EA42AF2397300DD27BE /* WidgetStyle.swift in Sources */,
 				F4D68B9D2A50260F0062313A /* WidgetExtensionUI.swift in Sources */,
 				E99014CC2AF23AA000F9FF18 /* CalendarTool.swift in Sources */,
@@ -1744,10 +1811,11 @@
 				E99014D32AF38A3D00F9FF18 /* AppImage.swift in Sources */,
 				560916832B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */,
 				560916482B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */,
-				560916412B88A13C00B5C01C /* PointAnimation.swift in Sources */,
+				560916412B88A13C00B5C01C /* AnimatedUIView.swift in Sources */,
 				849461982AF1A52E000C9BE3 /* Persistence.swift in Sources */,
 				F4F362BB2A28D4C500F3959A /* IntentHandler.swift in Sources */,
 				5609167E2B8D92D200B5C01C /* PhotoConfig.swift in Sources */,
+				84206C6D2E0B3CB400CA915B /* AnimationClock.swift in Sources */,
 				560916342B874C5900B5C01C /* ClockListConfig.swift in Sources */,
 				F4F362C32A28D54300F3959A /* ClockWidget.intentdefinition in Sources */,
 				560916262B874A3C00B5C01C /* OrangeClock.swift in Sources */,

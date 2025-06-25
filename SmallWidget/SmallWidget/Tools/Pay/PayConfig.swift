@@ -11,7 +11,7 @@ import StoreKit
 /// 商品列表
 enum ProductIdType: String {
 //    case forever   = "com.focus.widget.theme.lock1"
-    case weekly   = "focus.widget.theme.lock.weekly"
+    case weekly   = "simple.widget.weekly"
 }
 
 /// 回调状态
@@ -234,7 +234,7 @@ extension PayConfig {
                 request.setValue("application/json", forHTTPHeaderField: "Content-Type")
                 let jsonBody: [String: Any] = [
                                 "receipt-data": receiptString,
-                                "password": "45e685d660c44fff8dce68549c1cae1f" // App 专用共享密钥
+                                "password": "45e685d660c44fff8dce68549c1cae1f" // App 专用共享密钥, 在创建周期订阅之后会生成这样一个验证密钥
                 ]
                 let jsonData = try JSONSerialization.data(withJSONObject: jsonBody, options: [])
                 request.httpBody = jsonData
@@ -298,7 +298,7 @@ extension PayConfig {
                 self?.isPaied = true
                 self?.progress = .purchased
                 // 本地保存其中一个没过期的时间戳
-                _ = BaseKeychinaUnit.keyChainSaveData(data: String(timeInterval), withIdentifier: self?.currentSelectedPID.rawValue ?? "focus.widget.theme.lock.weekly")
+                _ = BaseKeychinaUnit.keyChainSaveData(data: String(timeInterval), withIdentifier: self?.currentSelectedPID.rawValue ?? ProductIdType.weekly.rawValue)
             }
             return false
         } else {

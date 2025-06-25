@@ -8,8 +8,24 @@
 import SwiftUI
 
 
+// blackSquare.otf 文件的 字体名是 "test-font-Regular"
+//Text(Calendar.current.startOfDay(for: Date()), style: .timer)
+//    .font(Font.custom("test-font-Regular", size: 30))
+//    .multilineTextAlignment(.center)
 
-
+// DynamicFont.ttf 文件的 字体名是 ""
+//VStack() {
+//    Text(
+//       Calendar.current.startOfDay(for: Date()),
+//       style: .timer
+//    )
+//    .contentTransition(.identity) // iOS 17 新增了复杂的Timer过渡动画，想用的话可把这行注释掉
+//    .lineLimit(1)
+//    .multilineTextAlignment(.trailing) // 对齐方式必须是trailing
+//    .truncationMode(.head) // 截断方式必须是head
+//    .font(Font.custom("DynamicFont-Regular", size: 85))
+//    .offset(x: -90, y: 50)
+//}
 enum FontName: Int {
     case SFPro = 0
     case Shrikhand = 1

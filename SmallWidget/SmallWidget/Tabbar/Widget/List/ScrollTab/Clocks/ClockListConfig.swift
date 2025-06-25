@@ -48,6 +48,10 @@ extension ClockListConfig {
             ClockBombooSmall(self.configure)
         case "ClockBombooMedium":
             ClockBombooMedium(self.configure)
+        case "ClockAnimationSmall":
+            ClockAnimationSmall(self.configure)
+        case "ClockAnimationMedium":
+            ClockAnimationMedium(self.configure)
         default:
             EmptyView()
         }

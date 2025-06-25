@@ -84,8 +84,6 @@ struct ClockBlackMedium: JRWidgetView {
 }
 
 
-
-
 /**
  ============================================================【 Animation 】============================================================
  */
@@ -111,8 +109,6 @@ struct ClockBlackAnimationView: View {
                     .fill(configure.secondColor)
                     .frame(width: configureSize.second, height: geometry.size.width * configureScale.second + 2 * configure.secondOff)
                     .offset(y: -geometry.size.width * (configureScale.second / 2))
-//                    .rotationEffect(Angle.degrees(Double(Calendar.current.component(.second, from: currentTime)) * 6))
-                    .swingAnimation(duration: 1, direction: .horizontal, distance: 0)
                 
                 // 分针
                 // 宽度为 0.3

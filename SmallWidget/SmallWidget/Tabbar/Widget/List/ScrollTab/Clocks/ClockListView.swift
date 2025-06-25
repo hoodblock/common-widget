@@ -15,8 +15,9 @@ struct ClockListView: View {
     @Binding var widgetSelected: Int
     
     let classSelf: [Any] = [
-        ClockOrangeSmall.self, ClockBlackMedium.self,                  // Orange
-        ClockBombooSmall.self, ClockBombooMedium.self,                  // Bomboo
+        ClockOrangeSmall.self, ClockBlackMedium.self,
+        ClockBombooSmall.self, ClockBombooMedium.self,
+        ClockAnimationSmall.self, ClockAnimationMedium.self
     ]
     
     var body: some View {

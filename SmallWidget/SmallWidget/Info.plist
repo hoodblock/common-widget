@@ -453,6 +453,8 @@
 		<string>SF_Pro.ttf</string>
 		<string>Arbutus.ttf</string>
 		<string>VastShadow.ttf</string>
+		<string>BlackSquare.otf</string>
+		<string>DynamicFont.ttf</string>
 	</array>
 	<key>UIBackgroundModes</key>
 	<array>

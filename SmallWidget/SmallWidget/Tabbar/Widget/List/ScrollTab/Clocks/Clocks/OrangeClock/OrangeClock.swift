@@ -23,7 +23,6 @@ struct ClockOrangeSmall: JRWidgetView {
         if ((configure != nil) && (self.configure?.nameConfig?.viewName?.count ?? 0 > 0)) {
             return
         }
-      
         // name
         self.configure = WidgetViewConfig.widgetViewConfig(.clock, .small)
         self.configure?.nameConfig?.viewName = "ClockOrangeSmall"
@@ -80,8 +79,7 @@ struct ClockOrangeAnimationView: View {
                     .fill(configure.secondColor)
                     .frame(width: configureSize.second, height: geometry.size.width * configureScale.second + 2 * configure.secondOff)
                     .offset(y: -geometry.size.width * (configureScale.second / 2) - configure.hourOff * 2 )
-//                    .rotationEffect(Angle.degrees(Double(Calendar.current.component(.second, from: currentTime)) * 6))
-                    .swingAnimation(duration: 1, direction: .horizontal, distance: 0)
+                    .swingAnimation(duration: 60, distance: 0)
 
                 // 分针
                 // 宽度为 0.3
@@ -89,7 +87,7 @@ struct ClockOrangeAnimationView: View {
                     .fill(configure.minnuteColor)
                     .frame(width: configureSize.minute, height: geometry.size.width * configureScale.minute + 2 * configure.minute)
                     .offset(y: -geometry.size.width * (configureScale.minute / 2) - configure.hourOff * 2 )
-                    .rotationEffect(Angle.degrees(Double(Calendar.current.component(.minute, from: currentTime)) * 6))
+                    .swingAnimation(duration: 60 * 60, distance: 0)
 
                 // 时针
                 // 宽度为 0.2
