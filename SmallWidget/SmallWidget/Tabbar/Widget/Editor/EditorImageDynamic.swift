@@ -70,24 +70,6 @@ struct EditorImageDynamic: View {
                 Spacer()
                 HStack (alignment: .center, spacing: ViewLayout.SWidth(20)) {
                     Spacer()
-                    if WidgetType(rawValue: config.nameConfig!.widgetType) == .imageAndWall {
-                       if config.fillingImageCount == 1 {
-                           EditorImage(config: config, selectedTag: 0) { }
-                       } else if config.fillingImageCount == 2 {
-                           HStack (spacing: ViewLayout.SWidth(0)) {
-                               EditorImage(config: config, selectedTag: 0) { }
-                               EditorImage(config: config, selectedTag: 1) { }
-                           }
-                       } else if config.fillingImageCount == 3 {
-                           HStack (spacing: ViewLayout.SWidth(0)) {
-                               HStack (alignment: .center, spacing: ViewLayout.SWidth(0)) {
-                                   EditorImage(config: config, selectedTag: 0) { }
-                                   EditorImage(config: config, selectedTag: 1) { }
-                                   EditorImage(config: config, selectedTag: 2) { }
-                               }
-                           }
-                       }
-                    }
                     Spacer()
                 }
                 .frame(maxHeight: ViewLayout.SWidth(50))
@@ -150,7 +132,7 @@ struct EditorImageDynamic: View {
     
     func widgitEditView(isShowEdit: Bool) -> some View {
         VStack (alignment: .center, spacing: 0) {
-            AnyView(PhotoConfig(widgetFamily: 0, configure: config).imageEditItemView(configure: config, isShowEdit: true))
+//            AnyView(PhotoConfig(widgetFamily: 0, configure: config).imageEditItemView(configure: config, isShowEdit: true))
         }
         .frame(width: config.nameConfig?.sizeType == 0 ? snapCarouselStyle.cardWidth * 3 :  (UIScreen.main.bounds.width - ViewLayout.SWidth(30) * 2), height: config.nameConfig?.sizeType == 0 ? snapCarouselStyle.cardHeight * 3 :  (UIScreen.main.bounds.width - ViewLayout.SWidth(30) * 2) / 2)
     }

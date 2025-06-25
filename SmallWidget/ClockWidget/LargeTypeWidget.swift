@@ -111,24 +111,12 @@ struct LargeTypeWidgetEntryView : View {
         // 用保存的数据生成界面
         GeometryReader(content: { geometry in
             switch WidgetType(rawValue: widgetConfig.nameConfig?.widgetType ?? -1) {
-            case .todo:
-                TodoConfig(widgetFamily: 0, configure: widgetConfig)
-            case .anniversary:
-                AnniversaryConfig(widgetFamily: 0, configure: widgetConfig)
-            case .imageAndWall:
-                PhotoConfig(widgetFamily: 0, configure: widgetConfig)
             case .clock:
                 ClockListConfig(widgetFamily: 0, configure: widgetConfig)
-            case .battery:
-                BatteryConfig(widgetFamily: 0, configure: widgetConfig)
-            case .mood:
-                MoodConfig(widgetFamily: 0, configure: widgetConfig)
             case .calendar:
                 CalendarConfig(widgetFamily: 0, configure: widgetConfig)
             case .XPanel:
                 XPanelConfig(widgetFamily: 0, configure: widgetConfig)
-            case .large:
-                LargeConfig(widgetFamily: 0, configure: widgetConfig)
             case .none:
                 if !(entry.configuration.configure?.ui?.configui?.count ?? 0 > 0) {
                     ClockWidgetBundle.providerView(app_name)

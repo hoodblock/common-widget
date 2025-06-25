@@ -44,10 +44,6 @@ extension ClockListConfig {
             ClockOrangeSmall(self.configure)
         case "ClockBlackMedium":
             ClockBlackMedium(self.configure)
-        case "ClockBombooSmall":
-            ClockBombooSmall(self.configure)
-        case "ClockBombooMedium":
-            ClockBombooMedium(self.configure)
         case "ClockAnimationSmall":
             ClockAnimationSmall(self.configure)
         case "ClockAnimationMedium":

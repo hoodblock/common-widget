@@ -134,24 +134,12 @@ extension MyWidgetsView {
                 let widgetConfig: JRWidgetConfigure = JRWidgetConfigureStatic.widgetConfig(JRWidgetConfigureStatic.deserialize(from: configJsonString) ?? JRWidgetConfigureStatic())
                 if widgetConfig.nameConfig?.sizeType == type.rawValue {
                     switch WidgetType(rawValue: widgetConfig.nameConfig?.widgetType ?? -1) {
-                    case .todo:
-                        typeArray.append((AnyView(TodoConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
-                    case .anniversary:
-                        typeArray.append((AnyView(AnniversaryConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
-                    case .imageAndWall:
-                        typeArray.append((AnyView(PhotoConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
                     case .clock:
                         typeArray.append((AnyView(ClockListConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
-                    case .battery:
-                        typeArray.append((AnyView(BatteryConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
-                    case .mood:
-                        typeArray.append((AnyView(MoodConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
                     case .calendar:
                         typeArray.append((AnyView(CalendarConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
                     case .XPanel:
                         typeArray.append((AnyView(XPanelConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
-                    case .large:
-                        typeArray.append((AnyView(LargeConfig(widgetFamily: 0, configure: widgetConfig).itemView()), widgetConfig))
                     case .none:
                         EmptyView()
                     }

@@ -669,15 +669,9 @@ enum WidgetSizeType: Int {
 }
 
 enum WidgetType: Int {
-    case todo = 0                // 待做
-    case anniversary = 1         // 周年纪念日
-    case imageAndWall = 3         // 照片墙
     case clock = 4               // 闹钟
-    case battery = 5             // 电池
-    case mood = 6                // 心情
     case calendar = 7            // 日历
     case XPanel = 8              // x面板
-    case large = 9               // 超级组件
 }
 
 // 获取基础配置
@@ -687,24 +681,12 @@ struct WidgetViewConfig {
     static func widgetViewConfig(_ type: WidgetType, _ sizeType: WidgetSizeType) -> JRWidgetConfigure {
         var widgetConfigure: JRWidgetConfigure = JRWidgetConfigure()
         switch type {
-        case .todo:
-            widgetConfigure = TodoWidgetViewConfig.widgetViewConfig(sizeType)
-        case .anniversary:
-            widgetConfigure = AnniversaryWidgetViewConfig.widgetViewConfig(sizeType)
-        case .imageAndWall:
-            widgetConfigure = ImageAndWallWidgetViewConfig.widgetViewConfig(sizeType)
         case .clock:
             widgetConfigure = ClockWidgetViewConfig.widgetViewConfig(sizeType)
-        case .battery:
-            widgetConfigure = BatteryWidgetViewConfig.widgetViewConfig(sizeType)
-        case .mood:
-            widgetConfigure = MoodWidgetViewConfig.widgetViewConfig(sizeType)
         case .calendar:
             widgetConfigure = CalendarWidgetViewConfig.widgetViewConfig(sizeType)
         case .XPanel:
             widgetConfigure = XPanelWidgetViewConfig.widgetViewConfig(sizeType)
-        case .large:
-            widgetConfigure = LargeWidgetViewConfig.widgetViewConfig(sizeType)
         }
         return widgetConfigure
     }
@@ -725,62 +707,6 @@ struct WallWidgetViewConfig {
         }
         return widgetConfigure
     }
-}
-    
-    
-// MARK: - Todo
-struct TodoWidgetViewConfig {
-    
-    static func widgetViewConfig(_ sizeType: WidgetSizeType) -> JRWidgetConfigure {
-        let widgetConfigure: JRWidgetConfigure = JRWidgetConfigure()
-        switch sizeType {
-        case .small:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .small, orialName: "", widgetType: .todo)
-        case .medium:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .medium, orialName: "", widgetType: .todo)
-        case .large:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .large, orialName: "", widgetType: .todo)
-        }
-        return widgetConfigure
-    }
-}
-    
-
-// MARK: - Anniversary
-
-struct AnniversaryWidgetViewConfig {
-    
-    static func widgetViewConfig(_ sizeType: WidgetSizeType) -> JRWidgetConfigure {
-        let widgetConfigure: JRWidgetConfigure = JRWidgetConfigure()
-        switch sizeType {
-        case .small:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .small, orialName: "", widgetType: .anniversary)
-        case .medium:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .medium, orialName: "", widgetType: .anniversary)
-        case .large:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .large, orialName: "", widgetType: .anniversary)
-        }
-        return widgetConfigure
-    }
-}
-    
-// MARK: - ImageAndWall
-
-struct ImageAndWallWidgetViewConfig {
-    
-    static func widgetViewConfig(_ sizeType: WidgetSizeType) -> JRWidgetConfigure {
-        let widgetConfigure: JRWidgetConfigure = JRWidgetConfigure()
-        switch sizeType {
-        case .small:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .small, orialName: "", widgetType: .imageAndWall)
-        case .medium:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .medium, orialName: "", widgetType: .imageAndWall)
-        case .large:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .large, orialName: "", widgetType: .imageAndWall)
-        }
-        return widgetConfigure
-    }
-
 }
     
     
@@ -847,44 +773,6 @@ struct ClockWidgetViewConfig {
     }
 }
 
-// MARK: - Battery
-
-struct BatteryWidgetViewConfig {
-    
-    static func widgetViewConfig(_ sizeType: WidgetSizeType) -> JRWidgetConfigure {
-        let widgetConfigure: JRWidgetConfigure = JRWidgetConfigure()
-        switch sizeType {
-        case .small:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .small, orialName: "", widgetType: .battery)
-        case .medium:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .medium, orialName: "", widgetType: .battery)
-        case .large:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .large, orialName: "", widgetType: .battery)
-        }
-        return widgetConfigure
-    }
-}
-
-
-// MARK: - Mood
-
-struct MoodWidgetViewConfig {
-    
-    static func widgetViewConfig(_ sizeType: WidgetSizeType) -> JRWidgetConfigure {
-        let widgetConfigure: JRWidgetConfigure = JRWidgetConfigure()
-        switch sizeType {
-        case .small:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .small, orialName: "", widgetType: .mood)
-        case .medium:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .medium, orialName: "", widgetType: .mood)
-        case .large:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .large, orialName: "", widgetType: .mood)
-        }
-        return widgetConfigure
-    }
-    
-}
-
 
 // MARK: - Calendar
 
@@ -918,25 +806,6 @@ struct XPanelWidgetViewConfig {
             widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .medium, orialName: "", widgetType: .XPanel)
         case .large:
             widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .large, orialName: "", widgetType: .XPanel)
-        }
-        return widgetConfigure
-    }
-}
-
-
-// MARK: - Large
-
-struct LargeWidgetViewConfig {
-    
-    static func widgetViewConfig(_ sizeType: WidgetSizeType) -> JRWidgetConfigure {
-        let widgetConfigure: JRWidgetConfigure = JRWidgetConfigure()
-        switch sizeType {
-        case .small:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .small, orialName: "", widgetType: .large)
-        case .medium:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .medium, orialName: "", widgetType: .large)
-        case .large:
-            widgetConfigure.nameConfig = WidgetNames(typeName: "", viewName: "", sizeType: .large, orialName: "", widgetType: .large)
         }
         return widgetConfigure
     }

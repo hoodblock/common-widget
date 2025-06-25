@@ -19,40 +19,12 @@
 		5609163C2B889D2D00B5C01C /* AnimatedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */; };
 		560916402B88A13B00B5C01C /* AnimatedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */; };
 		560916412B88A13C00B5C01C /* AnimatedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */; };
-		560916462B8C2D9500B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
-		560916472B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
-		560916482B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916452B8C2D9500B5C01C /* EventAnniversary.swift */; };
-		5609164E2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */; };
-		5609164F2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */; };
-		560916502B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */; };
-		560916512B8C326400B5C01C /* AnniversaryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */; };
-		560916522B8C326400B5C01C /* AnniversaryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */; };
-		5609166C2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */; };
-		5609166D2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */; };
-		5609166E2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */; };
-		5609167B2B8D8BED00B5C01C /* MoodConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF52A38334E00F56123 /* MoodConfig.swift */; };
-		5609167C2B8D8BEE00B5C01C /* MoodConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF52A38334E00F56123 /* MoodConfig.swift */; };
-		5609167D2B8D92D200B5C01C /* PhotoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */; };
-		5609167E2B8D92D200B5C01C /* PhotoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */; };
-		560916812B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */; };
-		560916822B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */; };
-		560916832B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */; };
-		5609169A2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */; };
-		5609169B2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */; };
-		5609169C2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */; };
-		560916A22B8DC1D200B5C01C /* BatteryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E052A3838FA00F56123 /* BatteryConfig.swift */; };
-		560916A32B8DC1D300B5C01C /* BatteryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E052A3838FA00F56123 /* BatteryConfig.swift */; };
 		560916B82B8DCBD800B5C01C /* CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D915192AF9D1E900D14557 /* CalendarConfig.swift */; };
 		560916B92B8DCBD900B5C01C /* CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D915192AF9D1E900D14557 /* CalendarConfig.swift */; };
-		560916C12B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */; };
-		560916C22B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */; };
-		560916C32B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */; };
 		560916D92B8F12F000B5C01C /* WidgetSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916D82B8F12F000B5C01C /* WidgetSettingView.swift */; };
 		560916DD2B8F130900B5C01C /* TransparentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560916DC2B8F130900B5C01C /* TransparentView.swift */; };
 		563811EF2C60D45B007B8FE8 /* VIPDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563811EE2C60D45B007B8FE8 /* VIPDetailView.swift */; };
 		564103D32C58BCB000A0FA67 /* PayConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564103D22C58BCB000A0FA67 /* PayConfig.swift */; };
-		567CD1522B916A620062B47A /* TodoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95008F62AFA1C8C004646C9 /* TodoConfig.swift */; };
-		567CD1532B916A630062B47A /* TodoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95008F62AFA1C8C004646C9 /* TodoConfig.swift */; };
 		567CD1832B9181A20062B47A /* WhitePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CD1822B9181A20062B47A /* WhitePanel.swift */; };
 		567CD1842B9181A20062B47A /* WhitePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CD1822B9181A20062B47A /* WhitePanel.swift */; };
 		567CD1852B9181A20062B47A /* WhitePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CD1822B9181A20062B47A /* WhitePanel.swift */; };
@@ -65,9 +37,6 @@
 		56B391742B96F3A400BFC67D /* BlackClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391732B96F3A400BFC67D /* BlackClock.swift */; };
 		56B391752B96F3A400BFC67D /* BlackClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391732B96F3A400BFC67D /* BlackClock.swift */; };
 		56B391762B96F3A400BFC67D /* BlackClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391732B96F3A400BFC67D /* BlackClock.swift */; };
-		56B391792B96F93700BFC67D /* BombooClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391782B96F93700BFC67D /* BombooClock.swift */; };
-		56B3917A2B96F93700BFC67D /* BombooClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391782B96F93700BFC67D /* BombooClock.swift */; };
-		56B3917B2B96F93700BFC67D /* BombooClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391782B96F93700BFC67D /* BombooClock.swift */; };
 		56B391A12B9AE74200BFC67D /* EditorTextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391A02B9AE74200BFC67D /* EditorTextFont.swift */; };
 		56B391A52B9EB1B200BFC67D /* EditorImageDynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B391A42B9EB1B200BFC67D /* EditorImageDynamic.swift */; };
 		56E31A052C64BD06007518F1 /* CalendarMountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A042C64BD06007518F1 /* CalendarMountain.swift */; };
@@ -76,9 +45,6 @@
 		56E31A0A2C64C177007518F1 /* CalendarEmjio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A092C64C177007518F1 /* CalendarEmjio.swift */; };
 		56E31A0B2C64C177007518F1 /* CalendarEmjio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A092C64C177007518F1 /* CalendarEmjio.swift */; };
 		56E31A0C2C64C177007518F1 /* CalendarEmjio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31A092C64C177007518F1 /* CalendarEmjio.swift */; };
-		56E9492D2BCF7B0100E77CDE /* BatterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */; };
-		56E9492E2BCF7B0A00E77CDE /* BatterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */; };
-		56E9492F2BCF7B0A00E77CDE /* BatterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */; };
 		760030FC2AE84BAE006D237D /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FB2AE84BAE006D237D /* Intents.framework */; };
 		760030FE2AE84BB6006D237D /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FD2AE84BB6006D237D /* IntentsUI.framework */; };
 		760031002AE84BDC006D237D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760030FF2AE84BDC006D237D /* SwiftUI.framework */; };
@@ -106,13 +72,6 @@
 		84206C702E0BDB2E00CA915B /* animation_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C6F2E0BDB2E00CA915B /* animation_2.gif */; };
 		84206C712E0BDB2E00CA915B /* animation_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C6F2E0BDB2E00CA915B /* animation_2.gif */; };
 		84206C722E0BDB2E00CA915B /* animation_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84206C6F2E0BDB2E00CA915B /* animation_2.gif */; };
-		845C55502BCAF04B003F683F /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C554F2BCAF04B003F683F /* LargeView.swift */; };
-		845C55522BCAF059003F683F /* LargeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55512BCAF059003F683F /* LargeConfig.swift */; };
-		845C55532BCAF065003F683F /* LargeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55512BCAF059003F683F /* LargeConfig.swift */; };
-		845C55542BCAF065003F683F /* LargeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55512BCAF059003F683F /* LargeConfig.swift */; };
-		845C55572BCAF78C003F683F /* LargeStashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55562BCAF78C003F683F /* LargeStashView.swift */; };
-		845C55582BCAF793003F683F /* LargeStashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55562BCAF78C003F683F /* LargeStashView.swift */; };
-		845C55592BCAF793003F683F /* LargeStashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C55562BCAF78C003F683F /* LargeStashView.swift */; };
 		849461972AF1A52E000C9BE3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F362662A28378800F3959A /* Persistence.swift */; };
 		849461982AF1A52E000C9BE3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F362662A28378800F3959A /* Persistence.swift */; };
 		D8894EA497EFE2139F2F57F0 /* Pods_SmallWidget_SmallWidgetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E973CD59A9453F8A348FDC56 /* Pods_SmallWidget_SmallWidgetUITests.framework */; };
@@ -121,8 +80,6 @@
 		E9476E9E2B0F499A00944D14 /* SlidingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9476E902B0F499900944D14 /* SlidingTabBar.swift */; };
 		E9476E9F2B0F499A00944D14 /* FrameReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9476E922B0F499900944D14 /* FrameReader.swift */; };
 		E9476EA02B0F499A00944D14 /* ScrollSlidingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9476E942B0F499A00944D14 /* ScrollSlidingTabBar.swift */; };
-		E95008F12AFA1C2D004646C9 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95008F02AFA1C2D004646C9 /* TodoView.swift */; };
-		E95008F72AFA1C8C004646C9 /* TodoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95008F62AFA1C8C004646C9 /* TodoConfig.swift */; };
 		E96AC66E2B04AD3C00038BC6 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96AC66D2B04AD3C00038BC6 /* Network.framework */; };
 		E9760C5D2AF101DE009406CA /* WidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DE92A38050F00F56123 /* WidgetStyle.swift */; };
 		E99014CB2AF23A4700F9FF18 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3628F2A284DB400F3959A /* AppColor.swift */; };
@@ -132,17 +89,8 @@
 		E99014D22AF38A3D00F9FF18 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99014D02AF38A3400F9FF18 /* AppImage.swift */; };
 		E99014D32AF38A3D00F9FF18 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99014D02AF38A3400F9FF18 /* AppImage.swift */; };
 		E99524C32D092F0C00ED242A /* FloatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99524C22D092EFF00ED242A /* FloatView.swift */; };
-		E9A1D06C2D8CFCB000360A93 /* BatteryDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */; };
-		E9A1D06D2D8CFCB000360A93 /* BatteryDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */; };
-		E9A1D06E2D8CFCB000360A93 /* BatteryDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */; };
 		E9B02EA32AF22B0100DD27BE /* JRWidgetConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B972A5025680062313A /* JRWidgetConfigure.swift */; };
 		E9B02EA42AF2397300DD27BE /* WidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DE92A38050F00F56123 /* WidgetStyle.swift */; };
-		E9BE67492CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */; };
-		E9BE674A2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */; };
-		E9BE674B2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */; };
-		E9BE676A2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */; };
-		E9BE676B2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */; };
-		E9BE676C2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */; };
 		E9D9151A2AF9D1E900D14557 /* CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D915192AF9D1E900D14557 /* CalendarConfig.swift */; };
 		E9E15B1D2AF0CEE1001E9840 /* JRWidgetConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D68B972A5025680062313A /* JRWidgetConfigure.swift */; };
 		F458663D2A30B067005815BF /* MyWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F458663C2A30B067005815BF /* MyWidgetsView.swift */; };
@@ -173,16 +121,8 @@
 		F48B2DD92A370B5B00F56123 /* ClockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DD82A370B5B00F56123 /* ClockListView.swift */; };
 		F48B2DDB2A370B6D00F56123 /* XPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DDA2A370B6D00F56123 /* XPanelView.swift */; };
 		F48B2DDD2A370B8100F56123 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DDC2A370B8100F56123 /* CalendarView.swift */; };
-		F48B2DE12A370BA800F56123 /* AnniversarysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DE02A370BA800F56123 /* AnniversarysView.swift */; };
 		F48B2DEA2A38050F00F56123 /* WidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DE92A38050F00F56123 /* WidgetStyle.swift */; };
-		F48B2DF22A3831AC00F56123 /* PhotoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */; };
-		F48B2DF62A38334E00F56123 /* MoodConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DF52A38334E00F56123 /* MoodConfig.swift */; };
-		F48B2DFE2A38371800F56123 /* AnniversaryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */; };
 		F48B2E022A38384E00F56123 /* XPanelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E012A38384E00F56123 /* XPanelConfig.swift */; };
-		F48B2E062A3838FA00F56123 /* BatteryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E052A3838FA00F56123 /* BatteryConfig.swift */; };
-		F48B2E0D2A384F2100F56123 /* BatterysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E0C2A384F2100F56123 /* BatterysView.swift */; };
-		F48B2E0F2A384F3B00F56123 /* MoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E0E2A384F3B00F56123 /* MoodsView.swift */; };
-		F48B2E112A384F5900F56123 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E102A384F5900F56123 /* PhotosView.swift */; };
 		F48B2E1A2A39479200F56123 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E192A39479200F56123 /* DatePickerView.swift */; };
 		F48B2E1C2A395A5800F56123 /* CyclePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E1B2A395A5800F56123 /* CyclePickerView.swift */; };
 		F48B2E222A39BDCC00F56123 /* WidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B2E212A39BDCC00F56123 /* WidgetModel.swift */; };
@@ -300,12 +240,6 @@
 		5609161D2B87498D00B5C01C /* OrangeClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeClock.swift; sourceTree = "<group>"; };
 		560916312B874C2600B5C01C /* ClockListConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockListConfig.swift; sourceTree = "<group>"; };
 		5609163B2B889D2C00B5C01C /* AnimatedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedUIView.swift; sourceTree = "<group>"; };
-		560916452B8C2D9500B5C01C /* EventAnniversary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAnniversary.swift; sourceTree = "<group>"; };
-		5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowMountainAnniversary.swift; sourceTree = "<group>"; };
-		5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodColorfulMantou.swift; sourceTree = "<group>"; };
-		560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLittleTiger.swift; sourceTree = "<group>"; };
-		560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWavePointBox.swift; sourceTree = "<group>"; };
-		560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSolidColor.swift; sourceTree = "<group>"; };
 		560916D82B8F12F000B5C01C /* WidgetSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSettingView.swift; sourceTree = "<group>"; };
 		560916DC2B8F130900B5C01C /* TransparentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentView.swift; sourceTree = "<group>"; };
 		563811EE2C60D45B007B8FE8 /* VIPDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPDetailView.swift; sourceTree = "<group>"; };
@@ -315,12 +249,10 @@
 		5697E14A2BA3062000C076F5 /* SwiftUINativeAdView_200.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftUINativeAdView_200.xib; sourceTree = "<group>"; };
 		5697E1522BA3E49800C076F5 /* WidgetEditorStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEditorStatus.swift; sourceTree = "<group>"; };
 		56B391732B96F3A400BFC67D /* BlackClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackClock.swift; sourceTree = "<group>"; };
-		56B391782B96F93700BFC67D /* BombooClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombooClock.swift; sourceTree = "<group>"; };
 		56B391A02B9AE74200BFC67D /* EditorTextFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorTextFont.swift; sourceTree = "<group>"; };
 		56B391A42B9EB1B200BFC67D /* EditorImageDynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorImageDynamic.swift; sourceTree = "<group>"; };
 		56E31A042C64BD06007518F1 /* CalendarMountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMountain.swift; sourceTree = "<group>"; };
 		56E31A092C64C177007518F1 /* CalendarEmjio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEmjio.swift; sourceTree = "<group>"; };
-		56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatterStyle.swift; sourceTree = "<group>"; };
 		6433EECA5148C779CDF95564 /* Pods-SmallWidgetIntents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidgetIntents.debug.xcconfig"; path = "Target Support Files/Pods-SmallWidgetIntents/Pods-SmallWidgetIntents.debug.xcconfig"; sourceTree = "<group>"; };
 		760030FB2AE84BAE006D237D /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		760030FD2AE84BB6006D237D /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
@@ -335,9 +267,6 @@
 		84206C662E0B15DD00CA915B /* AnimatedPowerArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedPowerArmView.swift; sourceTree = "<group>"; };
 		84206C6B2E0B3C9600CA915B /* AnimationClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationClock.swift; sourceTree = "<group>"; };
 		84206C6F2E0BDB2E00CA915B /* animation_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation_2.gif; sourceTree = "<group>"; };
-		845C554F2BCAF04B003F683F /* LargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
-		845C55512BCAF059003F683F /* LargeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeConfig.swift; sourceTree = "<group>"; };
-		845C55562BCAF78C003F683F /* LargeStashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeStashView.swift; sourceTree = "<group>"; };
 		86C463D646277BEB6FB90B29 /* Pods-SmallWidget-SmallWidgetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidget-SmallWidgetUITests.release.xcconfig"; path = "Target Support Files/Pods-SmallWidget-SmallWidgetUITests/Pods-SmallWidget-SmallWidgetUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8B7BEBE940C523DBDF6AF99E /* Pods_SmallWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CFC656D88012F96E85AC05 /* Pods-SmallWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallWidget.release.xcconfig"; path = "Target Support Files/Pods-SmallWidget/Pods-SmallWidget.release.xcconfig"; sourceTree = "<group>"; };
@@ -350,15 +279,10 @@
 		E9476E902B0F499900944D14 /* SlidingTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingTabBar.swift; sourceTree = "<group>"; };
 		E9476E922B0F499900944D14 /* FrameReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameReader.swift; sourceTree = "<group>"; };
 		E9476E942B0F499A00944D14 /* ScrollSlidingTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSlidingTabBar.swift; sourceTree = "<group>"; };
-		E95008F02AFA1C2D004646C9 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
-		E95008F62AFA1C8C004646C9 /* TodoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoConfig.swift; sourceTree = "<group>"; };
 		E96AC66D2B04AD3C00038BC6 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
 		E973CD59A9453F8A348FDC56 /* Pods_SmallWidget_SmallWidgetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallWidget_SmallWidgetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99014D02AF38A3400F9FF18 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
 		E99524C22D092EFF00ED242A /* FloatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatView.swift; sourceTree = "<group>"; };
-		E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryDark.swift; sourceTree = "<group>"; };
-		E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWhiteRabbit.swift; sourceTree = "<group>"; };
-		E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaOfFlowersPlan.swift; sourceTree = "<group>"; };
 		E9D915192AF9D1E900D14557 /* CalendarConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarConfig.swift; sourceTree = "<group>"; };
 		F458663C2A30B067005815BF /* MyWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidgetsView.swift; sourceTree = "<group>"; };
 		F45866472A31F808005815BF /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
@@ -383,16 +307,8 @@
 		F48B2DD82A370B5B00F56123 /* ClockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockListView.swift; sourceTree = "<group>"; };
 		F48B2DDA2A370B6D00F56123 /* XPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPanelView.swift; sourceTree = "<group>"; };
 		F48B2DDC2A370B8100F56123 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		F48B2DE02A370BA800F56123 /* AnniversarysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversarysView.swift; sourceTree = "<group>"; };
 		F48B2DE92A38050F00F56123 /* WidgetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetStyle.swift; sourceTree = "<group>"; };
-		F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoConfig.swift; sourceTree = "<group>"; };
-		F48B2DF52A38334E00F56123 /* MoodConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodConfig.swift; sourceTree = "<group>"; };
-		F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryConfig.swift; sourceTree = "<group>"; };
 		F48B2E012A38384E00F56123 /* XPanelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPanelConfig.swift; sourceTree = "<group>"; };
-		F48B2E052A3838FA00F56123 /* BatteryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryConfig.swift; sourceTree = "<group>"; };
-		F48B2E0C2A384F2100F56123 /* BatterysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatterysView.swift; sourceTree = "<group>"; };
-		F48B2E0E2A384F3B00F56123 /* MoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsView.swift; sourceTree = "<group>"; };
-		F48B2E102A384F5900F56123 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
 		F48B2E192A39479200F56123 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		F48B2E1B2A395A5800F56123 /* CyclePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclePickerView.swift; sourceTree = "<group>"; };
 		F48B2E212A39BDCC00F56123 /* WidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetModel.swift; sourceTree = "<group>"; };
@@ -534,54 +450,6 @@
 			path = WidgetAnimation;
 			sourceTree = "<group>";
 		};
-		560916422B8C2D2F00B5C01C /* SnowMountain */ = {
-			isa = PBXGroup;
-			children = (
-				5609164D2B8C2DD200B5C01C /* SnowMountainAnniversary.swift */,
-			);
-			path = SnowMountain;
-			sourceTree = "<group>";
-		};
-		560916442B8C2D5C00B5C01C /* EventDay */ = {
-			isa = PBXGroup;
-			children = (
-				560916452B8C2D9500B5C01C /* EventAnniversary.swift */,
-			);
-			path = EventDay;
-			sourceTree = "<group>";
-		};
-		5609165F2B8D852E00B5C01C /* Colorful */ = {
-			isa = PBXGroup;
-			children = (
-				5609166B2B8D879100B5C01C /* MoodColorfulMantou.swift */,
-			);
-			path = Colorful;
-			sourceTree = "<group>";
-		};
-		5609167F2B8D933900B5C01C /* Little Tiger */ = {
-			isa = PBXGroup;
-			children = (
-				560916802B8D93E400B5C01C /* PhotoLittleTiger.swift */,
-			);
-			path = "Little Tiger";
-			sourceTree = "<group>";
-		};
-		560916942B8DAD1A00B5C01C /* WavePointBox */ = {
-			isa = PBXGroup;
-			children = (
-				560916992B8DAD8A00B5C01C /* PhotoWavePointBox.swift */,
-			);
-			path = WavePointBox;
-			sourceTree = "<group>";
-		};
-		560916BF2B8DCC1700B5C01C /* SolidColor */ = {
-			isa = PBXGroup;
-			children = (
-				560916C02B8DCC3B00B5C01C /* CalendarSolidColor.swift */,
-			);
-			path = SolidColor;
-			sourceTree = "<group>";
-		};
 		564103D12C58BC7800A0FA67 /* Pay */ = {
 			isa = PBXGroup;
 			children = (
@@ -607,14 +475,6 @@
 			path = BlackClock;
 			sourceTree = "<group>";
 		};
-		56B391772B96F8EF00BFC67D /* Bamboo */ = {
-			isa = PBXGroup;
-			children = (
-				56B391782B96F93700BFC67D /* BombooClock.swift */,
-			);
-			path = Bamboo;
-			sourceTree = "<group>";
-		};
 		56B3919F2B9AE72500BFC67D /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -622,30 +482,6 @@
 				F47033A92A41538C00F30A40 /* Fonts */,
 			);
 			path = Font;
-			sourceTree = "<group>";
-		};
-		56E31A032C64BCEC007518F1 /* Mountain */ = {
-			isa = PBXGroup;
-			children = (
-				56E31A042C64BD06007518F1 /* CalendarMountain.swift */,
-			);
-			path = Mountain;
-			sourceTree = "<group>";
-		};
-		56E31A082C64C156007518F1 /* Emjio */ = {
-			isa = PBXGroup;
-			children = (
-				56E31A092C64C177007518F1 /* CalendarEmjio.swift */,
-			);
-			path = Emjio;
-			sourceTree = "<group>";
-		};
-		56E9492B2BCF7ADD00E77CDE /* Style */ = {
-			isa = PBXGroup;
-			children = (
-				56E9492C2BCF7B0100E77CDE /* BatterStyle.swift */,
-			);
-			path = Style;
 			sourceTree = "<group>";
 		};
 		84206C322E09D38600CA915B /* List */ = {
@@ -667,62 +503,12 @@
 			path = AnimationClock;
 			sourceTree = "<group>";
 		};
-		845C554E2BCAF028003F683F /* Large */ = {
-			isa = PBXGroup;
-			children = (
-				845C554F2BCAF04B003F683F /* LargeView.swift */,
-				845C55512BCAF059003F683F /* LargeConfig.swift */,
-				845C55552BCAF729003F683F /* Large */,
-			);
-			path = Large;
-			sourceTree = "<group>";
-		};
-		845C55552BCAF729003F683F /* Large */ = {
-			isa = PBXGroup;
-			children = (
-				845C55562BCAF78C003F683F /* LargeStashView.swift */,
-			);
-			path = Large;
-			sourceTree = "<group>";
-		};
-		E95008EF2AFA1C13004646C9 /* Todo */ = {
-			isa = PBXGroup;
-			children = (
-				E9BE67612CCB6AD300697AC7 /* SeaOfFlowers  */,
-			);
-			path = Todo;
-			sourceTree = "<group>";
-		};
 		E99524C12D092E5B00ED242A /* FloatView */ = {
 			isa = PBXGroup;
 			children = (
 				E99524C22D092EFF00ED242A /* FloatView.swift */,
 			);
 			path = FloatView;
-			sourceTree = "<group>";
-		};
-		E9A1D06A2D8CFC8600360A93 /* Dark */ = {
-			isa = PBXGroup;
-			children = (
-				E9A1D06B2D8CFC9500360A93 /* BatteryDark.swift */,
-			);
-			path = Dark;
-			sourceTree = "<group>";
-		};
-		E9BE67472CCA3F1900697AC7 /* WhiteRabbit  */ = {
-			isa = PBXGroup;
-			children = (
-				E9BE67482CCA3F2900697AC7 /* CalendarWhiteRabbit.swift */,
-			);
-			path = "WhiteRabbit ";
-			sourceTree = "<group>";
-		};
-		E9BE67612CCB6AD300697AC7 /* SeaOfFlowers  */ = {
-			isa = PBXGroup;
-			children = (
-				E9BE67692CCB6D2700697AC7 /* SeaOfFlowersPlan.swift */,
-			);
-			path = "SeaOfFlowers ";
 			sourceTree = "<group>";
 		};
 		E9E15B002AF0C91A001E9840 /* Enter */ = {
@@ -781,46 +567,6 @@
 			path = XPanel;
 			sourceTree = "<group>";
 		};
-		E9E15B0A2AF0CA2D001E9840 /* Anniversarys */ = {
-			isa = PBXGroup;
-			children = (
-				F48B2DE02A370BA800F56123 /* AnniversarysView.swift */,
-				F48B2DFD2A38371800F56123 /* AnniversaryConfig.swift */,
-				F48B2DFC2A38364E00F56123 /* Anniversary */,
-			);
-			path = Anniversarys;
-			sourceTree = "<group>";
-		};
-		E9E15B0C2AF0CA49001E9840 /* Batterys */ = {
-			isa = PBXGroup;
-			children = (
-				F48B2E0C2A384F2100F56123 /* BatterysView.swift */,
-				F48B2E052A3838FA00F56123 /* BatteryConfig.swift */,
-				F48B2E042A3838D700F56123 /* Battery */,
-			);
-			path = Batterys;
-			sourceTree = "<group>";
-		};
-		E9E15B0D2AF0CA57001E9840 /* Moods */ = {
-			isa = PBXGroup;
-			children = (
-				F48B2E0E2A384F3B00F56123 /* MoodsView.swift */,
-				F48B2DF52A38334E00F56123 /* MoodConfig.swift */,
-				F48B2DF42A38332E00F56123 /* Mood */,
-			);
-			path = Moods;
-			sourceTree = "<group>";
-		};
-		E9E15B0E2AF0CA64001E9840 /* Photos */ = {
-			isa = PBXGroup;
-			children = (
-				F48B2E102A384F5900F56123 /* PhotosView.swift */,
-				F48B2DF12A3831AC00F56123 /* PhotoConfig.swift */,
-				F48B2DF02A38318800F56123 /* Photo */,
-			);
-			path = Photos;
-			sourceTree = "<group>";
-		};
 		E9E15B0F2AF0CA78001E9840 /* Calendars */ = {
 			isa = PBXGroup;
 			children = (
@@ -829,16 +575,6 @@
 				F48B2DEC2A38302B00F56123 /* Calendar */,
 			);
 			path = Calendars;
-			sourceTree = "<group>";
-		};
-		E9E15B132AF0CB3C001E9840 /* Todo */ = {
-			isa = PBXGroup;
-			children = (
-				E95008F02AFA1C2D004646C9 /* TodoView.swift */,
-				E95008F62AFA1C8C004646C9 /* TodoConfig.swift */,
-				E95008EF2AFA1C13004646C9 /* Todo */,
-			);
-			path = Todo;
 			sourceTree = "<group>";
 		};
 		E9E15B142AF0CB8A001E9840 /* Setting */ = {
@@ -873,14 +609,8 @@
 		E9E15B182AF0CC4C001E9840 /* ScrollTab */ = {
 			isa = PBXGroup;
 			children = (
-				E9E15B0A2AF0CA2D001E9840 /* Anniversarys */,
-				E9E15B0D2AF0CA57001E9840 /* Moods */,
-				E9E15B0E2AF0CA64001E9840 /* Photos */,
-				E9E15B0C2AF0CA49001E9840 /* Batterys */,
 				E9E15B0F2AF0CA78001E9840 /* Calendars */,
-				E9E15B132AF0CB3C001E9840 /* Todo */,
 				E9E15B082AF0C9F4001E9840 /* XPanel */,
-				845C554E2BCAF028003F683F /* Large */,
 				E9E15B072AF0C9D3001E9840 /* Clocks */,
 			);
 			path = ScrollTab;
@@ -976,7 +706,6 @@
 				84206C6A2E0B3C8600CA915B /* AnimationClock */,
 				560916172B8748D100B5C01C /* OrangeClock */,
 				56B391722B96F36500BFC67D /* BlackClock */,
-				56B391772B96F8EF00BFC67D /* Bamboo */,
 			);
 			path = Clocks;
 			sourceTree = "<group>";
@@ -984,38 +713,10 @@
 		F48B2DEC2A38302B00F56123 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
-				E9BE67472CCA3F1900697AC7 /* WhiteRabbit  */,
-				56E31A082C64C156007518F1 /* Emjio */,
-				56E31A032C64BCEC007518F1 /* Mountain */,
-				560916BF2B8DCC1700B5C01C /* SolidColor */,
+				56E31A092C64C177007518F1 /* CalendarEmjio.swift */,
+				56E31A042C64BD06007518F1 /* CalendarMountain.swift */,
 			);
 			path = Calendar;
-			sourceTree = "<group>";
-		};
-		F48B2DF02A38318800F56123 /* Photo */ = {
-			isa = PBXGroup;
-			children = (
-				5609167F2B8D933900B5C01C /* Little Tiger */,
-				560916942B8DAD1A00B5C01C /* WavePointBox */,
-			);
-			path = Photo;
-			sourceTree = "<group>";
-		};
-		F48B2DF42A38332E00F56123 /* Mood */ = {
-			isa = PBXGroup;
-			children = (
-				5609165F2B8D852E00B5C01C /* Colorful */,
-			);
-			path = Mood;
-			sourceTree = "<group>";
-		};
-		F48B2DFC2A38364E00F56123 /* Anniversary */ = {
-			isa = PBXGroup;
-			children = (
-				560916422B8C2D2F00B5C01C /* SnowMountain */,
-				560916442B8C2D5C00B5C01C /* EventDay */,
-			);
-			path = Anniversary;
 			sourceTree = "<group>";
 		};
 		F48B2E002A38383800F56123 /* XPanel */ = {
@@ -1024,15 +725,6 @@
 				567CD1812B91818F0062B47A /* White */,
 			);
 			path = XPanel;
-			sourceTree = "<group>";
-		};
-		F48B2E042A3838D700F56123 /* Battery */ = {
-			isa = PBXGroup;
-			children = (
-				E9A1D06A2D8CFC8600360A93 /* Dark */,
-				56E9492B2BCF7ADD00E77CDE /* Style */,
-			);
-			path = Battery;
 			sourceTree = "<group>";
 		};
 		F4D68B7A2A492AE40062313A /* Tools */ = {
@@ -1624,66 +1316,48 @@
 				F9D900D12B26803D00B287B8 /* SwiftUIRewardView.swift in Sources */,
 				E9476E9E2B0F499A00944D14 /* SlidingTabBar.swift in Sources */,
 				F48B2E1C2A395A5800F56123 /* CyclePickerView.swift in Sources */,
-				560916812B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */,
-				F48B2DF62A38334E00F56123 /* MoodConfig.swift in Sources */,
 				F9D900CD2B267DEF00B287B8 /* SwiftUIInterstitialView.swift in Sources */,
 				F45866482A31F808005815BF /* AboutView.swift in Sources */,
 				F48B2DDB2A370B6D00F56123 /* XPanelView.swift in Sources */,
 				F47D856F2A2D74990043D1C6 /* WidgetsTabView.swift in Sources */,
 				F48B2DC42A35CF2E00F56123 /* EditorTextColor.swift in Sources */,
-				F48B2E062A3838FA00F56123 /* BatteryConfig.swift in Sources */,
 				5697E1532BA3E49800C076F5 /* WidgetEditorStatus.swift in Sources */,
 				F4D68B7C2A492B070062313A /* CalendarTool.swift in Sources */,
 				84206C692E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */,
 				5609163C2B889D2D00B5C01C /* AnimatedUIView.swift in Sources */,
 				F4D68B982A5025680062313A /* JRWidgetConfigure.swift in Sources */,
 				56E31A0A2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
-				F48B2E0F2A384F3B00F56123 /* MoodsView.swift in Sources */,
 				F4D68B7F2A499CBC0062313A /* BatteryHelper.swift in Sources */,
 				F47D85732A2D7D420043D1C6 /* AppStyle.swift in Sources */,
 				F48B2DDD2A370B8100F56123 /* CalendarView.swift in Sources */,
 				84206C6C2E0B3CB400CA915B /* AnimationClock.swift in Sources */,
 				F48B2DCA2A35CFB900F56123 /* EditorTodoList.swift in Sources */,
 				F9FE847E2C6A138E00857291 /* BaseKeychinaUnit.swift in Sources */,
-				F48B2E0D2A384F2100F56123 /* BatterysView.swift in Sources */,
 				F94899D12B22348700FE42B9 /* FirebaseNetwork.swift in Sources */,
-				560916C12B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */,
 				E9476E9F2B0F499A00944D14 /* FrameReader.swift in Sources */,
 				F48B2E222A39BDCC00F56123 /* WidgetModel.swift in Sources */,
 				F4D68BA22A5440080062313A /* ViewListExtension.swift in Sources */,
 				56B391A12B9AE74200BFC67D /* EditorTextFont.swift in Sources */,
-				F48B2DF22A3831AC00F56123 /* PhotoConfig.swift in Sources */,
 				F4F362672A28378800F3959A /* Persistence.swift in Sources */,
-				845C55572BCAF78C003F683F /* LargeStashView.swift in Sources */,
-				E95008F12AFA1C2D004646C9 /* TodoView.swift in Sources */,
 				F47D857E2A2DFCE00043D1C6 /* SettingView.swift in Sources */,
-				845C55502BCAF04B003F683F /* LargeView.swift in Sources */,
 				F458664E2A341086005815BF /* ContentViewModel.swift in Sources */,
 				F458663D2A30B067005815BF /* MyWidgetsView.swift in Sources */,
 				E9476E972B0F499A00944D14 /* BatteryHelper.swift in Sources */,
 				F47D85712A2D781E0043D1C6 /* AppFont.swift in Sources */,
-				F48B2DE12A370BA800F56123 /* AnniversarysView.swift in Sources */,
 				F48B2E1A2A39479200F56123 /* DatePickerView.swift in Sources */,
 				564103D32C58BCB000A0FA67 /* PayConfig.swift in Sources */,
 				56B391A52B9EB1B200BFC67D /* EditorImageDynamic.swift in Sources */,
 				F9D900CA2B2679FB00B287B8 /* SwiftUIBannerView.swift in Sources */,
 				F48B2DCC2A35D02500F56123 /* EditorAnniversary.swift in Sources */,
-				56E9492D2BCF7B0100E77CDE /* BatterStyle.swift in Sources */,
-				E9A1D06C2D8CFCB000360A93 /* BatteryDark.swift in Sources */,
-				E95008F72AFA1C8C004646C9 /* TodoConfig.swift in Sources */,
-				F48B2E112A384F5900F56123 /* PhotosView.swift in Sources */,
 				F9D900CF2B267FB000B287B8 /* SwiftUIFullScreenModefier.swift in Sources */,
 				560916322B874C2600B5C01C /* ClockListConfig.swift in Sources */,
 				84206C492E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */,
 				E99524C32D092F0C00ED242A /* FloatView.swift in Sources */,
 				560916D92B8F12F000B5C01C /* WidgetSettingView.swift in Sources */,
-				845C55522BCAF059003F683F /* LargeConfig.swift in Sources */,
-				5609164E2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */,
 				F48B2DEA2A38050F00F56123 /* WidgetStyle.swift in Sources */,
 				E9476EA02B0F499A00944D14 /* ScrollSlidingTabBar.swift in Sources */,
 				E9D9151A2AF9D1E900D14557 /* CalendarConfig.swift in Sources */,
 				F9D900D32B26807300B287B8 /* SwiftUIStartView.swift in Sources */,
-				F48B2DFE2A38371800F56123 /* AnniversaryConfig.swift in Sources */,
 				F458664A2A331108005815BF /* WidgetEditorView.swift in Sources */,
 				F48B2E022A38384E00F56123 /* XPanelConfig.swift in Sources */,
 				F4F3626A2A28378800F3959A /* SmallWidget.xcdatamodeld in Sources */,
@@ -1695,22 +1369,16 @@
 				5609161E2B87498D00B5C01C /* OrangeClock.swift in Sources */,
 				F48B2DD02A35D07400F56123 /* EditorImage.swift in Sources */,
 				E99014D12AF38A3400F9FF18 /* AppImage.swift in Sources */,
-				5609169A2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */,
 				F458664F2A341086005815BF /* SnapCarousel.swift in Sources */,
 				F4F362A72A28822900F3959A /* ClockWidget.intentdefinition in Sources */,
 				56B391742B96F3A400BFC67D /* BlackClock.swift in Sources */,
-				E9BE676B2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */,
-				5609166C2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */,
-				560916462B8C2D9500B5C01C /* EventAnniversary.swift in Sources */,
 				F4F3625E2A28378700F3959A /* SmallWidgetApp.swift in Sources */,
 				F48B2DC62A35CF4C00F56123 /* EditorBackground.swift in Sources */,
 				560916DD2B8F130900B5C01C /* TransparentView.swift in Sources */,
 				56E31A052C64BD06007518F1 /* CalendarMountain.swift in Sources */,
-				E9BE674A2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */,
 				563811EF2C60D45B007B8FE8 /* VIPDetailView.swift in Sources */,
 				F4F362902A284DB400F3959A /* AppColor.swift in Sources */,
 				F48B2DD92A370B5B00F56123 /* ClockListView.swift in Sources */,
-				56B391792B96F93700BFC67D /* BombooClock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1736,49 +1404,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D68B842A4A77D90062313A /* AppColor.swift in Sources */,
-				5609169B2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */,
-				567CD1522B916A620062B47A /* TodoConfig.swift in Sources */,
-				5609167B2B8D8BED00B5C01C /* MoodConfig.swift in Sources */,
-				56B3917A2B96F93700BFC67D /* BombooClock.swift in Sources */,
 				F4D68B802A499CBC0062313A /* BatteryHelper.swift in Sources */,
-				560916472B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */,
-				56E9492E2BCF7B0A00E77CDE /* BatterStyle.swift in Sources */,
 				E99014D22AF38A3D00F9FF18 /* AppImage.swift in Sources */,
 				F4F3629D2A28822800F3959A /* ClockWidgetBundle.swift in Sources */,
 				560916332B874C5800B5C01C /* ClockListConfig.swift in Sources */,
 				849461972AF1A52E000C9BE3 /* Persistence.swift in Sources */,
 				F4D68B7D2A492B070062313A /* CalendarTool.swift in Sources */,
-				E9BE67492CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */,
 				560916252B874A3C00B5C01C /* OrangeClock.swift in Sources */,
 				56E31A062C64BD06007518F1 /* CalendarMountain.swift in Sources */,
-				560916C22B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */,
 				F4D68B942A4D485A0062313A /* MediumTypeWidget.swift in Sources */,
 				F4D68B962A4D48FE0062313A /* LargeTypeWidget.swift in Sources */,
-				5609167D2B8D92D200B5C01C /* PhotoConfig.swift in Sources */,
-				E9A1D06E2D8CFCB000360A93 /* BatteryDark.swift in Sources */,
 				84206C6E2E0B3CB400CA915B /* AnimationClock.swift in Sources */,
-				845C55532BCAF065003F683F /* LargeConfig.swift in Sources */,
 				F4F362A62A28822900F3959A /* ClockWidget.intentdefinition in Sources */,
-				5609164F2B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */,
 				F4D68B8B2A4C1BBE0062313A /* SmallWidget.xcdatamodeld in Sources */,
 				F4D68B712A4847C10062313A /* AppFont.swift in Sources */,
 				F4D68B772A4913D10062313A /* SmallTypeWidget.swift in Sources */,
-				845C55582BCAF793003F683F /* LargeStashView.swift in Sources */,
 				567CD18B2B9187070062B47A /* XPanelConfig.swift in Sources */,
 				56B391752B96F3A400BFC67D /* BlackClock.swift in Sources */,
-				5609166D2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */,
 				E9E15B1D2AF0CEE1001E9840 /* JRWidgetConfigure.swift in Sources */,
-				E9BE676C2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */,
 				F4D68B9C2A50260F0062313A /* WidgetExtensionUI.swift in Sources */,
 				84206C482E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */,
 				567CD1842B9181A20062B47A /* WhitePanel.swift in Sources */,
-				560916A22B8DC1D200B5C01C /* BatteryConfig.swift in Sources */,
 				560916B82B8DCBD800B5C01C /* CalendarConfig.swift in Sources */,
 				560916402B88A13B00B5C01C /* AnimatedUIView.swift in Sources */,
-				560916822B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */,
 				84206C682E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */,
 				56E31A0B2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
-				560916512B8C326400B5C01C /* AnniversaryConfig.swift in Sources */,
 				E9760C5D2AF101DE009406CA /* WidgetStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1787,47 +1437,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				560916C32B8DCC3B00B5C01C /* CalendarSolidColor.swift in Sources */,
 				560916B92B8DCBD900B5C01C /* CalendarConfig.swift in Sources */,
-				E9BE674B2CCA3F3F00697AC7 /* CalendarWhiteRabbit.swift in Sources */,
-				5609167C2B8D8BEE00B5C01C /* MoodConfig.swift in Sources */,
 				84206C472E0ACB9200CA915B /* AnimatedArcGIFView.swift in Sources */,
 				56E31A072C64BD06007518F1 /* CalendarMountain.swift in Sources */,
 				56B391762B96F3A400BFC67D /* BlackClock.swift in Sources */,
 				E9B02EA32AF22B0100DD27BE /* JRWidgetConfigure.swift in Sources */,
-				56B3917B2B96F93700BFC67D /* BombooClock.swift in Sources */,
 				F4D68B8C2A4C1BC10062313A /* SmallWidget.xcdatamodeld in Sources */,
 				E99014CE2AF23AD300F9FF18 /* AppFont.swift in Sources */,
-				845C55542BCAF065003F683F /* LargeConfig.swift in Sources */,
-				560916522B8C326400B5C01C /* AnniversaryConfig.swift in Sources */,
 				56E31A0C2C64C177007518F1 /* CalendarEmjio.swift in Sources */,
-				5609169C2B8DAD8A00B5C01C /* PhotoWavePointBox.swift in Sources */,
-				E9BE676A2CCB6D3B00697AC7 /* SeaOfFlowersPlan.swift in Sources */,
 				84206C672E0B15F200CA915B /* AnimatedPowerArmView.swift in Sources */,
 				E9B02EA42AF2397300DD27BE /* WidgetStyle.swift in Sources */,
 				F4D68B9D2A50260F0062313A /* WidgetExtensionUI.swift in Sources */,
 				E99014CC2AF23AA000F9FF18 /* CalendarTool.swift in Sources */,
 				567CD1852B9181A20062B47A /* WhitePanel.swift in Sources */,
 				E99014D32AF38A3D00F9FF18 /* AppImage.swift in Sources */,
-				560916832B8D93E400B5C01C /* PhotoLittleTiger.swift in Sources */,
-				560916482B8C2D9A00B5C01C /* EventAnniversary.swift in Sources */,
 				560916412B88A13C00B5C01C /* AnimatedUIView.swift in Sources */,
 				849461982AF1A52E000C9BE3 /* Persistence.swift in Sources */,
 				F4F362BB2A28D4C500F3959A /* IntentHandler.swift in Sources */,
-				5609167E2B8D92D200B5C01C /* PhotoConfig.swift in Sources */,
 				84206C6D2E0B3CB400CA915B /* AnimationClock.swift in Sources */,
 				560916342B874C5900B5C01C /* ClockListConfig.swift in Sources */,
 				F4F362C32A28D54300F3959A /* ClockWidget.intentdefinition in Sources */,
 				560916262B874A3C00B5C01C /* OrangeClock.swift in Sources */,
-				845C55592BCAF793003F683F /* LargeStashView.swift in Sources */,
-				E9A1D06D2D8CFCB000360A93 /* BatteryDark.swift in Sources */,
-				567CD1532B916A630062B47A /* TodoConfig.swift in Sources */,
-				560916502B8C2DD200B5C01C /* SnowMountainAnniversary.swift in Sources */,
 				E99014CB2AF23A4700F9FF18 /* AppColor.swift in Sources */,
-				560916A32B8DC1D300B5C01C /* BatteryConfig.swift in Sources */,
 				567CD18C2B9187080062B47A /* XPanelConfig.swift in Sources */,
-				5609166E2B8D879100B5C01C /* MoodColorfulMantou.swift in Sources */,
-				56E9492F2BCF7B0A00E77CDE /* BatterStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

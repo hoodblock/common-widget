@@ -41,14 +41,10 @@ extension CalendarConfig {
     
     func itemView() -> any View {
         switch self.configure?.nameConfig?.viewName {
-        case "CalendarSolidColorMeidum":
-            CalendarSolidColorMeidum(self.configure)
         case "CalendarMountainSmall":
             CalendarMountainSmall(self.configure)
         case "CalendarEmjioMeidum":
             CalendarEmjioMeidum(self.configure)
-        case "CalendarWhiteRabbitSmall":
-            CalendarWhiteRabbitSmall(self.configure)
         default:
             EmptyView()
         }

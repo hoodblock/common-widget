@@ -16,7 +16,6 @@ struct ClockListView: View {
     
     let classSelf: [Any] = [
         ClockOrangeSmall.self, ClockBlackMedium.self,
-        ClockBombooSmall.self, ClockBombooMedium.self,
         ClockAnimationSmall.self, ClockAnimationMedium.self
     ]
     

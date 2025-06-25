@@ -13,7 +13,6 @@ struct CalendarView: View {
     @Binding var widgetSelected: Int
     
       let classSelf: [Any] = [
-        CalendarWhiteRabbitSmall.self, CalendarSolidColorMeidum.self,
         CalendarMountainSmall.self, CalendarEmjioMeidum.self,
     ]
 

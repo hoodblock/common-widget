@@ -87,24 +87,12 @@ extension String {
 
     func getWidgetView(ui: JRWidgetConfigure?) -> AnyView? {
         switch WidgetType(rawValue: ui?.nameConfig?.widgetType ?? -1) {
-        case .todo:
-            return AnyView(TodoConfig(widgetFamily: 0, configure: ui).itemView())
-        case .anniversary:
-            return AnyView(AnniversaryConfig(widgetFamily: 0, configure: ui).itemView())
-        case .imageAndWall:
-            return AnyView(PhotoConfig(widgetFamily: 0, configure: ui).itemView())
         case .clock:
             return AnyView(ClockListConfig(widgetFamily: 0, configure: ui).itemView())
-        case .battery:
-            return AnyView(BatteryConfig(widgetFamily: 0, configure: ui).itemView())
-        case .mood:
-            return AnyView(MoodConfig(widgetFamily: 0, configure: ui).itemView())
         case .calendar:
             return AnyView(CalendarConfig(widgetFamily: 0, configure: ui).itemView())
         case .XPanel:
             return AnyView(XPanelConfig(widgetFamily: 0, configure: ui).itemView())
-        case .large:
-            return AnyView(LargeConfig(widgetFamily: 0, configure: ui).itemView())
         case .none:
             return nil
         }
@@ -523,7 +511,7 @@ class BluetoothManager: NSObject, CBCentralManagerDelegate {
 extension UIDevice {
     
     func getBatteryRatio() -> (Double , Double) {
-        return (Double(270), Double(270) + Double(BatteryNumber.battery() * 360 / 100))
+        return (Double(270), Double(270) + Double(0.5 * 360 / 100))
     }
     
     func MBFormatter(_ bytes: Int64) -> String {

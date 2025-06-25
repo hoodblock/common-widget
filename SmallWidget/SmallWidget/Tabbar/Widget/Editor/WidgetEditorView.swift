@@ -33,57 +33,6 @@ struct EditorList : View {
          
         VStack(spacing: ViewLayout.S_W_20()) {
             Spacer(minLength: ViewLayout.S_W_2())
-            if WidgetType(rawValue: config.nameConfig!.widgetType) == .todo {
-                EditorTodoList(config: config)
-            } else if WidgetType(rawValue: config.nameConfig!.widgetType) == .anniversary {
-                if config.isNeedItemEditCount == 3 {
-                    EditorMatter(config: config, isType: .item_0)
-                    EditorTextColor(config: config, textColorTag: .item_0)
-                    EditorTextFont(config: config, textFontTag: .item_0)
-                    EditorAnniversary(config: config, pickDate: [config.itemConfig_0.textDate.components(separatedBy: "-")[0], config.itemConfig_0.textDate.components(separatedBy: "-")[1], config.itemConfig_0.textDate.components(separatedBy: "-")[2]], isType: .item_0)
-                    
-                    EditorMatter(config: config, isType: .item_1)
-                    EditorTextColor(config: config, textColorTag: .item_1)
-                    EditorTextFont(config: config, textFontTag: .item_1)
-                    EditorAnniversary(config: config, pickDate: [config.itemConfig_1.textDate.components(separatedBy: "-")[0], config.itemConfig_1.textDate.components(separatedBy: "-")[1], config.itemConfig_1.textDate.components(separatedBy: "-")[2]], isType: .item_1)
-                    
-                    EditorMatter(config: config, isType: .item_2)
-                    EditorTextColor(config: config, textColorTag: .item_2)
-                    EditorTextFont(config: config, textFontTag: .item_2)
-                    EditorAnniversary(config: config, pickDate: [config.itemConfig_2.textDate.components(separatedBy: "-")[0], config.itemConfig_2.textDate.components(separatedBy: "-")[1], config.itemConfig_2.textDate.components(separatedBy: "-")[2]], isType: .item_2)
-                } else if config.isNeedItemEditCount == 2 {
-                    EditorMatter(config: config, isType: .item_0)
-                    EditorTextColor(config: config, textColorTag: .item_0)
-                    EditorTextFont(config: config, textFontTag: .item_0)
-
-                    EditorMatter(config: config, isType: .item_1)
-                    EditorTextColor(config: config, textColorTag: .item_1)
-                    EditorTextFont(config: config, textFontTag: .item_1)
-                    EditorAnniversary(config: config, pickDate: [config.itemConfig_0.textDate.components(separatedBy: "-")[0], config.itemConfig_0.textDate.components(separatedBy: "-")[1], config.itemConfig_0.textDate.components(separatedBy: "-")[2]], isType: .item_0)
-                } else {
-                    EditorMatter(config: config, isType: .item_0)
-                    EditorTextColor(config: config, textColorTag: .item_0)
-                    EditorTextFont(config: config, textFontTag: .item_0)
-                    EditorAnniversary(config: config, pickDate: [config.itemConfig_0.textDate.components(separatedBy: "-")[0], config.itemConfig_0.textDate.components(separatedBy: "-")[1], config.itemConfig_0.textDate.components(separatedBy: "-")[2]], isType: .item_0)
-                }
-            } else if WidgetType(rawValue: config.nameConfig!.widgetType) == .imageAndWall {
-                if config.fillingImageCount == 1 {
-                    EditorImage(config: config, selectedTag: 0) { isNextPageActive = true }
-                } else if config.fillingImageCount == 2 {
-                    HStack (spacing: ViewLayout.SWidth(0)) {
-                        EditorImage(config: config, selectedTag: 0) { isNextPageActive = true }
-                        EditorImage(config: config, selectedTag: 1) { isNextPageActive = true }
-                    }
-                } else if config.fillingImageCount == 3 {
-                    HStack (spacing: ViewLayout.SWidth(0)) {
-                        HStack (alignment: .center, spacing: ViewLayout.SWidth(0)) {
-                            EditorImage(config: config, selectedTag: 0) { isNextPageActive = true }
-                            EditorImage(config: config, selectedTag: 1) { isNextPageActive = true }
-                            EditorImage(config: config, selectedTag: 2) { isNextPageActive = true }
-                        }
-                    }
-                }
-             }
             if config.isNeedTextChangeEdit == 1 {
                 EditorMatter(config: config, isType: .item_0)
             }
@@ -279,7 +228,7 @@ struct WidgetEditorView: View {
     func widgitEditView() -> some View {
         return HStack (alignment: .center) {
             // MARK: - 独立创建时，config的地址没有变，所以不会重新创建，这里需要转化一次,改变config的地址
-            config.nameConfig!.viewName?.getWidgetView(ui: JRWidgetConfigureStatic.widgetConfig(JRWidgetConfigureStatic.staticJRWidgetConfig(config), isInLayout: (config.nameConfig?.widgetType == WidgetType.battery.rawValue ? 1 : 0) ))
+            config.nameConfig!.viewName?.getWidgetView(ui: JRWidgetConfigureStatic.widgetConfig(JRWidgetConfigureStatic.staticJRWidgetConfig(config), isInLayout: 0 ))
         }
         .frame(width: config.nameConfig?.sizeType == 0 ? snapCarouselStyle.cardWidth * 1.5 :  snapCarouselStyle.cardWidth * 1.5, height: config.nameConfig?.sizeType == 0 ? snapCarouselStyle.cardHeight * 1.5 :  snapCarouselStyle.cardHeight * 1.5)
         .cornerRadius(ViewLayout.SWidth(10))
