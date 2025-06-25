@@ -14,16 +14,75 @@ iOS 日常小组件（SwiftUI）支持时钟，日历，系统面板等小、中
 </p>
 
 ---
-你现在的项目功能已经涵盖：
 
-🔓 周订阅机制（解锁全部）
+✨ 功能概览
 
-⏰ 各类小组件功能
+- 🔓 周内购订阅机制 （包含本地支付验证）
+  
+- 📱 时钟（支持秒级刷新）、日历、面板等小、中组件
+  
+- 🧩 视图旋转、视图垂直或水平摆动、不规则摆动等动画组件
+  
+- 🎨 自定义外观（修改字体、文字颜色，组件背景色）
+  
+- 🧊 透明组件（用户将主屏壁纸作为小组件背景，实现原生隐藏式视觉融合效果）
+  
+- 🕓 历史组件（用户保留历史设置的组件，支持回溯）
+  
+- 📢 AdMob 广告
+  
+---
 
-🎨 自定义外观（字体、颜色）
+# 🚀 特别惊喜 - 突破组件刷新限制
 
-📱 支持小中大号组件
+https://github.com/user-attachments/assets/6a843691-1160-4777-9ee7-fcab5474a166
 
-🧩 动态动力臂动画
+在 iOS 系统中，小组件（Widget）是运行在一个沙盒 Timeline 环境中的，其刷新频率受限于系统资源管理：
 
-📢 AdMob 广告支持
+- 🔋 电量优化机制：系统限制组件的刷新频率，尤其是动画或高频动态更新
+
+- ⏳ 刷新间隔限制：最高刷新频率约为每 15 分钟一次（由 WidgetCenter 调度），无法实现每秒更新
+
+- ❌ 使用 TimelineView(.periodic)、Canvas 等方式，在锁屏或主屏幕上无法实现真实动画效果
+
+---
+
+🦾 动力臂动画机制：ClockHandRotationKit
+
+本项目引入了 ClockHandRotationKit 第三方库，它允许视图围绕锚点持续旋转，不依赖 Timeline 刷新频率
+
+- 将视图想象成挂在两节机械臂末端的物体
+- 每节机械臂可独立绕某个点旋转，设置不同的旋转周期/速度
+- 当两节臂同时摆动时，组合起来的末端路径可产生：
+  - 水平往返运动（如悬挂的钟摆）
+  - 垂直运动
+  - 甚至自定义路径（如正方形、椭圆形）
+    
+这种动画效果完全模拟出动力学中的非线性路径运动，并且在系统不允许刷新组件内容的情况下依然生效
+
+- 动力臂代码示例
+
+```swift
+   ZStack {
+                // 动力臂1
+                Rectangle()
+                    .frame(width: direction == .horizontal ? arm1Length : 30, height: direction == .horizontal ? 30 : arm1Length)
+                    .foregroundColor(.red.opacity(0))
+
+                // 动力臂2
+                ZStack {
+                    Rectangle()
+                        .frame(width: direction == .horizontal ? arm2Length : 30, height: direction == .horizontal ? 30 : arm2Length)
+                        .foregroundColor(.blue.opacity(0.0))
+                    // 内容
+                    content
+                        .swingAnimation(duration: duration1, distance: 0)
+                        .offset(x: direction == .horizontal ? arm2Length / 2 : 0, y: direction == .vertical ? arm2Length / 2 : 0)
+                }
+                .background(Color.blue.opacity(0))
+                .swingAnimation(duration: duration2, distance: 0)
+                .offset(x: direction == .horizontal ? arm1Length / 2 : 0, y: direction == .vertical ? arm1Length / 2 : 0)
+            }
+            .swingAnimation(duration: duration1, distance: 0)
+```
+---
