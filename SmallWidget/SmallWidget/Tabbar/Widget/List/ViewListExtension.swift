@@ -27,24 +27,7 @@ extension View {
                                     .frame(width: (WidgetSizeType(rawValue: configure.nameConfig!.sizeType)?.value)! * size, height: size)
                                     .cornerRadius(ViewLayout.SWidth(10))
                             }
-                            // MARK: - 去掉，因为已经强制不付费不允许进入app了
-//                            .overlay {
-//                                if configure.isVIP == 1 {
-//                                    HStack (spacing: 0) {
-//                                        Spacer()
-//                                        VStack (spacing: 0) {
-//                                            Image("widget_vip_icon")
-//                                                .resizable()
-//                                                .aspectRatio(contentMode: .fill)
-//                                                .frame(width: ViewLayout.S_W_10() * 4, height: ViewLayout.S_W_10() * 4, alignment: .center)
-//                                            Spacer()
-//                                        }
-//                                    }
-//                                    .offset(x: ViewLayout.S_W_10(), y: -ViewLayout.S_W_10())
-//                                }
-//                            }
                         }
-                          
                     }
                 } else {
                     Color.clear.edgesIgnoringSafeArea(.all).overlay {
@@ -54,22 +37,6 @@ extension View {
                                     .frame(width: size, height: size)
                                     .cornerRadius(ViewLayout.SWidth(10))
                             }
-                            // MARK: - 去掉，因为已经强制不付费不允许进入app了
-//                            .overlay {
-//                                if configure.isVIP == 1 {
-//                                    HStack (spacing: 0) {
-//                                        Spacer()
-//                                        VStack (spacing: 0) {
-//                                            Image("widget_vip_icon")
-//                                                .resizable()
-//                                                .aspectRatio(contentMode: .fill)
-//                                                .frame(width: ViewLayout.S_W_10() * 4, height: ViewLayout.S_W_10() * 4, alignment: .center)
-//                                            Spacer()
-//                                        }
-//                                    }
-//                                    .offset(x: ViewLayout.S_W_10(), y: -ViewLayout.S_W_10())
-//                                }
-//                            }
                         }
                     }
                 }

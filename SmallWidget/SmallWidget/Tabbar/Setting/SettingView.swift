@@ -247,11 +247,11 @@ struct SettingView: View {
                     .padding([.leading,.trailing], ViewLayout.S_W_20())
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
-                .overlay {
-                    FloatingDragView {
-                        self.showWebView = true
-                    }
-                }
+//                .overlay {
+//                    FloatingDragView {
+//                        self.showWebView = true
+//                    }
+//                }
                 .sheet(isPresented: $showWebView) {
                     SafariView(url: URL(string: "https://baidu.com/")!, onDismiss: {
                         print("Safari View dismissed.")

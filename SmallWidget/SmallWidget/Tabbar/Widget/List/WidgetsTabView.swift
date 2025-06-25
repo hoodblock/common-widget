@@ -58,14 +58,8 @@ struct WidgetsTabView: View {
         
         let scrollWidgetArray: [(title: String, view: AnyView)] = [
             (title: "Clock",            view: AnyView(ClockListView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
-            (title: "Anniversary",      view: AnyView(AnniversarysView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
-            (title: "Mood",             view: AnyView(MoodsView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
-            (title: "Photo",            view: AnyView(PhotosView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
-            (title: "Battery",          view: AnyView(BatterysView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
             (title: "Calendar",         view: AnyView(CalendarView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
-            (title: "Plan",             view: AnyView(TodoView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
             (title: "X Panel",          view: AnyView(XPanelView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
-            (title: "Large",            view: AnyView(LargeView(tabSelected: $tabSelected, widgetSelected: $widgetSelected))),
         ]
 
         Color.Color_F6F6F6.edgesIgnoringSafeArea(.all).overlay {
@@ -111,11 +105,11 @@ struct WidgetsTabView: View {
                     .padding([.leading,.trailing], ViewLayout.S_W_20())
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
-                .overlay {
-                    FloatingDragView {
-                        self.showWebView = true
-                    }
-                }
+//                .overlay {
+//                    FloatingDragView {
+//                        self.showWebView = true
+//                    }
+//                }
                 
             } // GeometryReader
             .sheet(isPresented: $showWebView) {

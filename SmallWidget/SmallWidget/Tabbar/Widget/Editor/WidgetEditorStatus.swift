@@ -128,11 +128,11 @@ struct WidgetEditorStatus: View {
                     }
                 })
                 .padding(ViewLayout.SWidth(20))
-                .overlay {
-                    FloatingDragView {
-                        self.showWebView = true
-                    }
-                }
+//                .overlay {
+//                    FloatingDragView {
+//                        self.showWebView = true
+//                    }
+//                }
             })
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)

@@ -206,11 +206,11 @@ struct WidgetEditorView: View {
             }
             .background(Color.Color_F6F6F6)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .overlay {
-                FloatingDragView {
-                    self.showWebView = true
-                }
-            }
+//            .overlay {
+//                FloatingDragView {
+//                    self.showWebView = true
+//                }
+//            }
             // 确认button
             if isShowBottomButton {
                 HStack (alignment: .center, spacing: 0) {
